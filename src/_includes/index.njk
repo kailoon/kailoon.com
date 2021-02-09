@@ -1,0 +1,28 @@
+---
+layout: base.njk
+---
+{% block hero %}
+  {% include './partials/_hero.njk' %}
+{% endblock hero %}
+
+<section id="works" class="my-20 md:mt-40">
+  <div class=" px-5 lg:px-10 max-w-screen-lg lg:mx-auto">
+    <div class="py-10 border-t border-gray-100 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-flow-row-dense">
+        <div class="sm:col-span-2 md:col-span-3 md:mb-5 sm:w-4/6">
+          <h3 class="text-gray-600 text-normal">Featured Works</h3>
+          <span class="font-medium text-xl block mb-5">Over the years, I have the honour to collaborate with clients range from startups to SME, some of them has grown successfully or being acquired.</span>
+          <a href="/works/" title="view more" class="text-purple-800 shadow transition-shadow hover:shadow-md">Browse full portfolio</a>
+        </div>
+        {% for item in collections.featured %}
+
+        <a href="{{item.url}}" title="view {{item.data.title}}" class="{% if item.data.tags.includes('web design')%}sm:col-span-2 sm:row-span-2{% endif%}">
+        {% respimg item.data.featuredImg, item.data.title, item.data.bgColor %}
+        </a>
+        {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% block services %}
+  {% include './partials/_services.njk' %}
+{% endblock services %}

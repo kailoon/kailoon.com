@@ -1,0 +1,33 @@
+<header class="">
+  <div class="p-5 lg:px-10 flex items-center justify-between">
+    <!-- logo -->
+    <a href="/" title="back to homepage" class="flex w-9 logo">
+      <img width="36" height="36" loading=lazy src="https://res.cloudinary.com/kailoon/image/upload/v1610896578/kailoon.com/logo_stqiiw.svg"
+        alt="this is my logo" />
+    </a>
+    <nav class="hidden md:flex md:items-center">
+      {% set navPages = collections.all | eleventyNavigation %}
+      <ul>
+        {%- for entry in navPages %}
+        <li class="inline-block mr-8">
+          <a
+          href="{{ entry.url | url }}"
+          class="text-purple-800 shadow transition-shadow hover:shadow-md
+          {% if entry.url == page.url %} shadow-md{% endif %}
+          "
+          >{{ entry.title }}</a>
+        </li>
+      {%- endfor %}
+      </ul>
+      <a
+      href="{{ metadata.author.mailtolink }}"
+      title="get in touch"
+      target="_blank"
+      rel="noreferrer"
+      class="text-purple-800 py-2 p-5 rounded-md bg-purple-100 hover:text-purple-100 hover:bg-purple-800 transition-colors md:flex items-center"
+    ><span>Get in touch</span>
+    </a>
+    </nav>
+
+  </div>
+</header>

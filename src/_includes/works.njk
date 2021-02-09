@@ -1,0 +1,12 @@
+---
+layout: base.njk
+---
+{% block hero %}
+  {% include './partials/_hero.njk' %}
+{% endblock hero %}
+
+<section id="works" class="my-10 md:my-20">
+  {% block workslist %}
+    {% include './partials/_workslist.njk' %}
+  {% endblock workslist %}
+</section>

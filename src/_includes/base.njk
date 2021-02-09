@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ metaTitle }} — {{ metaDescription }}</title>
+  <meta name="title" content="{{ metaTitle }} — {{ metaDescription }}">
+  <meta name="description" content="{{ metaDescription }}">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://metatags.io/">
+  <meta property="og:title" content="kailoon — Freelance Front-End Web UI/UX Developer - Malaysia">
+  <meta property="og:description" content="I am a freelance front-end designer & developer based in Malaysia. You might remember me as kailoon the reviewer from ThemeForest.">
+  <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://metatags.io/">
+  <meta property="twitter:title" content="kailoon — Freelance Front-End Web UI/UX Developer - Malaysia">
+  <meta property="twitter:description" content="I am a freelance front-end designer & developer based in Malaysia. You might remember me as kailoon the reviewer from ThemeForest.">
+  <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap"
+        rel="stylesheet"
+        type="text/css"
+    />
+  </noscript>
+  <link rel="stylesheet" href="{{ '/css/styles.css' | url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="h-full text-black antialiased">
+  <!-- skip to content -->
+  <a href="#content" class="w-full block text-center bg-gray-100 sr-only focus:not-sr-only">
+    Skip to Content
+  </a>
+
+  {% block header %}
+  {% include "./partials/_header.njk" %}
+  {% endblock %}
+
+  <main id="content" role="main">
+    {{ content | safe }}
+  </main>
+
+  {% block footer %}
+  {% include "./partials/_footer.njk" %}
+  {% endblock %}
+</body>
+
+</html>

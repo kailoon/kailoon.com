@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply text-black;
+}
+
+.post p {
+	@apply mb-6 md:mb-10;
+}
+
+.post strong {
+	@apply text-black font-semibold;
+}
+
+.post a,
+.post a strong,
+#credit a {
+	@apply text-purple-800 shadow transition-shadow hover:shadow-md;
+}
+
+.post h3,
+h2,
+h4 {
+	@apply font-semibold mb-5 text-black;
+}
+
+.post h3 {
+	@apply text-2xl;
+}
+
+img {
+	width: 100%;
+}
+
+.post ul,
+.post ol {
+	@apply m-5 p-5;
+}
+
+.post ul li,
+.post ol li {
+	@apply mb-5 pl-2;
+}
+
+.post ul {
+	@apply list-disc;
+}
+
+.post ol {
+	@apply list-decimal;
+}
+
+.post ul li::marker,
+.post ol li::marker {
+	@apply text-purple-800;
+}

@@ -1,0 +1,35 @@
+<div class="sm:col-span-full sm:grid sm:grid-cols-12 mb-10 text-center">
+  <div class="sm:col-start-2 sm:col-end-12 md:col-start-3 md:col-end-11 text-base mb-10">
+    <p>
+      I provide <strong>{{tasks}}</strong> services. This project is conducted in {{ year }}. {% if projectUrl %}The project url is <a href="{{ projectUrl }}" target="_blank" rel="noreferrer">{{ projectUrl }}</a>
+    {% endif %}
+    </p>
+
+  </div>
+
+  <div class="sm:col-start-2 sm:col-end-12 md:col-start-3 md:col-end-11">
+    {% if testimonial %}
+      <div class="">
+        <span class="block text-green-300">
+          <svg class="w-10 h-10 block mx-auto mb-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+          </svg>
+        </span>
+        <div class="text-black font-serif text-2xl lg:text-3xl italic font-medium lg:leading-snug">{{ testimonial }}</div>
+        <div class="mt-10 text-base text-purple-800 flex flex-wrap justify-center items-center">
+          <span class="block w-12 h-1 border-t border-gray-300 mb-5"></span>
+          <div class="w-full inline-flex justify-center items-center">
+            <svg class="w-5 h-5 inline-block mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 100-2 1 1 0 000 2zm7-1a1 1 0 11-2 0 1 1 0 012 0zm-.464 5.535a1 1 0 10-1.415-1.414 3 3 0 01-4.242 0 1 1 0 00-1.415 1.414 5 5 0 007.072 0z" clip-rule="evenodd" />
+            </svg>
+            {{ clientName }}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="col-span-full w-full mt-20">
+    {% respimg featuredImg, title %}
+  </div>
+</div>

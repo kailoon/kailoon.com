@@ -1,0 +1,27 @@
+{
+	"name": "kailoon",
+	"url": "https://kailoon.com/",
+	"feed": {
+		"subtitle": "The personal and professional website of designer & developer, kailoon.",
+		"filename": "feed.xml",
+		"path": "/feed/feed.xml",
+		"id": "https://kailoon.com/"
+	},
+	"jsonfeed": {
+		"path": "/feed/feed.json",
+		"url": "https://example.com/feed/feed.json"
+	},
+	"author": {
+		"name": "kailoon",
+		"email": "chankailoon@gmail.com",
+		"url": "https://kailoon.com/",
+		"avatar": "https://res.cloudinary.com/kailoon/image/upload/dpr_auto,c_scale,q_100,w_112/v1610896577/kailoon.com/avatar_ce8dgk.webp",
+		"mailtolink": "mailto:chankailoon@gmail.com?subject=Request from kailoon.com&body=Be sure to share as much info as you can on what you're trying to achieve and what sort of budget you have in place."
+	},
+	"socials": {
+		"dribbble": "https://dribbble.com/kailoon",
+		"twitter": "https://twitter.com/kailoon",
+		"linkedin": "https://linkedin.com/in/kailoon",
+		"github": "https://github.com/kailoon"
+	}
+}
