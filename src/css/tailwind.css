@@ -22,7 +22,7 @@ h6 {
 .post a,
 .post a strong,
 #credit a {
-	@apply text-purple-800 shadow transition-shadow hover:shadow-md;
+	@apply text-purple-800 shadow hover:shadow-md;
 }
 
 .post h3,

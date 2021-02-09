@@ -22,7 +22,7 @@
         {%- for entry in navPages %}
           <a
           href="{{ entry.url | url }}"
-          class="text-purple-800 shadow transition-shadow hover:shadow-md
+          class="text-purple-800 shadow hover:shadow-md
           {% if entry.url == page.url %} shadow-md{% endif %}
           "
           >{{ entry.title }}</a>
