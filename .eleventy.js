@@ -4,6 +4,10 @@ const markdownitlinkatt = require('markdown-it-link-attributes')
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/css/styles.css')
+	eleventyConfig.addPassthroughCopy('./src/browserconfig.xml')
+	eleventyConfig.addPassthroughCopy('./src/site.webmanifest')
+	eleventyConfig.addPassthroughCopy('./src/img')
+
 	eleventyConfig.addPlugin(pluginNavigation)
 	eleventyConfig.setDataDeepMerge(true)
 	eleventyConfig.addShortcode('respimg', (path, alt, style) => {
