@@ -1,6 +1,10 @@
+const { DateTime } = require('luxon')
+const fs = require('fs')
 const pluginNavigation = require('@11ty/eleventy-navigation')
 const markdownIt = require('markdown-it')
 const markdownitlinkatt = require('markdown-it-link-attributes')
+const pluginRss = require('@11ty/eleventy-plugin-rss')
+const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/css/styles.css')
@@ -9,7 +13,11 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/img')
 
 	eleventyConfig.addPlugin(pluginNavigation)
+	eleventyConfig.addPlugin(pluginRss)
+	eleventyConfig.addPlugin(pluginSyntaxHighlight)
+
 	eleventyConfig.setDataDeepMerge(true)
+
 	eleventyConfig.addShortcode('respimg', (path, alt, style) => {
 		const fetchBase = `https://res.cloudinary.com/kailoon/image/upload/`
 		const src = `${fetchBase}q_auto,f_auto,w_${eleventyConfig.fallbackWidth}/${path}.${eleventyConfig.format}`
@@ -63,6 +71,28 @@ module.exports = function (eleventyConfig) {
 		}
 	})
 	eleventyConfig.setLibrary('md', markdownLibrary)
+
+	eleventyConfig.addFilter('readableDate', (dateObj) => {
+		return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('dd LLL yyyy')
+	})
+
+	// https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+		return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd')
+	})
+
+	// Get the first `n` elements of a collection.
+	eleventyConfig.addFilter('head', (array, n) => {
+		if (n < 0) {
+			return array.slice(n)
+		}
+
+		return array.slice(0, n)
+	})
+
+	eleventyConfig.addFilter('min', (...numbers) => {
+		return Math.min.apply(null, numbers)
+	})
 
 	return {
 		dir: {
