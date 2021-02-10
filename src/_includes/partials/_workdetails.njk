@@ -1,13 +1,13 @@
-<div class="sm:col-span-full sm:grid sm:grid-cols-12 mb-10 text-center">
-  <div class="sm:col-start-2 sm:col-end-12 md:col-start-3 md:col-end-11 text-base mb-10">
-    <p>
-      I provide <strong>{{tasks}}</strong> services. This project is conducted in {{ year }}. {% if projectUrl %}The project url is <a href="{{ projectUrl }}" target="_blank" rel="noreferrer">{{ projectUrl }}</a>
+<div class="sm:col-span-full sm:grid sm:grid-cols-12 mb-10">
+  <div class="sm:col-start-1 sm:col-end-13 mb-10 sm:grid sm:grid-cols-5 gap-5 text-base border-b border-gray-100">
+    <p class="sm:col-span-2">Services<br><strong>{{ tasks }}</strong></p>
+    <p>Year<br><strong>{{ year }}</strong></p>
+    {% if projectUrl %}
+      <p class="sm:col-span-2">Url<br><strong><a href="{{ projectUrl}}" title="{{ title }}" target="_blank" rel="noreferrer">Visit project site</a></strong></p>
     {% endif %}
-    </p>
-
   </div>
 
-  <div class="sm:col-start-2 sm:col-end-12 md:col-start-3 md:col-end-11">
+  <div class="sm:col-start-2 sm:col-end-12 md:col-start-3 md:col-end-11 text-center">
     {% if testimonial %}
       <div class="">
         <span class="block text-green-300">

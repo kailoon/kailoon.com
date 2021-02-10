@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"clean": "rm -rf public src/css/styles.css",
-		"serve": "NODE_ENV=production postcss src/css/tailwind.css > src/css/styles.css && eleventy --serve",
+		"serve": "postcss src/css/tailwind.css > src/css/styles.css && eleventy --serve",
 		"build": "npm run clean && NODE_ENV=production postcss src/css/tailwind.css > src/css/styles.css && eleventy"
 	},
 	"keywords": [
