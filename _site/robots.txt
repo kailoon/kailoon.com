@@ -1,4 +1,0 @@
-Sitemap: https://kailoon.com/sitemap.xml
-
-User-agent: *
-Disallow:
