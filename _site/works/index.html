@@ -23,15 +23,23 @@
   <meta property="twitter:image" content="https://res.cloudinary.com/kailoon/image/upload/v1612884943/kailoon.com/index.png">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet1'">
   <noscript>
     <link
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap"
-        rel="stylesheet"
+        rel="stylesheet1"
         type="text/css"
     />
   </noscript>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/styles.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet2'">
+  <noscript>
+    <link
+        href="/css/styles.css"
+        rel="stylesheet2"
+        type="text/css"
+    />
+  </noscript>
+
   <link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
@@ -39,6 +47,604 @@
   <link rel="mask-icon" href="../img/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#603cba">
   <meta name="theme-color" content="#ffffff">
+
+  <style type="text/css">
+    :root {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji
+}
+
+table {
+  text-indent: 0;
+  border-color: inherit
+}
+
+blockquote,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre {
+  margin: 0
+}
+
+fieldset,
+ol,
+ul {
+  margin: 0;
+  padding: 0
+}
+
+ol,
+ul {
+  list-style: none
+}
+
+html {
+  font-family: SF Pro Display, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  line-height: 1.5
+}
+
+body {
+  font-family: inherit;
+  line-height: inherit
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb
+}
+
+img {
+  border-style: solid
+}
+
+table {
+  border-collapse: collapse
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit
+}
+
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+  display: block;
+  vertical-align: middle
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto
+}
+
+.space-x-2>:not([hidden])~:not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem*var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem*(1 - var(--tw-space-x-reverse)))
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity))
+}
+
+.bg-purple-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(250, 245, 255, var(--tw-bg-opacity))
+}
+
+.bg-purple-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 232, 255, var(--tw-bg-opacity))
+}
+
+.border-gray-100 {
+  --tw-border-opacity: 1;
+  border-color: rgba(243, 244, 246, var(--tw-border-opacity))
+}
+
+.rounded {
+  border-radius: .25rem
+}
+
+.rounded-md {
+  border-radius: .375rem
+}
+
+.rounded-full {
+  border-radius: 9999px
+}
+
+.border-t {
+  border-top-width: 1px
+}
+
+.border-b {
+  border-bottom-width: 1px
+}
+
+.block {
+  display: block
+}
+
+.inline-block {
+  display: inline-block
+}
+
+.flex {
+  display: flex
+}
+
+.inline-flex {
+  display: inline-flex
+}
+
+.grid {
+  display: grid
+}
+
+.hidden {
+  display: none
+}
+
+.items-center {
+  align-items: center
+}
+
+.justify-between {
+  justify-content: space-between
+}
+
+.font-medium {
+  font-weight: 500
+}
+
+.font-semibold {
+  font-weight: 600
+}
+
+.font-bold {
+  font-weight: 700
+}
+
+.font-black {
+  font-weight: 900
+}
+
+.h-14 {
+  height: 3.5rem
+}
+
+.h-full {
+  height: 100%
+}
+
+.text-xs {
+  font-size: .75rem;
+  line-height: 1rem
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem
+}
+
+.text-lg,
+.text-xl {
+  line-height: 1.75rem
+}
+
+.text-xl {
+  font-size: 1.25rem
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem
+}
+
+.leading-8 {
+  line-height: 2rem
+}
+
+.leading-tight {
+  line-height: 1.25
+}
+
+.leading-relaxed {
+  line-height: 1.625
+}
+
+.m-auto {
+  margin: auto
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem
+}
+
+.mx-32 {
+  margin-left: 8rem;
+  margin-right: 8rem
+}
+
+.mb-0 {
+  margin-bottom: 0
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem
+}
+
+.mr-8 {
+  margin-right: 2rem
+}
+
+.mb-20 {
+  margin-bottom: 5rem
+}
+
+.mt-28 {
+  margin-top: 7rem
+}
+
+.max-w-screen-lg {
+  max-width: 1024px
+}
+
+.max-w-screen-xl {
+  max-width: 1280px
+}
+
+.p-5 {
+  padding: 1.25rem
+}
+
+.py-1 {
+  padding-top: .25rem;
+  padding-bottom: .25rem
+}
+
+.py-2 {
+  padding-top: .5rem;
+  padding-bottom: .5rem
+}
+
+.px-2 {
+  padding-left: .5rem;
+  padding-right: .5rem
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem
+}
+
+.pb-20 {
+  padding-bottom: 5rem
+}
+
+.pb-24 {
+  padding-bottom: 6rem
+}
+
+.fixed {
+  position: fixed
+}
+
+.bottom-0 {
+  bottom: 0
+}
+
+* {
+  --tw-shadow: 0 0 transparent
+}
+
+.shadow {
+  --tw-shadow: 0 1px 0 0 #ddd6fe;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow)
+}
+
+* {
+  --tw-ring-inset: var(--tw-empty,
+    /*!*/
+    /*!*/
+    );
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-offset-shadow: 0 0 transparent;
+  --tw-ring-shadow: 0 0 transparent
+}
+
+.text-center {
+  text-align: center
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity))
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity))
+}
+
+.text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity))
+}
+
+.text-purple-800 {
+  --tw-text-opacity: 1;
+  color: rgba(107, 33, 168, var(--tw-text-opacity))
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity))
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.tracking-tight {
+  letter-spacing: -.025em
+}
+
+.whitespace-nowrap {
+  white-space: nowrap
+}
+
+.w-9 {
+  width: 2.25rem
+}
+
+.w-14 {
+  width: 3.5rem
+}
+
+.w-full {
+  width: 100%
+}
+
+.gap-5 {
+  gap: 1.25rem
+}
+
+.gap-10 {
+  gap: 2.5rem
+}
+
+.grid-flow-row-dense {
+  grid-auto-flow: row dense
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr))
+}
+
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  transition-duration: .15s
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity))
+}
+
+#credit a,
+.post a,
+.post a strong {
+  --tw-shadow: 0 1px 0 0 #ddd6fe
+}
+
+#credit a,
+#credit a:hover,
+.post a,
+.post a:hover,
+.post a strong,
+.post a strong:hover {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow)
+}
+
+#credit a,
+.post a,
+.post a strong {
+  --tw-text-opacity: 1;
+  color: rgba(107, 33, 168, var(--tw-text-opacity))
+}
+
+.post h3,
+h2,
+h4 {
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity))
+}
+
+img {
+  width: 100%
+}
+
+@media (min-width: 640px) {
+  .sm\:w-4\/6 {
+    width: 66.666667%
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr))
+  }
+
+  .sm\:col-span-2 {
+    grid-column: span 2/span 2
+  }
+
+  .sm\:row-span-2 {
+    grid-row: span 2/span 2
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block
+  }
+
+  .md\:flex {
+    display: flex
+  }
+
+  .md\:hidden {
+    display: none
+  }
+
+  .md\:items-center {
+    align-items: center
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1
+  }
+
+  .md\:my-20 {
+    margin-top: 5rem;
+    margin-bottom: 5rem
+  }
+
+  .md\:mb-3 {
+    margin-bottom: .75rem
+  }
+
+  .md\:mb-5 {
+    margin-bottom: 1.25rem
+  }
+
+  .md\:pb-5 {
+    padding-bottom: 1.25rem
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem
+  }
+
+  .md\:relative {
+    position: relative
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr))
+  }
+
+  .md\:col-span-3 {
+    grid-column: span 3/span 3
+  }
+
+  .md\:transition-colors {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  .lg\:mt-24 {
+    margin-top: 6rem
+  }
+
+  .lg\:p-10 {
+    padding: 2.5rem
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem
+  }
+}
+  </style>
 </head>
 
 <body class="h-full text-black antialiased">
@@ -226,7 +832,7 @@
           title="get in touch"
           target="_blank"
           rel="noreferrer"
-        ><span class="py-2 px-4 bg-purple-800 text-purple-100 rounded-md hover:bg-purple-100 transition-colors hover:text-purple-800">Get in touch</span>
+        ><span class="py-2 px-4 bg-purple-800 text-purple-100 rounded-md hover:bg-purple-100 hover:text-purple-800">Get in touch</span>
         </a>
     </div>
   </div>
