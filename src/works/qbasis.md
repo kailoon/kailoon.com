@@ -42,6 +42,8 @@ Eventually, Yao Quan likes the origami effect.
 
 ### The Result
 
+{% figure 'qbasis-guidelines','qbasis logo guidelines','logo guidelines' %}
+
 With a few more tweaks and adjustment, we finalised with the logo below. A complete letter Q using the origami effect with the negative space to form an up-arrow which represent the growth of the business.
 
 </div>
