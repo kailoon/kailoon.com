@@ -20,8 +20,7 @@ h6 {
 }
 
 .post a,
-.post a strong,
-#credit a {
+.post a strong {
 	@apply text-purple-800 shadow hover:shadow-md;
 }
 
@@ -46,7 +45,7 @@ img {
 
 .post ul li,
 .post ol li {
-	@apply mb-5 pl-2;
+	@apply mb-5;
 }
 
 .post ul {
