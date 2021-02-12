@@ -8,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-	@apply text-black;
+	@apply text-black dark:text-white;
 }
 
 .post p {
@@ -16,18 +16,18 @@ h6 {
 }
 
 .post strong {
-	@apply text-black font-semibold;
+	@apply text-black font-semibold dark:text-white;
 }
 
 .post a,
 .post a strong {
-	@apply text-purple-800 shadow hover:shadow-md;
+	@apply text-purple-800 border-b border-purple-100 hover:border-purple-800 dark:text-yellow-200 dark:border-gray-700 dark:hover:text-yellow-400 dark:hover:border-gray-600;
 }
 
 .post h3,
 h2,
 h4 {
-	@apply font-semibold mb-5 text-black;
+	@apply font-semibold mb-5 text-black dark:text-white;
 }
 
 .post h3 {
@@ -58,5 +58,5 @@ img {
 
 .post ul li::marker,
 .post ol li::marker {
-	@apply text-purple-800;
+	@apply text-purple-800 dark:text-purple-200;
 }

@@ -60,7 +60,7 @@
   </script>
 </head>
 
-<body class="h-full text-black antialiased">
+<body class="h-full text-black antialiased dark:bg-gray-900 dark:text-gray-200">
   <!-- skip to content -->
   <a href="#content" class="w-full block text-center bg-gray-100 sr-only focus:not-sr-only">
     Skip to Content
@@ -70,9 +70,11 @@
   <header class="">
   <div class="p-5 lg:p-10 flex items-center justify-between">
     <!-- logo -->
-    <a href="/" title="back to homepage" class="flex w-9 logo">
-      <img width="36" height="36" loading=lazy src="https://res.cloudinary.com/kailoon/image/upload/v1610896578/kailoon.com/logo_stqiiw.svg"
-        alt="this is my logo" />
+    <a href="/" title="back to homepage" class="logo">
+      <svg class="dark:text-white transform scale-75" width="52" height="52" xmlns="http://www.w3.org/2000/svg" fill="currentColor"  xmlns:v="https://vecta.io/nano">
+      <path d="M52 39a13.02 13.02 0 0 1-13-13 13.02 13.02 0 0 1 13-13v26zM26 13L13 26l13 13V13z"/>
+      <path d="M13 39L0 52V13L13 0V39Z"/>
+      </svg>
     </a>
     <nav class="hidden md:flex md:items-center">
       
@@ -80,24 +82,24 @@
         <li class="inline-block mr-8">
           <a
           href="/about/"
-          class="text-black font-semibold pb-3 border-b
-           border-white
+          class="text-black dark:text-gray-200 font-semibold pb-3 border-b
+           border-white dark:border-gray-800
           hover:border-gray-200"
           >About</a>
         </li>
         <li class="inline-block mr-8">
           <a
           href="/works/"
-          class="text-black font-semibold pb-3 border-b
-           border-white
+          class="text-black dark:text-gray-200 font-semibold pb-3 border-b
+           border-white dark:border-gray-800
           hover:border-gray-200"
           >Works</a>
         </li>
         <li class="inline-block mr-8">
           <a
           href="/posts/"
-          class="text-black font-semibold pb-3 border-b
-           border-white
+          class="text-black dark:text-gray-200 font-semibold pb-3 border-b
+           border-white dark:border-gray-800
           hover:border-gray-200"
           >Writings</a>
         </li>
@@ -107,7 +109,7 @@
       title="get in touch"
       target="_blank"
       rel="noreferrer"
-      class="text-gray-800 py-2 p-5 rounded-full font-semibold border-2 border-gray-900 border-opacity-10 transition-colors md:flex items-center hover:border-opacity-100"
+      class="text-gray-800 dark:text-yellow-200 py-2 p-5 rounded-full font-semibold border-2 border-gray-900 dark:border-yellow-100 border-opacity-10 transition-colors md:flex items-center hover:border-opacity-100"
     ><span>Get in touch</span>
     </a>
     </nav>
@@ -121,11 +123,11 @@
   <!-- hero -->
 <section id="hero" class="mt-24 lg:mt-24">
   <div class="max-w-screen-lg m-auto px-5 lg:px-10 md:relative">
-    <div class="border-b border-gray-100 pb-20">
+    <div class="border-b border-gray-100 dark:border-gray-800 pb-20">
     
       <div class="font-black tracking-tight leading-relaxed">
-        <h1 class="text-3xl md:text-6xl font-black md:block md:mb-3">99.co </h1>
-        <h2 class="text-2xl md:text-3xl text-gray-500 font-semibold"> A map-based property search engine that provides renters, buyers, and agents fast and efficient property search experience.</h2>
+        <h1 class="text-3xl md:text-6xl font-black md:block md:mb-3 dark:text-white">99.co </h1>
+        <h2 class="text-2xl md:text-3xl text-gray-500 font-semibold dark:text-gray-400"> A map-based property search engine that provides renters, buyers, and agents fast and efficient property search experience.</h2>
       </div>
     </div>
   </div>
@@ -134,11 +136,11 @@
 
 
 <section class="max-w-screen-lg mx-auto px-5 lg:px-10 pb-20 pt-5">
-  <div class="post text-lg leading-relaxed text-gray-700 md:grid md:gap-5 md:grid-cols-10">
+  <div class="post text-lg leading-relaxed text-gray-700 dark:text-gray-200 md:grid md:gap-5 md:grid-cols-10">
     <div class="col-span-full"></div>
     
       <div class="sm:col-span-full sm:grid sm:grid-cols-12 mb-10">
-  <div class="sm:col-start-1 sm:col-end-13 mb-10 sm:grid sm:grid-cols-5 gap-5 text-base border-b border-gray-100">
+  <div class="sm:col-start-1 sm:col-end-13 mb-10 sm:grid sm:grid-cols-5 gap-5 text-base border-b border-gray-100 dark:border-gray-800">
     <p class="sm:col-span-2">Services<br><strong>App Design &amp; Email Design</strong></p>
     <p>Year<br><strong>2015</strong></p>
     
@@ -154,8 +156,8 @@
             <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
           </svg>
         </span>
-        <div class="text-black font-serif text-2xl lg:text-3xl italic font-medium lg:leading-snug">kailoon is talented and sharp. Paired with a keen design sense and patience when dealing with clients, he’s a trustable resource to work with when it comes to branding and UI/UX works. I’ve entrusted him with the branding works of my 2 companies and will continue to do so in the future.</div>
-        <div class="mt-10 text-base text-purple-800 flex flex-wrap justify-center items-center">
+        <div class="text-black dark:text-white font-serif text-2xl lg:text-3xl italic font-medium lg:leading-snug">kailoon is talented and sharp. Paired with a keen design sense and patience when dealing with clients, he’s a trustable resource to work with when it comes to branding and UI/UX works. I’ve entrusted him with the branding works of my 2 companies and will continue to do so in the future.</div>
+        <div class="mt-10 text-base text-purple-800 dark:text-white flex flex-wrap justify-center items-center">
           <span class="block w-12 h-1 border-t border-gray-300 mb-5"></span>
           <div class="w-full inline-flex justify-center items-center">
             <svg class="w-5 h-5 inline-block mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -187,11 +189,11 @@
 <li>Prototyping the ideas for testing</li>
 </ul>
 <p>Unfortunately, we did not move forward with other pages because the client need to prioritise mobile design update ( this is very common especially for a startup company, agile development, they need to focus what is core to the business). So, we started discussions and meetings for the mobile design.</p>
-<figure class="mb-10 md:-mx-10"><img class="rounded" loading="lazy" src="https://res.cloudinary.com/kailoon/image/upload/q_auto,f_auto,w_800/99-add-listing.webp" srcset="https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_400/kailoon.com/99-add-listing.webp 400w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_600/kailoon.com/99-add-listing.webp 600w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_800/kailoon.com/99-add-listing.webp 800w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_1000/kailoon.com/99-add-listing.webp 1200w" alt="add listing process" width="400" height="300"><figcaption class="text-center text-sm mt-3 text-gray-600">The process of listing property on the platform.</figcaption></figure>
+<figure class="mb-10 md:-mx-10"><img class="rounded" loading="lazy" src="https://res.cloudinary.com/kailoon/image/upload/q_auto,f_auto,w_800/99-add-listing.webp" srcset="https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_400/kailoon.com/99-add-listing.webp 400w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_600/kailoon.com/99-add-listing.webp 600w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_800/kailoon.com/99-add-listing.webp 800w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_1000/kailoon.com/99-add-listing.webp 1200w" alt="add listing process" width="400" height="300"><figcaption class="text-center text-sm mt-3 text-gray-600 dark:text-gray-200">The process of listing property on the platform.</figcaption></figure>
 <p>It is always challenging when dealing with data driven app with such small screen real estate. Once again, I strive for minimalistic and simplicity.</p>
 <h3>The Result</h3>
 <p>My design was not accepted. I am not sure what is the reason, however, this is a special project, because I almost landed a permanent job. After meeting the founder and get to know the office culture, I am excited to have the opportunity to work with such a passionate and energized team.</p>
-<figure class="mb-10 md:-mx-10"><img class="rounded" loading="lazy" src="https://res.cloudinary.com/kailoon/image/upload/q_auto,f_auto,w_800/99-chat-with-agent.webp" srcset="https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_400/kailoon.com/99-chat-with-agent.webp 400w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_600/kailoon.com/99-chat-with-agent.webp 600w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_800/kailoon.com/99-chat-with-agent.webp 800w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_1000/kailoon.com/99-chat-with-agent.webp 1200w" alt="agent chat workflow" width="400" height="300"><figcaption class="text-center text-sm mt-3 text-gray-600">exploring the way user initiates a conversation with the agents.</figcaption></figure>
+<figure class="mb-10 md:-mx-10"><img class="rounded" loading="lazy" src="https://res.cloudinary.com/kailoon/image/upload/q_auto,f_auto,w_800/99-chat-with-agent.webp" srcset="https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_400/kailoon.com/99-chat-with-agent.webp 400w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_600/kailoon.com/99-chat-with-agent.webp 600w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_800/kailoon.com/99-chat-with-agent.webp 800w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_1000/kailoon.com/99-chat-with-agent.webp 1200w" alt="agent chat workflow" width="400" height="300"><figcaption class="text-center text-sm mt-3 text-gray-600 dark:text-gray-200">exploring the way user initiates a conversation with the agents.</figcaption></figure>
 <p>However, things didn’t turn out as expected. I have to move to Singapore in order to pursue the position and that’s not a good timing as my wife had just giving birth to our first baby boy few months ago. I have chosen my family this time.</p>
 <p>After all, this is quite an exciting project as I have the opportunity to work for a promising startup and learn quite a few non-technical things along the journey.</p>
 </div>
@@ -199,7 +201,7 @@
   </div>
     
     <div class="mt-20 col-start-2 col-end-10 text-center text-base">
-      <a href="https://dribbble.com/kailoon/projects/304610-99-co" target="_blank" rel="noreferrer" class="text-purple-800 bg-purple-100 transition-colors hover:text-purple-100 hover:bg-purple-800 py-3 px-5 rounded-lg inline-flex items-center justify-center">
+      <a href="https://dribbble.com/kailoon/projects/304610-99-co" target="_blank" rel="noreferrer" class="text-purple-800 bg-purple-100 transition-colors hover:text-purple-100 hover:bg-purple-800 dark:text-yellow-900 dark:bg-yellow-400 dark:hover:bg-yellow-200 dark:hover:text-yellow-900 py-3 px-5 rounded-lg inline-flex items-center justify-center">
         <svg class="w-4 h-4 mr-2" viewBox="0 0 100 100" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M50 0C22.397 0 0 22.397 0 50C0 77.603 22.397 100 50 100C77.5488 100 100 77.603 100 50C100 22.397 77.5488 0 50 0ZM83.026 23.0477C88.9913 30.3145 92.5705 39.5879 92.679 49.6204C91.269 49.3492 77.1692 46.4751 62.961 48.2646C62.6356 47.5597 62.3644 46.8004 62.0391 46.0412C61.1714 43.9805 60.1952 41.8655 59.2191 39.859C74.9458 33.4599 82.1041 24.2408 83.026 23.0477ZM50 7.37527C60.846 7.37527 70.7701 11.4425 78.308 18.1128C77.5488 19.1974 71.0954 27.82 55.9111 33.5141C48.9154 20.6616 41.1605 10.141 39.9675 8.5141C43.167 7.75488 46.5293 7.37527 50 7.37527ZM31.833 11.3883C32.9718 12.9067 40.564 23.4816 47.6681 36.0629C27.7115 41.3774 10.0868 41.269 8.18872 41.269C10.9544 28.0369 19.9024 17.0282 31.833 11.3883ZM7.26681 50.0542C7.26681 49.6204 7.26681 49.1866 7.26681 48.7527C9.11063 48.8069 29.8265 49.0781 51.1388 42.679C52.3861 45.0651 53.5249 47.5054 54.6095 49.9458C54.0672 50.1085 53.4707 50.2712 52.9284 50.4338C30.9111 57.538 19.1974 76.9523 18.2213 78.5792C11.4425 71.0412 7.26681 61.0087 7.26681 50.0542ZM50 92.7332C40.1302 92.7332 31.0195 89.3709 23.8069 83.731C24.5662 82.1584 33.243 65.4555 57.321 57.0499C57.4295 56.9957 57.4837 56.9957 57.5922 56.9414C63.6117 72.5054 66.0521 85.5748 66.7028 89.3167C61.551 91.5401 55.9111 92.7332 50 92.7332ZM73.807 85.4122C73.3731 82.8091 71.0955 70.3362 65.5098 54.9892C78.9046 52.8742 90.6182 56.3449 92.0824 56.833C90.2386 68.7093 83.4056 78.9588 73.807 85.4122Z"/></svg>
         More on dribbble
       </a>
@@ -210,11 +212,11 @@
 
 
 
-<div class="grid grid-cols-2 mt-10 border-t border-gray-100 max-w-screen-md mx-auto px-5 md:px-0 relative">
+<div class="grid grid-cols-2 mt-10 border-t border-gray-100 dark:border-gray-800 max-w-screen-md mx-auto px-5 md:px-0 relative">
   
 
   
-  <a href="/works/tinder/" class="text-right py-5 hover:text-purple-800 transition-colors pl-12">
+  <a href="/works/tinder/" class="text-right py-5 hover:text-purple-800 dark:hover:text-yellow-200 transition-colors pl-12">
     Tinder
     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 inline-block -mt-1" viewBox="0 0 20 20" fill="currentColor">
       <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -227,9 +229,9 @@
 
   
   <!-- footer start -->
-<footer id="footer" class="border-t border-gray-100">
-  <div class="max-w-screen-lg m-auto sm:flex sm:justify-between sm:items-end text-sm pb-16">
-    <p id="credit" class="p-5 lg:p-10 text-gray-500">2021 &copy; kailoon.<br>
+<footer id="footer" class="border-t border-gray-100 dark:border-gray-800">
+  <div class="max-w-screen-lg m-auto sm:flex sm:justify-between sm:items-end text-sm pb-16 md:pb-0">
+    <p id="credit" class="p-5 lg:p-10 text-gray-500 dark:text-gray-400">2021 &copy; kailoon.<br>
       This site was designed in
       <a href="https://www.figma.com/" target="_blank" rel="noreferrer">Figma</a>, coded in
       <a href="https://www.11ty.dev/" target="_blank" rel="noreferrer">11ty</a>, styled with
@@ -239,13 +241,13 @@
     <p class="p-5 lg:p-10">
       <span class="inline-flex space-x-5 leading-tight">
         
-          <a href="https://dribbble.com/kailoon" class="text-black" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">dribbble</a>
+          <a href="https://dribbble.com/kailoon" class="text-black dark:text-yellow-200 hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">dribbble</a>
           
-          <a href="https://twitter.com/kailoon" class="text-black" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">twitter</a>
+          <a href="https://twitter.com/kailoon" class="text-black dark:text-yellow-200 hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">twitter</a>
           
-          <a href="https://linkedin.com/in/kailoon" class="text-black" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">linkedin</a>
+          <a href="https://linkedin.com/in/kailoon" class="text-black dark:text-yellow-200 hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">linkedin</a>
           
-          <a href="https://github.com/kailoon" class="text-black" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">github</a>
+          <a href="https://github.com/kailoon" class="text-black dark:text-yellow-200 hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">github</a>
           
       </span>
     </p>

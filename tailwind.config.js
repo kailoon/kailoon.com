@@ -5,9 +5,10 @@ module.exports = {
 	darkMode: 'media', // or 'media' or 'class'
 	theme: {
 		colors: {
-			gray: colors.coolGray,
+			gray: colors.blueGray,
 			purple: colors.purple,
 			green: colors.green,
+			yellow: colors.yellow,
 			white: colors.white,
 			black: colors.black,
 			current: 'currentColor',
@@ -44,7 +45,7 @@ module.exports = {
 		extend: {}
 	},
 	variants: {
-		backgroundColor: ['responsive', 'hover', 'focus', 'active'],
+		backgroundColor: ['responsive', 'dark', 'hover', 'focus', 'active'],
 		extend: { space: ['last'] }
 	},
 	plugins: []

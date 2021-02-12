@@ -60,7 +60,7 @@
   </script>
 </head>
 
-<body class="h-full text-black antialiased">
+<body class="h-full text-black antialiased dark:bg-gray-900 dark:text-gray-200">
   <!-- skip to content -->
   <a href="#content" class="w-full block text-center bg-gray-100 sr-only focus:not-sr-only">
     Skip to Content
@@ -70,9 +70,11 @@
   <header class="">
   <div class="p-5 lg:p-10 flex items-center justify-between">
     <!-- logo -->
-    <a href="/" title="back to homepage" class="flex w-9 logo">
-      <img width="36" height="36" loading=lazy src="https://res.cloudinary.com/kailoon/image/upload/v1610896578/kailoon.com/logo_stqiiw.svg"
-        alt="this is my logo" />
+    <a href="/" title="back to homepage" class="logo">
+      <svg class="dark:text-white transform scale-75" width="52" height="52" xmlns="http://www.w3.org/2000/svg" fill="currentColor"  xmlns:v="https://vecta.io/nano">
+      <path d="M52 39a13.02 13.02 0 0 1-13-13 13.02 13.02 0 0 1 13-13v26zM26 13L13 26l13 13V13z"/>
+      <path d="M13 39L0 52V13L13 0V39Z"/>
+      </svg>
     </a>
     <nav class="hidden md:flex md:items-center">
       
@@ -80,24 +82,24 @@
         <li class="inline-block mr-8">
           <a
           href="/about/"
-          class="text-black font-semibold pb-3 border-b
-           border-white
+          class="text-black dark:text-gray-200 font-semibold pb-3 border-b
+           border-white dark:border-gray-800
           hover:border-gray-200"
           >About</a>
         </li>
         <li class="inline-block mr-8">
           <a
           href="/works/"
-          class="text-black font-semibold pb-3 border-b
-           border-white
+          class="text-black dark:text-gray-200 font-semibold pb-3 border-b
+           border-white dark:border-gray-800
           hover:border-gray-200"
           >Works</a>
         </li>
         <li class="inline-block mr-8">
           <a
           href="/posts/"
-          class="text-black font-semibold pb-3 border-b
-           border-white
+          class="text-black dark:text-gray-200 font-semibold pb-3 border-b
+           border-white dark:border-gray-800
           hover:border-gray-200"
           >Writings</a>
         </li>
@@ -107,7 +109,7 @@
       title="get in touch"
       target="_blank"
       rel="noreferrer"
-      class="text-gray-800 py-2 p-5 rounded-full font-semibold border-2 border-gray-900 border-opacity-10 transition-colors md:flex items-center hover:border-opacity-100"
+      class="text-gray-800 dark:text-yellow-200 py-2 p-5 rounded-full font-semibold border-2 border-gray-900 dark:border-yellow-100 border-opacity-10 transition-colors md:flex items-center hover:border-opacity-100"
     ><span>Get in touch</span>
     </a>
     </nav>
@@ -121,7 +123,7 @@
   <!-- hero -->
 <section id="hero" class="mt-24 lg:mt-24">
   <div class="max-w-screen-lg m-auto px-5 lg:px-10 md:relative">
-    <div class="border-b border-gray-100 pb-20">
+    <div class="border-b border-gray-100 dark:border-gray-800 pb-20">
     
       <img
         loading=lazy
@@ -133,8 +135,8 @@
       />
     
       <div class="font-black tracking-tight leading-relaxed">
-        <h1 class="text-3xl md:text-6xl font-black md:block md:mb-3">Design for successful digital products and websites. </h1>
-        <h2 class="text-2xl md:text-3xl text-gray-500 font-semibold"> With a strong focus on responsive design, performance &amp; accessibility.</h2>
+        <h1 class="text-3xl md:text-6xl font-black md:block md:mb-3 dark:text-white">Design for successful digital products and websites. </h1>
+        <h2 class="text-2xl md:text-3xl text-gray-500 font-semibold dark:text-gray-400"> With a strong focus on responsive design, performance &amp; accessibility.</h2>
       </div>
     </div>
   </div>
@@ -146,9 +148,9 @@
   <div class=" px-5 lg:px-10 max-w-screen-xl lg:mx-auto">
     <div class="py-10 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-flow-row-dense">
         <div class="xl:mx-32 sm:col-span-2 md:col-span-3 md:mb-5 sm:w-4/6">
-          <h3 class="text-gray-600 text-normal">Featured Works</h3>
+          <h3 class="text-gray-600 text-normal dark:text-white">Featured Works</h3>
           <span class="font-medium text-xl block mb-5">Over the years, I have the honour to collaborate with clients range from startups to SME, some of them has grown successfully or being acquired.</span>
-          <a href="/works/" title="view more" class="text-purple-800 shadow hover:shadow-md">Browse full portfolio</a>
+          <a href="/works/" title="view more" class="text-purple-800 dark:text-yellow-200 border-b border-purple-200 dark:border-gray-700 dark:hover:text-yellow-400 dark:hover:border-gray-600">Browse full portfolio</a>
         </div>
         
 
@@ -174,26 +176,26 @@
   <!-- services -->
   <section id="services" class="my-10 md:my-20">
   <div class="max-w-screen-lg m-auto lg:px-10 px-5">
-    <div class="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 border-t border-gray-100 py-10">
+    <div class="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 border-t border-gray-100 dark:border-gray-800 py-10">
       
         
           <div class="sm:col-span-2 md:col-span-3 md:mb-5 sm:w-4/6">
-            <h3 class="text-gray-600">Services</h3>
+            <h3 class="text-gray-600 dark:text-white">Services</h3>
             <p class="font-medium text-xl">I focus on human-centric design (HCD) and practical design practice to achieve lasting solutions. It can be a digital products from scratch or upgrade existing one to cope with new demands / market.</p>
           </div>
           
         
         
           <div>
-            <h3 class="font-bold">Branding &amp; Identity</h3>
-            <p class="text-gray-600 md:pb-5 post">A strong brand is important for your business especially startup or SME, to expand your digital reach and communicate with your customers.</p>
+            <h3 class="font-bold dark:text-white">Branding &amp; Identity</h3>
+            <p class="text-gray-600 md:pb-5 post dark:text-gray-200">A strong brand is important for your business especially startup or SME, to expand your digital reach and communicate with your customers.</p>
             <p class="leading-8">
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">Style Exploration</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">Style Exploration</span>
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">Visual Language</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">Visual Language</span>
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">Brand Guidespannes</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">Brand Guidespannes</span>
               
             </p>
           </div>
@@ -201,21 +203,21 @@
         
         
           <div>
-            <h3 class="font-bold">Web / App Design</h3>
-            <p class="text-gray-600 md:pb-5 post">I use a structured design process for medium to large scaled projects. The process allow me to prototype complex ideas that can be easily transformed into fully functional solutions.</p>
+            <h3 class="font-bold dark:text-white">Web / App Design</h3>
+            <p class="text-gray-600 md:pb-5 post dark:text-gray-200">I use a structured design process for medium to large scaled projects. The process allow me to prototype complex ideas that can be easily transformed into fully functional solutions.</p>
             <p class="leading-8">
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">User Interfaces</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">User Interfaces</span>
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">Design Systems</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">Design Systems</span>
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">Illustrations</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">Illustrations</span>
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">Mobile Apps</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">Mobile Apps</span>
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">Web Design</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">Web Design</span>
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">Digital Products</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">Digital Products</span>
               
             </p>
           </div>
@@ -223,23 +225,23 @@
         
         
           <div>
-            <h3 class="font-bold">Web Development</h3>
-            <p class="text-gray-600 md:pb-5 post">I always make sure the projects is developed with the latest technology and it is easy to use or maintained by the clients. Check out my <a href='https://github.com/kailoon/resume' target='_blank' rel='noreferrer'>skillset</a> & <a href='https://github.com/kailoon/certificates' target='_blank' rel='noreferrer'>certificates</a>.</p>
+            <h3 class="font-bold dark:text-white">Web Development</h3>
+            <p class="text-gray-600 md:pb-5 post dark:text-gray-200">I always make sure the projects is developed with the latest technology and it is easy to use or maintained by the clients. Check out my <a href='https://github.com/kailoon/resume' target='_blank' rel='noreferrer'>skillset</a> & <a href='https://github.com/kailoon/certificates' target='_blank' rel='noreferrer'>certificates</a>.</p>
             <p class="leading-8">
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">Front-end Development</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">Front-end Development</span>
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">Responsive Website Development</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">Responsive Website Development</span>
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">WordPress</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">WordPress</span>
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">Grav</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">Grav</span>
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">Hugo</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">Hugo</span>
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">React</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">React</span>
               
-              <span class="bg-gray-100 text-gray-800 text-xs py-1 px-2 whitespace-nowrap rounded">Eleventy</span>
+              <span class="bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-100 text-xs py-1 px-2 whitespace-nowrap rounded">Eleventy</span>
               
             </p>
           </div>
@@ -254,9 +256,9 @@
 
   
   <!-- footer start -->
-<footer id="footer" class="border-t border-gray-100">
-  <div class="max-w-screen-lg m-auto sm:flex sm:justify-between sm:items-end text-sm pb-16">
-    <p id="credit" class="p-5 lg:p-10 text-gray-500">2021 &copy; kailoon.<br>
+<footer id="footer" class="border-t border-gray-100 dark:border-gray-800">
+  <div class="max-w-screen-lg m-auto sm:flex sm:justify-between sm:items-end text-sm pb-16 md:pb-0">
+    <p id="credit" class="p-5 lg:p-10 text-gray-500 dark:text-gray-400">2021 &copy; kailoon.<br>
       This site was designed in
       <a href="https://www.figma.com/" target="_blank" rel="noreferrer">Figma</a>, coded in
       <a href="https://www.11ty.dev/" target="_blank" rel="noreferrer">11ty</a>, styled with
@@ -266,13 +268,13 @@
     <p class="p-5 lg:p-10">
       <span class="inline-flex space-x-5 leading-tight">
         
-          <a href="https://dribbble.com/kailoon" class="text-black" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">dribbble</a>
+          <a href="https://dribbble.com/kailoon" class="text-black dark:text-yellow-200 hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">dribbble</a>
           
-          <a href="https://twitter.com/kailoon" class="text-black" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">twitter</a>
+          <a href="https://twitter.com/kailoon" class="text-black dark:text-yellow-200 hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">twitter</a>
           
-          <a href="https://linkedin.com/in/kailoon" class="text-black" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">linkedin</a>
+          <a href="https://linkedin.com/in/kailoon" class="text-black dark:text-yellow-200 hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">linkedin</a>
           
-          <a href="https://github.com/kailoon" class="text-black" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">github</a>
+          <a href="https://github.com/kailoon" class="text-black dark:text-yellow-200 hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">github</a>
           
       </span>
     </p>
