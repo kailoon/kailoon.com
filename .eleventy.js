@@ -27,7 +27,9 @@ module.exports = function (eleventyConfig) {
 			})
 			.join(', ')
 
-		return `<img class="rounded" loading="lazy" src="${src}" srcset="${srcset}" alt="${
+		return `<img class="rounded ${
+			style ? style : ''
+		}" loading="lazy" src="${src}" srcset="${srcset}" alt="${
 			alt ? alt : ''
 		}" width="400" height="300">`
 	})
@@ -54,7 +56,8 @@ module.exports = function (eleventyConfig) {
 		{ w: 400, v: 400 },
 		{ w: 600, v: 600 },
 		{ w: 800, v: 800 },
-		{ w: 1000, v: 1200 }
+		{ w: 1200, v: 1200 },
+		{ w: 1440, v: 1440 }
 	]
 	eleventyConfig.format = 'webp'
 	eleventyConfig.fallbackWidth = 800

@@ -34,7 +34,7 @@ h4 {
 	@apply text-2xl;
 }
 
-img {
+.post img {
 	width: 100%;
 }
 

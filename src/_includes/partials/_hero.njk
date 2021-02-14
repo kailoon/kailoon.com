@@ -2,6 +2,9 @@
 <section id="hero" class="mt-24 lg:mt-24">
   <div class="max-w-screen-lg m-auto px-5 lg:px-10 md:relative">
     <div class="border-b border-gray-100 dark:border-gray-800 pb-20">
+      {% if heroImg %}
+      {% respimg '5', title, style %}
+      {% endif %}
     {% if page.url==='/'%}
       <img
         loading=lazy
