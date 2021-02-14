@@ -15,7 +15,7 @@ layout: base.njk
         </div>
         {% for item in collections.featured %}
 
-        <a href="{{item.url}}" title="view {{item.data.title}}" class="{% if item.data.tags.includes('web design')%}sm:col-span-2 sm:row-span-2{% endif%}">
+        <a href="{{item.url}}" title="view {{item.data.title}}" class="{% if item.data.tags.includes('web design')%}sm:col-span-2 sm:row-span-2{% endif%} post">
         {% respimg item.data.featuredImg, item.data.title, item.data.bgColor %}
         </a>
         {% endfor %}
