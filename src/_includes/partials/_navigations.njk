@@ -1,0 +1,41 @@
+  {% if tags %}
+    {% if 'works' in tags %}
+      {% set previousPost = collections.works | getPreviousCollectionItem(page) %}
+      {% set nextPost = collections.works | getNextCollectionItem(page) %}
+      {% set middleText = 'browse' %}
+      {% endif %}
+
+    {% if 'posts' in tags %}
+      {% set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+      {% set nextPost = collections.posts | getNextCollectionItem(page) %}
+      {% set middleText = 'read' %}
+    {% endif %}
+  {% endif %}
+
+{% if previousPost or nextPost %}
+<div class="grid grid-cols-2 mt-10 border-t border-gray-100 dark:border-gray-800 max-w-screen-md mx-auto px-5 md:px-0 relative">
+  <span class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-sm p-1 upper bg-white text-gray-600 dark:bg-gray-900 dark:text-gray-300">{{ middleText }}</span>
+
+  <div id="previousPost" class="py-5 border-r pr-12 dark:border-gray-800">
+    {% if previousPost %}
+      <a href="{{ previousPost.url }}" class="hover:text-purple-800 dark:hover:text-yellow-200 transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 inline-block -mt-1" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+        </svg>
+        {{ previousPost.data.title }}
+      </a>
+    {% endif %}
+  </div>
+
+  <div id="nextPost" class="w-full py-5 text-right">
+    {% if nextPost %}
+    <a href="{{ nextPost.url }}" class=" hover:text-purple-800 dark:hover:text-yellow-200 transition-colors pl-12">
+      {{ nextPost.data.title }}
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 inline-block -mt-1" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+      </svg>
+    </a>
+    {% endif %}
+  </div>
+</div>
+{% endif %}

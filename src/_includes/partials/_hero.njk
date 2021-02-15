@@ -6,14 +6,7 @@
       {% respimg '5', title, style %}
       {% endif %}
     {% if page.url==='/'%}
-      <img
-        loading=lazy
-        class="rounded-full w-14 h-14 mb-5"
-        src="{{ metadata.author.avatar }}"
-        alt="avatar"
-        width="56"
-        height="56"
-      />
+      {% respimg metadata.author.avatar, metadata.author.name, 'rounded-full w-16 h-16 mb-5' %}
     {% endif %}
       <div class="font-black tracking-tight leading-relaxed">
         <h1 class="text-3xl md:text-6xl font-black md:block md:mb-3 dark:text-white">{{ title }} </h1>

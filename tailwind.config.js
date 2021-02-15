@@ -37,12 +37,7 @@ module.exports = {
 				'Times',
 				'serif'
 			]
-		},
-		boxShadow: {
-			DEFAULT: '0 1px 0 0 rgba(221, 214, 254,1)',
-			md: '0 1px 0 0 rgba(91, 33, 182,1)'
-		},
-		extend: {}
+		}
 	},
 	variants: {
 		backgroundColor: ['responsive', 'dark', 'hover', 'focus', 'active'],

@@ -1,6 +1,4 @@
 ---
-layout: single.njk
-templateEngineOverride: njk,md
 metaTitle: Tinder
 title: Tinder
 description: A software development company based in Singapore, it is a subsidiary company for any cool side projects.
@@ -10,7 +8,6 @@ clientName: Yao Quan, coFounder of Tinder
 projectUrl:
 dribbble: https://dribbble.com/kailoon/projects/64016-Tinder
 featuredImg: tinder-featured
-tags: [logo design]
 tasks: Logo Design & Brand Identity
 year: 2012
 ---

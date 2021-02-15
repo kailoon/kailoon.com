@@ -71,6 +71,10 @@
   {% include "./partials/_header.njk" %}
   {% endblock %}
 
+  {% block hero %}
+  {% include './partials/_hero.njk' %}
+  {% endblock hero %}
+
   <main id="content" role="main">
     {{ content | safe }}
   </main>

@@ -1,6 +1,4 @@
 ---
-layout: single.njk
-templateEngineOverride: njk,md
 metaTitle: Qbasis
 metaDescription: Warehouse Inventory Management WMS and CRM Software.
 title: Qbasis
@@ -10,7 +8,7 @@ clientName: Yao Quan, Founder of Qbasis
 projectUrl: https://www.qbasistech.com/
 dribbble: https://dribbble.com/kailoon/projects/282263-Qbasis
 featuredImg: qbasis-featured
-tags: [featured, logo design]
+featured: true
 tasks: Logo Design & Brand Identity
 year: 2015
 ---

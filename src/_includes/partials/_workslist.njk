@@ -1,11 +1,11 @@
-<div class="grid grid-cols-1 gap-5 md:gap-10 lg:gap-12 sm:grid-cols-2 lg:grid-cols-3 md:grid-flow-row-dense md:max-w-screen-xl md:mx-auto p-5">
+<article class="grid grid-cols-1 gap-5 md:gap-10 lg:gap-12 sm:grid-cols-2 lg:grid-cols-3 md:grid-flow-row-dense md:max-w-screen-xl md:mx-auto p-5">
 {% for item in collections.works %}
   <a
     href="{{ item.url | url }}"
     title="view project details"
-    class="block {% if 'web design' in item.data.tags %}{% endif %}"
+    class="block"
   >
-  {% respimg item.data.featuredImg, item.data.title, item.data.bgColor %}
+  {% respimg item.data.featuredImg, item.data.title %}
   <div class="hidden md:block mt-5 pr-10">
     <span class="font-bold">{{item.data.title}}</span>
     <span class="text-gray-700 dark:text-gray-300">&mdash; {{item.data.description}}</span>
@@ -13,4 +13,4 @@
   </a>
 
 {% endfor %}
-</div>
+</article>

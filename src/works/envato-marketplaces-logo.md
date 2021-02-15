@@ -1,6 +1,4 @@
 ---
-layout: single.njk
-templateEngineOverride: njk,md
 metaTitle: Envato Marketplaces Logo Design
 metaDescription: Design the logo for all the marketplaces of Envato.
 title: Envato Marketplaces Logo Design
@@ -10,7 +8,7 @@ clientName: Collis, co-founder of Envato
 projectUrl: https://themeforest.net/
 dribbble:
 featuredImg: envato-featured
-tags: [featured, logo design]
+featured: true
 tasks: Logo Design
 year: 2011
 ---

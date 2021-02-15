@@ -1,0 +1,44 @@
+---
+layout: base.njk
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - works
+    - posts
+  addAllPagesToCollections: true
+eleventyComputed:
+  metaTitle: "{{ tag }} articles"
+  metaDescription: "everything about {{ tag }}"
+  title: "{{ tag }}"
+  description: "Everything tagged under {{ tag }}."
+permalink: /tags/{{ tag }}/
+---
+
+<div class="px-5 py-10 lg:px-10 lg:py-16 clear-both max-w-screen-lg mx-auto">
+{% set postslist = collections[ tag ] %}
+
+<ol class="md:grid md:grid-cols-2 md:gap-5">
+  {% for post in postslist  %}
+    {% if post.data.published %}
+    <li class="mb-10 md:mb-2">
+      <article>
+        <h3 class="mb-2 inline">
+          <a
+            href="{{ post.url | url }}"
+            title="read {{ post.data.title }}"
+            class="font-semibold transition text-xl border-b hover:text-purple-800 border-gray-100 hover:border-purple-300 dark:text-yellow-200 dark:border-gray-800 dark:hover:text-yellow-400 dark:hover:border-yellow-100 dark:visited:text-gray-300"
+          >
+            {% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}
+          </a>
+        </h3>
+        <time datetime="{{ post.date | htmlDateString }}" class="font-serif text-gray-600 text-sm dark:text-gray-300">&mdash; {{ post.date | readableDate }}</time>
+      </article>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ol>
+
+
+</div>

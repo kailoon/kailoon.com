@@ -1,12 +1,41 @@
 ---
 layout: base.njk
+pagination:
+  data: collections.posts
+  size: 10
+  reverse: true
+  filter:
+    - works
+    - posts
 ---
-{% block hero %}
-  {% include './partials/_hero.njk' %}
-{% endblock hero %}
 
-<section id="posts" class="my-10 md:my-20">
+<div class="px-5 py-10 lg:px-10 lg:py-16 clear-both max-w-screen-lg mx-auto md:grid md:grid-cols-12 md:gap-5 md:items-start">
+  <ol id="tagcloud" class="col-start-1 col-end-4 pb-10 md:pb-0">
+    {% for tag in collections.tagList %}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <li class="py-1 inline md:block mr-2 md:mr-0">
+      <a href="{{ tagUrl | url }}" class="text-purple-800 dark:text-yellow-200 dark:hover:text-yellow-400 font-semibold"><span class="text-gray-400 dark:text-gray-600 font-bold">#</span>{{ tag }}</a>
+      </li>
+    {% endfor %}
+  </ol>
+
   {% block postslists %}
-
+    {% set postslist = pagination.items %}
+    {% include './partials/_postslist.njk' %}
   {% endblock postslists %}
-</section>
+
+  {% if collections.tagList.length > 0 %}
+  <div class="col-start-4 col-end-13 pt-5 mt-10">
+    <span class="py-2 text-gray-600 dark:text-white text-xs uppercase tracking-widest mr-5">Pages:</span>
+    {% for pageKey in pagination.pages %}
+      <a
+        href="{{ pagination.hrefs[ loop.index0 ] }}"
+        {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}
+        class="transition-colors px-4 py-2 rounded-lg mr-2 hover:bg-gray-100 dark:hover:bg-yellow-100 dark:hover:text-yellow-800 text-sm inline-block{% if page.url == pagination.hrefs[ loop.index0 ] %} text-black dark:text-yellow-800 dark:bg-yellow-50 bg-gray-100 font-semibold{% else %} text-gray-600 dark:text-gray-300{% endif %}"
+      >
+      {{ loop.index }}
+      </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
