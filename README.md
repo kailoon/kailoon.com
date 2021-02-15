@@ -1,4 +1,4 @@
-My simple portfolio blog built using [11ty](https://www.11ty.dev/) and [tailwindcss](http://tailwindcss.com/). Now come with dark mode.
+My simple portfolio blog built using [11ty](https://www.11ty.dev/) and [tailwindcss](http://tailwindcss.com/) based on [11ty base blog](https://github.com/11ty/eleventy-base-blog) Now come with dark mode.
 
 ### Shortcodes
 
@@ -42,6 +42,21 @@ let markdownLibrary = markdownIt({
 eleventyConfig.setLibrary('md', markdownLibrary)
 ```
 
----
+2. Draft post enabled.
+3. Responsve images using srcset
+4. Cloudinary and Netlify ready.
+5. score 4 x 100 in Google lighthouse.
+6. CSSnano (minify) ready.
+
+![](https://res.cloudinary.com/kailoon/image/upload/v1613408502/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.png)
+
+### Installation
+
+1. Clone or download this repo and run `npm install`.
+2. Remove unwated posts / works.
+3. Update the site info in `metadata.json`.
+4. Update the homepage info `in data.json`.
+5. Update `about.md`.
+6. Go nuts :)
 
 Hope you like it ❤️

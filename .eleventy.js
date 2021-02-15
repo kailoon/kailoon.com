@@ -19,7 +19,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.setDataDeepMerge(true)
 
 	eleventyConfig.addShortcode('respimg', (path, alt, style) => {
-		const fetchBase = `https://res.cloudinary.com/kailoon/image/upload/`
+		const fetchBase = `https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/image/upload/`
 		const src = `${fetchBase}q_auto,f_auto,w_${eleventyConfig.fallbackWidth}/${path}.${eleventyConfig.format}`
 		const srcset = eleventyConfig.srcsetWidths
 			.map(({ w, v }) => {
@@ -35,7 +35,7 @@ module.exports = function (eleventyConfig) {
 	})
 
 	eleventyConfig.addShortcode('figure', (path, alt, caption) => {
-		const fetchBase = `https://res.cloudinary.com/kailoon/image/upload/`
+		const fetchBase = `https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/image/upload/`
 		const src = `${fetchBase}q_auto,f_auto,w_${eleventyConfig.fallbackWidth}/${path}.${eleventyConfig.format}`
 		const srcset = eleventyConfig.srcsetWidths
 			.map(({ w, v }) => {

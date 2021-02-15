@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title></title>
+	<subtitle>The personal and professional website of designer &amp; developer, kailoon.</subtitle>
+	
+	<link href="https://kailoon.com/feed/feed.xml" rel="self"/>
+	<link href="https://kailoon.com/"/>
+	<updated>2021-02-15T01:55:10Z</updated>
+	<id>https://kailoon.com/</id>
+	<author>
+		<name>kailoon</name>
+		<email>chankailoon@gmail.com</email>
+	</author>
+	
+	<entry>
+		<title>Finally Settled With 11ty</title>
+		<link href="https://kailoon.com/posts/finally-settled-with-11ty/"/>
+		<updated>2021-02-15T01:55:10Z</updated>
+		<id>https://kailoon.com/posts/finally-settled-with-11ty/</id>
+		<content type="html">&lt;div class=&quot;col-start-2 col-end-10&quot;&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;/div&gt;
+</content>
+	</entry>
+</feed>

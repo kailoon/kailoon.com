@@ -1,0 +1,19 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "",
+  "home_page_url": "https://kailoon.com/",
+  "feed_url": "https://kailoon.com/feed/feed.json",
+  "description": "",
+  "author": {
+    "name": "kailoon",
+    "url": "https://kailoon.com/"
+  },
+  "items": [{
+      "id": "https://kailoon.com/posts/finally-settled-with-11ty/",
+      "url": "https://kailoon.com/posts/finally-settled-with-11ty/",
+      "title": "Finally Settled With 11ty",
+      "content_html": "<div class=\"col-start-2 col-end-10\">\n<h3>Background</h3>\n</div>\n",
+      "date_published": "2021-02-15T01:55:10Z"
+    }
+  ]
+}

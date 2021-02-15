@@ -9,7 +9,7 @@
 	},
 	"jsonfeed": {
 		"path": "/feed/feed.json",
-		"url": "https://example.com/feed/feed.json"
+		"url": "https://kailoon.com/feed/feed.json"
 	},
 	"author": {
 		"name": "kailoon",
