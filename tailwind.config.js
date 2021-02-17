@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+const plugin = require('tailwindcss/plugin')
 
 module.exports = {
 	purge: ['./src/**/*.njk', './src/**/*.md', './src/**/*.js', './.*.js'],
@@ -43,5 +44,26 @@ module.exports = {
 		backgroundColor: ['responsive', 'dark', 'hover', 'focus', 'active'],
 		extend: { space: ['last'] }
 	},
-	plugins: []
+	plugins: [
+		plugin(function ({ addUtilities }) {
+			const extendUnderline = {
+				'.underline-light': {
+					textDecoration: 'underline',
+					textDecorationColor: 'rgba(107, 33, 168, 0.2)',
+					'&:hover': {
+						textDecorationColor: 'rgba(107, 33, 168, 0.4)'
+					}
+				},
+				'.underline-dark': {
+					textDecoration: 'underline',
+					textDecorationColor: 'rgba(254,240,138,.2)',
+					'&:hover': {
+						textDecorationColor: 'rgba(254,240,138,0.4)'
+					}
+				}
+			}
+
+			addUtilities(extendUnderline, ['responsive', 'dark'])
+		})
+	]
 }

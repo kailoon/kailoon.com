@@ -4,15 +4,16 @@
     <p id="credit" class="p-5 lg:p-10 text-gray-500 dark:text-gray-400">{{ data.footerCreditLine1 }}<br>
       {{ data.footerCreditLine2 }}
       {% for item, url in data.builtTools %}
-        {% if loop.last %}& {% endif %}
-        <a href="{{ url }}" class="text-black hover:text-purple-800 dark:text-yellow-200 dark:hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">{{ item }}</a>{% if loop.last %}.{% else %}, {% endif %}
+        {%- if loop.first %} {% elif loop.last %} &{% else %},{% endif %}
+        <a href="{{ url }}" class="text-black hover:text-purple-800 dark:text-yellow-200 dark:hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">{{ item }}</a>
+        {%- if loop.last -%}. {%- endif -%}
       {% endfor %}
     </p>
 
     <p class="p-5 lg:p-10">
       <span class="inline-flex space-x-5 leading-tight">
         {% for item, url in metadata.socials %}
-          <a href="{{ url }}" target="_blank" rel="noreferrer" class="text-black hover:text-purple-800 dark:text-yellow-200 dark:hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">{{ item }}</a>
+          <a href="{{ url }}" target="_blank" rel="noreferrer" class="text-black hover:text-purple-800 dark:text-yellow-200 dark:hover:text-white" target="_blank" rel="noreferrer" title="follow me on social">{{ item }}</a>
         {% endfor %}
       </span>
     </p>

@@ -3,10 +3,10 @@
   <div class="max-w-screen-lg m-auto px-5 lg:px-10 md:relative">
     <div class="border-b border-gray-100 dark:border-gray-800 pb-20">
       {% if heroImg %}
-      {% respimg '5', title, style %}
+      {% respimg heroImg, title, style %}
       {% endif %}
     {% if page.url==='/'%}
-      {% respimg metadata.author.avatar, metadata.author.name, 'rounded-full w-16 h-16 mb-5' %}
+      <img src="{{metadata.author.avatar}}" class="rounded-full w-16 h-16 mb-5" alt="my avatar" />
     {% endif %}
       <div class="font-black tracking-tight leading-relaxed">
         <h1 class="text-3xl md:text-6xl font-black md:block md:mb-3 dark:text-white">{{ title }} </h1>

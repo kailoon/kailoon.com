@@ -17,9 +17,26 @@
 		<link href="https://kailoon.com/posts/finally-settled-with-11ty/"/>
 		<updated>2021-02-15T01:55:10Z</updated>
 		<id>https://kailoon.com/posts/finally-settled-with-11ty/</id>
-		<content type="html">&lt;div class=&quot;col-start-2 col-end-10&quot;&gt;
-&lt;h3&gt;Background&lt;/h3&gt;
+		<content type="html">&lt;div class=&quot;hidden md:flex col-start-1 col-end-4 text-sm flex-col space-y-1 w-full&quot;&gt;
+  &lt;span&gt;Table of content&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&quot;https://kailoon.com/posts/finally-settled-with-11ty/#what-changed?&quot;&gt;What Changed?&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&quot;https://kailoon.com/posts/finally-settled-with-11ty/&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&quot;https://kailoon.com/posts/finally-settled-with-11ty/&quot;&gt;Gatsby&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&quot;https://kailoon.com/posts/finally-settled-with-11ty/&quot;&gt;GoHugo&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&quot;https://kailoon.com/posts/finally-settled-with-11ty/&quot;&gt;Grav ( flat-file CMS )&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&quot;https://kailoon.com/posts/finally-settled-with-11ty/&quot;&gt;11ty&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&quot;https://kailoon.com/posts/finally-settled-with-11ty/&quot;&gt;Using 11ty &amp; TailwindCSS&lt;/a&gt;&lt;/span&gt;
+  &lt;span&gt;&lt;a href=&quot;https://kailoon.com/posts/finally-settled-with-11ty/&quot;&gt;Maintenance&lt;/a&gt;&lt;/span&gt;
 &lt;/div&gt;
+&lt;article class=&quot;col-start-4 col-end-12&quot;&gt;
+&lt;div class=&quot;font-serif italic text-2xl&quot;&gt;
+I have been using WordPress since 2008. It helps me kickstart this blog and start freelancing as a WordPress designer + developer, which, earned me a long-term contract from ThemeForest, Envato.
+&lt;/div&gt;
+&lt;h3 id=&quot;what-changed%3F&quot;&gt;What Changed? &lt;a class=&quot;direct-link&quot; href=&quot;https://kailoon.com/posts/finally-settled-with-11ty/#what-changed%3F&quot; aria-label=&quot;permalink to what-changed%3F&quot; title=&quot;Anchor link for easy sharing.&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The web development landscape changed a lot in recent years. Developers moved to modern web development stack and become more specialized. There are now front-end, backend and full-stack web development stacks. I believe, front-end web development became the automatic choice for most developers with designer background.&lt;/p&gt;
+&lt;p&gt;Other than that, WordPress evolved from a simple blogging platform to a &lt;a href=&quot;https://fullsiteediting.com/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;full-site-editing CMS&lt;/a&gt; (soon).&lt;/p&gt;
+&lt;h4 id=&quot;testing-heading-4&quot;&gt;Testing Heading 4 &lt;a class=&quot;direct-link&quot; href=&quot;https://kailoon.com/posts/finally-settled-with-11ty/#testing-heading-4&quot; aria-label=&quot;permalink to testing-heading-4&quot; title=&quot;Anchor link for easy sharing.&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;/article&gt;
 </content>
 	</entry>
 </feed>

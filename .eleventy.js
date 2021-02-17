@@ -5,6 +5,7 @@ const markdownIt = require('markdown-it')
 const markdownitlinkatt = require('markdown-it-link-attributes')
 const pluginRss = require('@11ty/eleventy-plugin-rss')
 const pluginSyntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
+const markdownItAnchor = require('markdown-it-anchor')
 
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('./src/css/styles.css')
@@ -55,9 +56,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.srcsetWidths = [
 		{ w: 400, v: 400 },
 		{ w: 600, v: 600 },
-		{ w: 800, v: 800 },
-		{ w: 1200, v: 1200 },
-		{ w: 1440, v: 1440 }
+		{ w: 800, v: 800 }
 	]
 	eleventyConfig.format = 'webp'
 	eleventyConfig.fallbackWidth = 800
@@ -66,13 +65,23 @@ module.exports = function (eleventyConfig) {
 	let markdownLibrary = markdownIt({
 		html: true,
 		breaks: true
-	}).use(markdownitlinkatt, {
-		pattern: /^(?!(https:\/\/kailoon\.com|#)).*$/gm,
-		attrs: {
-			target: '_blank',
-			rel: 'noreferrer'
-		}
 	})
+		.use(markdownitlinkatt, {
+			pattern: /^(?!(https:\/\/kailoon\.com|#)).*$/gm,
+			attrs: {
+				target: '_blank',
+				rel: 'noreferrer'
+			}
+		})
+		.use(markdownItAnchor, {
+			permalink: true,
+			permalinkClass: 'direct-link',
+			permalinkSymbol: '#',
+			permalinkAttrs: (slug, state) => ({
+				'aria-label': `permalink to ${slug}`,
+				title: 'Anchor link for easy sharing.'
+			})
+		})
 	eleventyConfig.setLibrary('md', markdownLibrary)
 
 	eleventyConfig.addFilter('readableDate', (dateObj) => {
