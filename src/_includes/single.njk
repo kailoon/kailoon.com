@@ -7,7 +7,7 @@ layout: base.njk
     {# this is only for posts #}
       {% if tags %}
         {%- if 'posts' in tags -%}
-        <div class="col-span-full text-sm border-b border-gray-100 dark:border-gray-800 pb-5 md:-mt-5 md:-mr-5 mb-10 md:mb-0">
+        <div class="col-span-full text-sm border-b border-gray-100 dark:border-gray-800 pb-5 md:-mt-5 mb-10 md:mb-0">
           <span>Published on <time datetime="{{ page.date | htmlDateString }}" class="font-serif text-gray-600 dark:text-gray-200">{{ page.date | readableDate }}</time></span>
           <span>in
             {% for tag in tags %}

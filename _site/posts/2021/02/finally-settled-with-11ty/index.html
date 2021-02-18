@@ -141,34 +141,48 @@
   <div class="post text-lg leading-relaxed text-gray-700 dark:text-gray-200 md:grid md:gap-5 md:grid-cols-10 md:items-start">
     <div class="col-span-full"></div>
     
-      <div class="col-span-full text-sm border-b border-gray-100 dark:border-gray-800 pb-5 md:-mt-5 md:-mr-5 mb-10 md:mb-0">
-          <span>Published on <time datetime="2021-02-15" class="font-serif text-gray-600 dark:text-gray-200">15 Feb 2021</time></span>
+      <div class="col-span-full text-sm border-b border-gray-100 dark:border-gray-800 pb-5 md:-mt-5 mb-10 md:mb-0">
+          <span>Published on <time datetime="2021-02-18" class="font-serif text-gray-600 dark:text-gray-200">18 Feb 2021</time></span>
           <span>in
             
+                  <a href="/tags/SSG/" class="post-tag">SSG</a>,  
+                  <a href="/tags/WordPress/" class="post-tag">WordPress</a> & 
+                  <a href="/tags/Web Development/" class="post-tag">Web Development</a>. 
           </span>
         </div>
         
     
     
-    <div class="hidden md:flex col-start-1 col-end-4 text-sm flex-col space-y-1 w-full">
-  <span>Table of content</span>
-  <span><a href="#what-changed?">What Changed?</a></span>
-  <span><a href="">Static Site Generators</a></span>
-  <span><a href="">Gatsby</a></span>
-  <span><a href="">GoHugo</a></span>
-  <span><a href="">Grav ( flat-file CMS )</a></span>
-  <span><a href="">11ty</a></span>
-  <span><a href="">Using 11ty & TailwindCSS</a></span>
-  <span><a href="">Maintenance</a></span>
-</div>
-<article class="col-start-4 col-end-12">
-<div class="font-serif italic text-2xl">
+    <header class="lg:px-32 text-center font-serif italic text-2xl md:text-3xl leading-normal col-span-full p-10 mb-10">
 I have been using WordPress since 2008. It helps me kickstart this blog and start freelancing as a WordPress designer + developer, which, earned me a long-term contract from ThemeForest, Envato.
-</div>
+</header>
+<article class="col-start-3 col-end-9">
+<h3 id="background">Background <a class="direct-link" href="#background" aria-label="permalink to background" title="Anchor link for easy sharing.">#</a></h3>
+<p>I have been using WordPress since 2008. It helps me kickstart this blog and start freelancing as a WordPress designer + developer, which, earned me a long-term contract from ThemeForest, Envato.</p>
 <h3 id="what-changed%3F">What Changed? <a class="direct-link" href="#what-changed%3F" aria-label="permalink to what-changed%3F" title="Anchor link for easy sharing.">#</a></h3>
-<p>The web development landscape changed a lot in recent years. Developers moved to modern web development stack and become more specialized. There are now front-end, backend and full-stack web development stacks. I believe, front-end web development became the automatic choice for most developers with designer background.</p>
-<p>Other than that, WordPress evolved from a simple blogging platform to a <a href="https://fullsiteediting.com/" target="_blank" rel="noreferrer">full-site-editing CMS</a> (soon).</p>
-<h4 id="testing-heading-4">Testing Heading 4 <a class="direct-link" href="#testing-heading-4" aria-label="permalink to testing-heading-4" title="Anchor link for easy sharing.">#</a></h4>
+<p>The web development landscape changed a lot in recent years. Developers moved to modern web development (<a href="https://jamstack.org/" target="_blank" rel="noreferrer">JAMstack</a>) and become more specialised. There are now front-end, backend and full-stack web development stacks. I believe, front-end web development became the automatic choice for most developers with designer background.</p>
+<p>Other than that, WordPress evolved from a simple blogging platform to a <a href="https://fullsiteediting.com/" target="_blank" rel="noreferrer">full-site-editing CMS</a> (soon). We kinda see that coming. After years of reviewing on ThemeForest, the demands for a full fledge CMS from WordPress are increasing and page builder is gaining popularity since the introduction of <a href="https://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431" target="_blank" rel="noreferrer">WPBakery</a>.</p>
+<h3 id="static-site-generators">Static Site Generators <a class="direct-link" href="#static-site-generators" aria-label="permalink to static-site-generators" title="Anchor link for easy sharing.">#</a></h3>
+<p>I first encountered SSG back in 2017. I forgot the reason why I get into SSG but once I get started, I cannot stop. I tried <a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer">Gatsby</a> &amp; <a href="https://gohugo.io/" target="_blank" rel="noreferrer">Hugo</a> but 11ty became my favourite.</p>
+<p>What fascinate me is the fact that we are using basic HTML/CSS again for building websites. This might sound like a return to the old ways of making sites but there are some key differences:</p>
+<ul>
+<li>SSG has improved over the years. You can basically get a site running within minutes.</li>
+<li>Different templating languages to choose from. Choose the one you like and go nuts.</li>
+<li>Automation became mainstream.</li>
+<li>It is secured, easy to scale and the performance is insane. These are also my main reasons of using SSG.</li>
+</ul>
+<p><strong>SSG</strong> simply makes more sense for most company static websites with minimal interaction or less-frequent content update.</p>
+<h4 id="gatsby">Gatsby <a class="direct-link" href="#gatsby" aria-label="permalink to gatsby" title="Anchor link for easy sharing.">#</a></h4>
+<p><a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer">Gatsby</a> is my first attempt to the SSG world. Well, I have my personal reason behind this. WordPress started using <a href="https://reactjs.org/" target="_blank" rel="noreferrer">React</a> for <a href="https://wordpress.org/gutenberg/" target="_blank" rel="noreferrer">Gutenberg</a> and it's just a good timing to learn React. There is definitely a learning curve when dealing with Gatsby while learning ReactJS at the same time. However, the performance of Gatsby is no doubt one of the best.</p>
+<p>I found this article by <a href="https://brycewray.com/posts/2019/07/why-staying-with-hugo" target="_blank" rel="noreferrer">Bryce Wray</a> who has the similar struggle or experience with Gatsby. The plugins dependencies and those errors / warnings in the CLI are driving me crazy. There is this <em>uncertainty</em> playing in head every time I install / run a build. Further, I find it is an overkilled to use Gatsby for personal blog.</p>
+<h4 id="hugo">Hugo <a class="direct-link" href="#hugo" aria-label="permalink to hugo" title="Anchor link for easy sharing.">#</a></h4>
+<p>The thing about <a href="https://gohugo.io/" target="_blank" rel="noreferrer">Hugo</a> is that it feels lightweight, I was intrigued by the reported build speed. Site as big as <a href="https://www.smashingmagazine.com/2019/05/switch-wordpress-hugo/" target="_blank" rel="noreferrer">SmashingMagazine</a> is build on Hugo, this won't go wrong. So I dive in, having fun building my personal site 2.0 on Hugo using Go's html/template which based on <a href="https://golang.org/" target="_blank" rel="noreferrer">Golang</a>. I'd recommend Hugo to anyone who would like to try SSG, I may still try it for a few small projects in the future.</p>
+<p>The <a href="https://gohugo.io/content-management/archetypes/" target="_blank" rel="noreferrer">Archetypes</a> feature is really handy and I really hope I can do the same with 11ty.</p>
+<h4 id="11ty">11ty <a class="direct-link" href="#11ty" aria-label="permalink to 11ty" title="Anchor link for easy sharing.">#</a></h4>
+<p><a href="https://www.11ty.dev/" target="_blank" rel="noreferrer">Eleventy</a> is fairly new, if comparing to Gatsby and Hugo. It supports plugins and you can write it in multiple template languages, you can pick one or use them all together!</p>
+<p>Eleventy seems to have all the features I wanted ( no archetypes tho ), fast fast-enough build speed, easy-to-use collections to group content. Further, I can add shortcodes easily for easy content management. The folder system is simple, dummy proof.</p>
+<figure class="mb-10 md:-mx-10"><img class="rounded" loading="lazy" src="https://res.cloudinary.com/kailoon/image/upload/q_auto,f_auto,w_800/Screenshot_on_2021-02-14_at_19-06-24.webp" srcset="https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_400/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.webp 400w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_600/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.webp 600w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_800/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.webp 800w" alt="google lighthouse score 400" width="400" height="300"><figcaption class="text-center text-sm mt-3 text-gray-600 dark:text-gray-200">The magic 400 on Google Lighthouse.</figcaption></figure>
+<p>This site is built with <a href="https://github.com/kailoon/kailoon.com" target="_blank" rel="noreferrer">11ty &amp; TailwindCSS</a>. It scores the magic 400 on Google Lighthouse.</p>
 </article>
 
   </div>
@@ -196,7 +210,7 @@ I have been using WordPress since 2008. It helps me kickstart this blog and star
 <footer id="footer" class="border-t border-gray-100 dark:border-gray-800">
   <div class="max-w-screen-lg m-auto sm:flex sm:justify-between sm:items-end text-sm pb-16 md:pb-0">
     <p id="credit" class="p-5 lg:p-10 text-gray-500 dark:text-gray-400">2021 © kailoon.<br>
-      This sit was designed in 
+      This site was designed in 
        
         <a href="https://www.figma.com/" class="text-black hover:text-purple-800 dark:text-yellow-200 dark:hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">figma</a>,
         <a href="https://www.11ty.dev/" class="text-black hover:text-purple-800 dark:text-yellow-200 dark:hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">11ty</a>,

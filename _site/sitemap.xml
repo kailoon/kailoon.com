@@ -42,11 +42,6 @@
   </url>
 
   <url>
-    <loc>https://kailoon.com/posts/finally-settled-with-11ty/</loc>
-    <lastmod>2021-02-15</lastmod>
-  </url>
-
-  <url>
     <loc>https://kailoon.com/tags/all/</loc>
     <lastmod>2021-02-15</lastmod>
   </url>
@@ -74,5 +69,10 @@
   <url>
     <loc>https://kailoon.com/tags/</loc>
     <lastmod>2021-02-15</lastmod>
+  </url>
+
+  <url>
+    <loc>https://kailoon.com/posts/2021/02/finally-settled-with-11ty/</loc>
+    <lastmod>2021-02-18</lastmod>
   </url>
 </urlset>
