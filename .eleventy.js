@@ -28,7 +28,7 @@ module.exports = function (eleventyConfig) {
 			})
 			.join(', ')
 
-		return `<img class="rounded ${
+		return `<img class="${
 			style ? style : ''
 		}" loading="lazy" src="${src}" srcset="${srcset}" alt="${
 			alt ? alt : ''
@@ -44,7 +44,7 @@ module.exports = function (eleventyConfig) {
 			})
 			.join(', ')
 
-		return `<figure class="mb-10 md:-mx-10"><img class="rounded" loading="lazy" src="${src}" srcset="${srcset}" alt="${
+		return `<figure class="mb-10"><img loading="lazy" src="${src}" srcset="${srcset}" alt="${
 			alt ? alt : ''
 		}" width="400" height="300"><figcaption class="text-center text-sm mt-3 text-gray-600 dark:text-gray-200">${
 			caption ? caption : ''
@@ -75,7 +75,7 @@ module.exports = function (eleventyConfig) {
 		})
 		.use(markdownItAnchor, {
 			permalink: true,
-			permalinkClass: 'direct-link',
+			permalinkClass: 'direct-link text-gray-400 dark:text-gray-600',
 			permalinkSymbol: '#',
 			permalinkAttrs: (slug, state) => ({
 				'aria-label': `permalink to ${slug}`,

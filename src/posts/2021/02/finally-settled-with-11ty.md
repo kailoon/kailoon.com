@@ -1,26 +1,17 @@
 ---
-layout: single.njk
 templateEngineOverride: njk,md
-metaTitle: 99.co
+metaTitle: Finally Settled With 11ty
 metaDescription: Move from WordPress to Static Sites Generators — 11ty, and others.
 title: Finally Settled With 11ty
-description: From WordPress to Static Sites Generators
-featuredImg:
+featuredImg: wp-11ty
+subHeading: I have been using WordPress since 2008. It helps me kickstart this blog and start freelancing as a WordPress designer + developer, which, earned me a long-term contract from ThemeForest, Envato.
 tags: ['SSG', 'WordPress', 'Web Development']
 date: 2021-02-18
 updated:
 published: true
 ---
 
-<header class="lg:px-32 text-center font-serif italic text-2xl md:text-3xl leading-normal col-span-full p-10 mb-10">
-I have been using WordPress since 2008. It helps me kickstart this blog and start freelancing as a WordPress designer + developer, which, earned me a long-term contract from ThemeForest, Envato.
-</header>
-
-<article class="col-start-3 col-end-9">
-
-### Background
-
-I have been using WordPress since 2008. It helps me kickstart this blog and start freelancing as a WordPress designer + developer, which, earned me a long-term contract from ThemeForest, Envato.
+<article class="col-start-3 col-end-10">
 
 ### What Changed?
 

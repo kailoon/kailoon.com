@@ -13,8 +13,8 @@ pagination:
   <ol id="tagcloud" class="col-start-1 col-end-4 pb-10 md:pb-0">
     {% for tag in collections.tagList %}
       {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-      <li class="py-1 inline md:block mr-2 md:mr-0">
-      <a href="{{ tagUrl | url }}" class="text-purple-800 dark:text-green-300 dark:hover:text-green-400 font-semibold"><span class="text-gray-400 dark:text-gray-600 font-bold">#</span>{{ tag }}</a>
+      <li class="py-1 inline md:block mr-2 md:mr-0 text-sm">
+      <a href="{{ tagUrl | url }}" class="text-gray-600 hover:text-gray-800 dark:text-green-300 dark:hover:text-green-400 font-semibold"><span class="text-gray-300 dark:text-gray-600 font-bold">#</span>{{ tag }}</a>
       </li>
     {% endfor %}
   </ol>

@@ -4,29 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ metaTitle }} — {{ metaDescription }}</title>
-  <meta name="title" content="{{ metaTitle }} — {{ metaDescription }}">
-  <meta name="description" content="{{ metaDescription }}">
+  <title>{{ metaTitle | safe }} — {{ metaDescription | safe }}</title>
+  <meta name="title" content="{{ metaTitle | safe }} — {{ metaDescription | safe }}">
+  <meta name="description" content="{{ metaDescription | safe }}">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://kailoon.com/">
-  <meta property="og:title" content="kailoon — Freelance Front-End Web UI/UX Developer - Malaysia">
-  <meta property="og:description" content="I am a freelance front-end designer & developer based in Malaysia. You might remember me as kailoon the reviewer from ThemeForest.">
+  <meta property="og:url" content="{{ page.url | url }}">
+  <meta property="og:title" content="{{ metaTitle | safe }}">
+  <meta property="og:description" content="{{ metaDescription | safe }}">
+  {%- if featuredImg %}
+  <meta property="og:image" content="https://res.cloudinary.com/kailoon/image/upload/v1612884943/kailoon.com/{{featuredImg}}.png">
+  {%- else -%}
   <meta property="og:image" content="https://res.cloudinary.com/kailoon/image/upload/v1612884943/kailoon.com/index.png">
+  {%- endif %}
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://kailoon.com/">
-  <meta property="twitter:title" content="kailoon — Freelance Front-End Web UI/UX Developer - Malaysia">
-  <meta property="twitter:description" content="I am a freelance front-end designer & developer based in Malaysia. You might remember me as kailoon the reviewer from ThemeForest.">
+  <meta property="twitter:url" content="{{ page.url | url }}">
+  <meta property="twitter:title" content="{{ metaTitle | safe }}">
+  <meta property="twitter:description" content="{{ metaDescription | safe }}">
+  {%- if featuredImg %}
+  <meta property="twitter:image" content="https://res.cloudinary.com/kailoon/image/upload/v1612884943/kailoon.com/{{featuredImg}}.png">
+  {%- else -%}
   <meta property="twitter:image" content="https://res.cloudinary.com/kailoon/image/upload/v1612884943/kailoon.com/index.png">
+  {%- endif %}
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,400;1,600&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,500;1,400;1,500&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
     <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,400;1,600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,500;1,400;1,500&display=swap"
         rel="stylesheet"
         type="text/css"
     />

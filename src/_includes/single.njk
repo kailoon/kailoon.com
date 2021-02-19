@@ -2,19 +2,19 @@
 layout: base.njk
 ---
 <section class="max-w-screen-lg mx-auto px-5 lg:px-10 pb-20 pt-5">
-  <div class="post text-lg leading-relaxed text-gray-700 dark:text-gray-200 md:grid md:gap-5 md:grid-cols-10 md:items-start">
+  <div class="post text-lg text-gray-700 dark:text-gray-200 md:grid md:gap-5 md:grid-cols-10 md:items-start">
     <div class="col-span-full"></div>
     {# this is only for posts #}
       {% if tags %}
         {%- if 'posts' in tags -%}
-        <div class="col-span-full text-sm border-b border-gray-100 dark:border-gray-800 pb-5 md:-mt-5 mb-10 md:mb-0">
+        <div class="col-start-1 col-end-3 text-sm pb-5">
           <span>Published on <time datetime="{{ page.date | htmlDateString }}" class="font-serif text-gray-600 dark:text-gray-200">{{ page.date | readableDate }}</time></span>
           <span>in
             {% for tag in tags %}
 
               {%- if collections.tagList.indexOf(tag) != -1 -%}
                 {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+                  <a href="{{ tagUrl | url }}" class="text-purple-800 hover:underline active:bg-yellow-200 dark:text-yellow-200 dark:active:bg-yellow-900">{{ tag }}</a>
                 {%- if loop.last %}. {% endif -%}
                 {% if loop.length - loop.index == 1 %} & {% endif %}
                 {%- if loop.length - loop.index > 1 %},  {% endif -%}
@@ -25,9 +25,26 @@ layout: base.njk
         </div>
         {% endif %}
     {% endif %}
+
     {% if tasks %}
       {% include 'partials/_workdetails.njk' %}
     {% endif %}
+
+    {% if tags %}
+    {% if 'posts' in tags %}
+      {% if featuredImg %}
+        <picture class="block md:col-start-3 md:col-end-12 w-full mb-5">
+          <img
+            loading="lazy"
+            alt="{{ post.data.title }}"
+            src="https://res.cloudinary.com/kailoon/image/upload/v1613700746/kailoon.com/{{feturedImg}}.webp"
+            srcset="https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_760/v1613700746/kailoon.com/{{featuredImg}}.webp 768w"
+          />
+        </picture>
+      {% endif %}
+    {% endif %}
+    {% endif %}
+
     {{ content | safe }}
   </div>
     {% if dribbble %}

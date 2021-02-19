@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 1
 ---
 
-<div class="col-start-2 col-end-10">
+<div class="col-start-1 col-end-8">
 
 ### About kailoon
 

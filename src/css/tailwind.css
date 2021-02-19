@@ -19,13 +19,8 @@ h6 {
 	@apply text-black font-semibold dark:text-white;
 }
 
-.post a,
-.post strong a {
-	@apply dark:text-yellow-200 text-purple-800 underline-light hover:text-purple-900 active:bg-yellow-200 transition-colors dark:underline-dark dark:hover:text-yellow-400;
-}
-
-.post a.direct-link {
-	@apply no-underline text-green-300;
+.post a:not(.direct-link) {
+	@apply text-purple-800 font-medium underline hover:text-purple-900 active:bg-yellow-200 dark:text-yellow-200 dark:hover:text-yellow-400;
 }
 
 .post h3,
@@ -51,12 +46,12 @@ article > h3:first-child {
 
 .post ul,
 .post ol {
-	@apply m-5 p-5;
+	@apply m-5 py-5 pl-5;
 }
 
 .post ul li,
 .post ol li {
-	@apply mb-5;
+	@apply mb-3;
 }
 
 .post ul {
