@@ -21,7 +21,7 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addShortcode('respimg', (path, alt, style) => {
 		const fetchBase = `https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/image/upload/`
-		const src = `${fetchBase}q_auto,f_auto,w_${eleventyConfig.fallbackWidth}/${path}.${eleventyConfig.format}`
+		const src = `${fetchBase}q_auto,f_auto,w_400/${path}.${eleventyConfig.format}`
 		const srcset = eleventyConfig.srcsetWidths
 			.map(({ w, v }) => {
 				return `${fetchBase}dpr_auto,q_auto,w_${w}/kailoon.com/${path}.${eleventyConfig.format} ${v}w`
@@ -32,12 +32,12 @@ module.exports = function (eleventyConfig) {
 			style ? style : ''
 		}" loading="lazy" src="${src}" srcset="${srcset}" alt="${
 			alt ? alt : ''
-		}" width="400" height="300">`
+		}" width="400" height="300" sizes="100vw">`
 	})
 
 	eleventyConfig.addShortcode('figure', (path, alt, caption) => {
 		const fetchBase = `https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/image/upload/`
-		const src = `${fetchBase}q_auto,f_auto,w_${eleventyConfig.fallbackWidth}/${path}.${eleventyConfig.format}`
+		const src = `${fetchBase}q_auto,f_auto,w_400/${path}.${eleventyConfig.format}`
 		const srcset = eleventyConfig.srcsetWidths
 			.map(({ w, v }) => {
 				return `${fetchBase}dpr_auto,q_auto,w_${w}/kailoon.com/${path}.${eleventyConfig.format} ${v}w`
@@ -56,7 +56,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.srcsetWidths = [
 		{ w: 400, v: 400 },
 		{ w: 600, v: 600 },
-		{ w: 800, v: 800 }
+		{ w: 768, v: 768 },
+		{ w: 820, v: 820 },
+		{ w: 1240, v: 1240 }
 	]
 	eleventyConfig.format = 'webp'
 	eleventyConfig.fallbackWidth = 800

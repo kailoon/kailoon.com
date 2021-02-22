@@ -1,19 +1,35 @@
-<section id="works" class="mb-20">
-  <div class=" px-5 lg:px-10 max-w-screen-xl lg:mx-auto">
-    <div class="py-10 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-flow-row-dense">
+<section id="works">
+  <div class="px-5 max-w-screen-xl lg:mx-auto">
+    <div class="py-10 grid gap-10 grid-cols-1 md:grid-cols-3 grid-flow-row-dense border-t-4 border-gray-200 dark:border-gray-800">
 
-      <div class="xl:mx-32 sm:col-span-2 md:col-span-3 md:mb-5 sm:w-4/6">
-        <h3 class="text-gray-600 text-xs uppercase tracking-widest mb-5 dark:text-gray-400">{{ data.featuredWorkTitle }}</h3>
-        <span class="font-medium text-xl block mb-5">
+      <div class="md:col-span-3 md:mb-5">
+        <h3 class="text-rose-700 mb-10 text-xs font-medium uppercase dark:text-gray-400">{{ data.featuredWorkTitle }}</h3>
+        <span class="font-medium block mb-5 md:w-2/3">
         {{ data.featuredWorkDescription }}
         </span>
-        <a href="/works/" title="view more" class="text-purple-800 dark:text-yellow-200 border-b border-purple-200 dark:border-gray-700 dark:hover:text-yellow-400 dark:hover:border-gray-600">{{ data.browseFullPortfolio }}</a>
+        <a
+        href="/works/"
+          title="view more"
+          class="inline-block underline text-gray-800 hover:no-underline dark:text-yellow-200"
+        >
+        {{ data.browseFullPortfolio }}
+        </a>
       </div>
 
       {% for item in collections.works %}
         {% if item.data.featured %}
-          <a href="{{item.url}}" title="view {{item.data.title}}" class="{% if item.data.span %}sm:col-span-2 sm:row-span-2{% endif%} post">
-            {% respimg item.data.featuredImg, item.data.title, item.data.bgColor %}
+          {# <a href="{{item.url}}" title="view {{item.data.title}}" class="{% if item.data.span %}md:col-span-2 md:row-span-2{% endif%} post"> #}
+
+          <a href="{{item.url}}" title="view {{item.data.title}}" class="post bg-gray-800 relative md:transform md:hover:-translate-y-2 md:transition-transform">
+            <article style="height:500px;background-color: #{{item.data.bgColor}}">
+            <header class="p-5 lg:p-10">
+              <span class="text-black text-xl font-medium block">{{ item.data.title }}</span>
+              <span class="text-gray-600 text-base font-normal">{{ item.data.tasks }}</span>
+            </header>
+            <figure class="absolute bottom-0">
+            {% respimg item.data.featuredImg, item.data.title %}
+            </figure>
+            </article>
           </a>
         {% endif %}
       {% endfor %}

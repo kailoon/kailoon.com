@@ -1,8 +1,7 @@
 <!-- footer start -->
 <footer id="footer" class="border-t border-gray-200 dark:border-gray-800">
-  <div class="max-w-screen-lg m-auto sm:flex sm:justify-between sm:items-end text-sm pb-16 md:pb-0">
-    <p id="credit" class="p-5 lg:p-10 text-gray-500 dark:text-gray-400">{{ data.footerCreditLine1 }}<br>
-      {{ data.footerCreditLine2 }}
+  <div class="max-w-screen-xl m-auto sm:flex sm:justify-between sm:items-center text-sm pb-16 md:pb-0">
+    <p id="credit" class="p-5 text-gray-500 dark:text-gray-400">{{ data.footerCreditLine1 }} {{ data.footerCreditLine2 }}
       {% for item, url in data.builtTools %}
         {%- if loop.first %} {% elif loop.last %} &{% else %},{% endif %}
         <a href="{{ url }}" class="text-black hover:text-purple-800 dark:text-yellow-200 dark:hover:text-white" target="_blank" rel="noreferrer" title="follow me on social media" class="shadow md:transition-colors sm:hover:text-purple-800 md:hover:shadow-md">{{ item }}</a>
@@ -10,7 +9,7 @@
       {% endfor %}
     </p>
 
-    <p class="p-5 lg:p-10">
+    <p class="p-5">
       <span class="inline-flex space-x-5 leading-tight">
         {% for item, url in metadata.socials %}
           <a href="{{ url }}" target="_blank" rel="noreferrer" class="text-black hover:text-purple-800 dark:text-yellow-200 dark:hover:text-white" target="_blank" rel="noreferrer" title="follow me on social">{{ item }}</a>
@@ -20,13 +19,13 @@
 
     <!-- sticky footer for mobile -->
     <div id="sticky-footer"
-      class="md:hidden text-base w-full px-5 flex justify-between items-center fixed bottom-0 bg-purple-50 text-purple-800 md:relative dark:bg-purple-900 dark:text-purple-200">
+      class="md:hidden text-base w-full px-5 flex justify-between items-center fixed bottom-0 bg-black md:relative dark:bg-purple-900">
       {% set navPages = collections.all | eleventyNavigation %}
         {%- for entry in navPages %}
           <a
           href="{{ entry.url | url }}"
-          class="text-purple-800 py-4 dark:text-purple-300
-          {% if entry.url == page.url %} dark:text-white {% endif %}
+          class="text-gray-300 py-4 dark:text-purple-300
+          {% if entry.url == page.url %} text-white dark:text-white {% endif %}
           "
           >{{ entry.title }}</a>
       {%- endfor %}
@@ -35,7 +34,7 @@
           title="get in touch"
           target="_blank"
           rel="noreferrer"
-          class="text-purple-800 py-4 dark:text-purple-300"
+          class="text-gray-300 py-4 dark:text-purple-300"
         >Contact
         </a>
     </div>

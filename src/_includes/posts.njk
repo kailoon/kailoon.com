@@ -9,7 +9,11 @@ pagination:
     - posts
 ---
 
-<div class="px-5 py-10 lg:px-10 lg:py-16 clear-both max-w-screen-lg mx-auto md:grid md:grid-cols-12 md:gap-5 md:items-start">
+{%- block singleTop-%}
+  {%- include './partials/_singletop.njk' -%}
+{%- endblock singleTop-%}
+
+<div class="px-5 py-10 clear-both max-w-screen-xl mx-auto md:grid md:grid-cols-12 md:gap-5 md:items-start">
   <ol id="tagcloud" class="col-start-1 col-end-4 pb-10 md:pb-0">
     {% for tag in collections.tagList %}
       {% set tagUrl %}/tags/{{ tag }}/{% endset %}

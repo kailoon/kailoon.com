@@ -3,6 +3,7 @@ templateEngineOverride: njk,md
 metaTitle: Finally Settled With 11ty
 metaDescription: Move from WordPress to Static Sites Generators — 11ty, and others.
 title: Finally Settled With 11ty
+description: Move from WordPress to Static Sites Generators — 11ty, and others.
 featuredImg: wp-11ty
 subHeading: I have been using WordPress since 2008. It helps me kickstart this blog and start freelancing as a WordPress designer + developer, which, earned me a long-term contract from ThemeForest, Envato.
 tags: ['SSG', 'WordPress', 'Web Development']
@@ -11,7 +12,7 @@ updated:
 published: true
 ---
 
-<article class="col-start-3 col-end-10">
+<div class="col-start-3 col-end-9">
 
 ### What Changed?
 
@@ -50,8 +51,12 @@ The [Archetypes](https://gohugo.io/content-management/archetypes/) feature is re
 
 Eleventy seems to have all the features I wanted ( no archetypes tho ), fast fast-enough build speed, easy-to-use collections to group content. Further, I can add shortcodes easily for easy content management. The folder system is simple, dummy proof.
 
+</div>
+<div class="col-start-2 col-end-10">
 {% figure 'Screenshot_on_2021-02-14_at_19-06-24', 'google lighthouse score 400', 'The magic 400 on Google Lighthouse.' %}
 
+</div>
+<div class="col-start-3 col-end-9">
 This site is built with [11ty & TailwindCSS](https://github.com/kailoon/kailoon.com). It scores the magic 400 on Google Lighthouse.
 
-</article>
+</div>

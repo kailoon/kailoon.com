@@ -2,9 +2,20 @@
   {% for post in postslist %}
     {% if post.data.published %}
     <li class="py-20 border-t border-gray-200 dark:border-gray-800 md:border-b md:border-t-0 md:pt-0 md:pb-10 md:mb-10">
-      <article class="md:grid md:grid-cols-6 md:gap-5">
-        <div class="md:col-start-1 md:col-end-5">
-          <h3 class="">
+      <article class="md:grid md:grid-cols-6 md:gap-10">
+        {% if post.data.featuredImg %}
+          <picture class="hidden md:block md:col-start-1 md:col-end-3 w-full">
+            <img
+              loading="lazy"
+              alt="{{ post.data.title }}"
+              src="https://res.cloudinary.com/kailoon/image/upload/v1613700746/kailoon.com/{{post.data.featuredImg}}.webp"
+              srcset="https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_295/v1613700746/kailoon.com/{{post.data.featuredImg}}.webp 768w"
+            />
+          </picture>
+
+        {% endif %}
+        <div class="md:col-start-3 md:col-end-7">
+          <h3>
             <a
               href="{{ post.url | url }}"
               title="read {{ post.data.title }}"
@@ -14,20 +25,9 @@
             </a>
           </h3>
 
-          <span class="text-gray-800 dark:text-gray-300 font-serif text-xl italic"> {{ post.data.subHeading }}</span>
-          <time datetime="{{ post.date | htmlDateString }}" class="font-serif whitespace-nowrap text-gray-600 dark:text-gray-300 italic">&mdash; {{ post.date | readableDate }}</time>
+          <span class="text-gray-800 dark:text-gray-300 font-serif text-xl"> {{ post.data.subHeading }}</span>
+          <time datetime="{{ post.date | htmlDateString }}" class="font-serif whitespace-nowrap text-gray-600 dark:text-orange-300 italic">&mdash; {{ post.date | readableDate }}</time>
         </div>
-        {% if post.data.featuredImg %}
-          <picture class="hidden md:block md:col-start-5 md:col-end-7 w-full">
-            <img
-              loading="lazy"
-              alt="{{ post.data.title }}"
-              src="https://res.cloudinary.com/kailoon/image/upload/v1613700746/kailoon.com/{{post.data.featuredImg}}.webp"
-              srcset="https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_221/v1613700746/kailoon.com/{{post.data.featuredImg}}.webp 768w"
-            />
-          </picture>
-
-        {% endif %}
       </article>
     </li>
     {% endif %}

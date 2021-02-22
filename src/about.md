@@ -11,11 +11,11 @@ eleventyNavigation:
   order: 1
 ---
 
-<div class="col-start-1 col-end-8">
+<div class="col-start-1 col-end-6">
 
-### About kailoon
+### Me
 
-I am a freelance front-end designer & developer based in Malaysia. You might remember me as kailoon the reviewer from ThemeForest. I have a bachelor degree in Multimedia & Technology, but everything I know of and on the web today is self-taught. I founded LoonDesign Studio and started providing creative design & web development services since 2008.
+I started my web related career in 2006. I have a bachelor degree in Multimedia & Technology, but everything I know of and on the web today is self-taught. I founded LoonDesign Studio and started providing creative design & web development services since 2008.
 
 I am more of a designer-developer hybrid, or a design-minded front-end developer or [front-end designers](https://bradfrost.com/blog/post/frontend-design/ 'visit site'). I do branding, logo design, graphic design and I also write HTML, CSS, and presentational JavaScript that powers web user interfaces with a focus on responsive design, semantic markup, accessibility, and performance.
 
@@ -28,6 +28,10 @@ I am more of a designer-developer hybrid, or a design-minded front-end developer
 - **Optimised for performance** because page speed is google ranking factor.
 
 I work remotely from my home office in Malaysia.
+
+</div>
+
+<div class="col-start-7 col-end-12">
 
 ### Now
 

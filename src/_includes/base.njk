@@ -31,10 +31,10 @@
   {%- endif %}
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,500;1,400;1,500&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
     <link
-        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,500;1,400;1,500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
         rel="stylesheet"
         type="text/css"
     />
@@ -69,7 +69,8 @@
   </script>
 </head>
 
-<body class="h-full text-black antialiased dark:bg-gray-900 dark:text-gray-200">
+<body
+class="h-full text-black antialiased bg-gray-50 dark:bg-black dark:text-gray-200 bg-no-repeat bg-top bg-contain">
   <!-- skip to content -->
   <a href="#content" class="w-full block text-center bg-gray-100 sr-only focus:not-sr-only">
     Skip to Content
@@ -79,9 +80,11 @@
   {% include "./partials/_header.njk" %}
   {% endblock %}
 
-  {% block hero %}
-  {% include './partials/_hero.njk' %}
-  {% endblock hero %}
+  {% if page.url==='/'%}
+    {% block hero %}
+      {% include './partials/_hero.njk' %}
+    {% endblock hero %}
+  {% endif %}
 
   <main id="content" role="main">
     {{ content | safe }}
