@@ -9,7 +9,7 @@
         <path d="M13 39L0 52V13L13 0V39Z"/>
         </svg>
       </a>
-      <nav class="flex md:items-center opacity-0 md:opacity-100">
+      <nav class="hidden md:flex md:items-center py-1 h-11">
         {% set navPages = collections.all | eleventyNavigation %}
         <ul>
           {%- for entry in navPages %}
