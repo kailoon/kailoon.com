@@ -5,12 +5,12 @@
 			"description": "I focus on human-centric design (HCD) and practical design practice to achieve lasting solutions. It can be a digital products from scratch or upgrade existing one to cope with new demands / market."
 		},
 		{
-			"name": "Branding & Identity",
+			"name": "01. Branding & Identity",
 			"description": "A strong brand is important for your business especially startup or SME, to expand your digital reach and communicate with your customers.",
 			"tags": ["Style Exploration", "Visual Language", "Brand Guides"]
 		},
 		{
-			"name": "Web / App Design",
+			"name": "02. Web / App Design",
 			"description": "I use a structured design process for medium to large scaled projects. The process allow me to prototype complex ideas that can be easily transformed into fully functional solutions.",
 			"tags": [
 				"User Interfaces",
@@ -22,7 +22,7 @@
 			]
 		},
 		{
-			"name": "Web Development",
+			"name": "03. Web Development",
 			"description": "I always make sure the projects is developed with the latest technology and it is easy to use or maintained by the clients. Check out my <a href='https://github.com/kailoon/resume' target='_blank' rel='noreferrer'>skillset</a> & <a href='https://github.com/kailoon/certificates' target='_blank' rel='noreferrer'>certificates</a>.",
 			"tags": [
 				"Front-end Development",

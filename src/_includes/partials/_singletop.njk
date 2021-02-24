@@ -3,19 +3,25 @@
   {% if tags %}
     {% if 'works' in tags %}
     <div class="grid grid-cols-12 gap-5">
-      <div class="col-start-1 col-end-12 lg:col-end-6 py-10">
-        <h1 class="text-2xl md:text-3xl font-medium dark:text-white">{{ title }} </h1>
+      <div class="col-span-full lg:col-start-1 lg:col-end-10 pb-8 md:py-10">
+        <h1 class="text-4xl md:text-5xl md:leading-tight tracking-tighter font-bold text-gray-800 dark:text-white">{{ title }} </h1>
+        <P class="my-10 md:my-16 text-xl font-lg lg:w-2/3">{{ description }}</p>
+        <div class="text-sm flex flex-col space-y-10 md:space-y-0 md:flex-row md:justify-between md:items-center">
+        <p>
+          <span class="text-xs uppercase font-bold text-gray-600 dark:text-gray-400 tracking-widest block">Services</span>
+          <span class="text-2xl font-bold tracking-tighter text-gray-800 dark:text-gray-200">{{ tasks }}</span>
+        </p>
+        <p>
+          <span class="text-xs uppercase font-bold text-gray-600 dark:text-gray-400 tracking-widest block">Year</span>
+          <span class="text-2xl font-bold tracking-tighter text-gray-800 dark:text-gray-200">{{ year }}</span>
+        </p>
         {% if projectUrl %}
-          <a href="{{ projectUrl}}" title="{{ title }}" target="_blank" rel="noreferrer" class="text-sm dark:text-yellow-200 underline hover:no-underline text-gray-600">Visit project site</a>
+          <a href="{{ projectUrl}}" title="{{ title }}" target="_blank" rel="noreferrer" class="text-center text-sm tracking-widest uppercase font-bold py-4 px-10 bg-purple-100 text-purple-800 hover:bg-purple-800 hover:text-white rounded-full transition-colors dark:bg-yellow-200 dark:text-black dark:hover:bg-yellow-300 dark:hover:text-black">View Live</a>
         {% endif %}
-        <P class="mt-12 text-2xl font-normal font-serif">{{ description }}</p>
-        <div class="text-sm flex justify-between items-center pt-12">
-        <p>Services<br><strong class="text-base">{{ tasks }}</strong></p>
-        <p>Year<br><strong class="text-base">{{ year }}</strong></p>
         </div>
       </div>
 
-      <div class="col-span-full lg:col-start-7 lg:col-end-13">
+      <div class="col-span-full">
         {% if featuredImg %}
           {% respimg featuredImg, title, 'w-full' %}
         {% endif %}
@@ -24,26 +30,25 @@
     {% endif %}
 
     {% else %}
-    <div class="grid grid-cols-12 gap-5 border-b-4 dark:border-gray-800 pb-12 border-gray-200">
-      <div class="col-start-1 col-end-12 lg:col-end-10 pt-10">
-        <h1 class="text-2xl md:text-3xl font-medium dark:text-white">{{title}}</h1>
-        <P class="mt-2 text-2xl font-normal font-serif dark:text-gray-300">{{ description }}</p>
+    {# for single page #}
+    <div class="grid grid-cols-12 gap-5 mb-6">
+      <div class="col-start-1 col-end-12 lg:col-end-8 pt-10">
+        <h1 class="text-5xl md:text-5xl md:leading-tight tracking-tighter font-bold text-gray-800 dark:text-white">{{title}}</h1>
+        <P class="mt-6 text-lg font-normal dark:text-gray-300">{{ description }}</p>
       </div>
     </div>
   {% endif %}
+
     {# this is only for posts #}
-
-
-
   {% if tags %}
     {% if 'posts' in tags %}
-    <div class="md:grid grid-cols-10 gap-x-10 gap-y-5">
+    <div class="md:grid grid-cols-10 gap-x-10 gap-y-5 mt-12">
       <div class="col-span-full lg:col-start-3 lg:col-end-9">
-        <h1 class="text-4xl md:text-5xl font-medium tracking-tighter dark:text-white">{{title}}</h1>
-        <P class="mt-2 text-xl font-normal font-serif dark:text-gray-300">{{ description }}</p>
+        <h1 class="text-4xl md:text-5xl font-bold tracking-tighter dark:text-white">{{title}}</h1>
+        <P class="mt-6 text-xl font-xl dark:text-gray-300">{{ description }}</p>
       </div>
       {% if featuredImg %}
-          {% respimg featuredImg, title, 'col-span-full lg:col-start-2 lg:col-end-10 w-full mb-5' %}
+          {% respimg featuredImg, title, 'mt-6 col-span-full lg:col-start-2 lg:col-end-10 w-full mb-5' %}
       {% endif %}
       {% include './_postmeta.njk' %}
     </div>

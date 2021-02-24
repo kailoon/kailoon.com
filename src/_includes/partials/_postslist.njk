@@ -1,7 +1,7 @@
-<ol class="col-start-4 col-end-13">
+<ol class="col-start-1 col-end-9">
   {% for post in postslist %}
     {% if post.data.published %}
-    <li class="py-20 border-t border-gray-200 dark:border-gray-800 md:border-b md:border-t-0 md:pt-0 md:pb-10 md:mb-10">
+    <li class="py-20 border-t border-gray-200 dark:border-gray-800 md:pb-10 md:mb-10">
       <article class="md:grid md:grid-cols-6 md:gap-10">
         {% if post.data.featuredImg %}
           <picture class="hidden md:block md:col-start-1 md:col-end-3 w-full">
@@ -19,14 +19,13 @@
             <a
               href="{{ post.url | url }}"
               title="read {{ post.data.title }}"
-              class="font-semibold text-2xl hover:text-purple-800 hover:underline dark:text-yellow-200 dark:hover:text-yellow-400"
+              class="font-bold text-2xl md:text-3xl tracking-tighter hover:text-purple-800 dark:text-gray-200 dark:hover:text-yellow-200"
             >
               {% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}
             </a>
           </h3>
 
-          <span class="text-gray-800 dark:text-gray-300 font-serif text-xl"> {{ post.data.subHeading }}</span>
-          <time datetime="{{ post.date | htmlDateString }}" class="font-serif whitespace-nowrap text-gray-600 dark:text-orange-300 italic">&mdash; {{ post.date | readableDate }}</time>
+          <p class="pt-6 text-gray-800 dark:text-gray-300 text-lg"> {{ post.data.subHeading }} <time datetime="{{ post.date | htmlDateString }}" class="font-serif whitespace-nowrap text-gray-600 dark:text-gray-400 italic">&mdash; {{ post.date | readableDate }}</time></p>
         </div>
       </article>
     </li>

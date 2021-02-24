@@ -25,20 +25,16 @@ h6 {
 
 .post h3,
 .post h4 {
-	@apply font-semibold mb-2 text-black dark:text-white mt-14;
+	@apply font-bold text-3xl tracking-tighter mb-2 text-gray-800 dark:text-white mt-14;
 }
 
 .post h4 {
-	@apply text-xl;
+	@apply text-2xl tracking-tighter;
 }
 
 article > h3:first-child,
 div > h3:first-child {
 	@apply mt-0;
-}
-
-.post h3 {
-	@apply text-2xl;
 }
 
 .post img {

@@ -14,28 +14,28 @@ pagination:
 {%- endblock singleTop-%}
 
 <div class="px-5 py-10 clear-both max-w-screen-xl mx-auto md:grid md:grid-cols-12 md:gap-5 md:items-start">
-  <ol id="tagcloud" class="col-start-1 col-end-4 pb-10 md:pb-0">
-    {% for tag in collections.tagList %}
-      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-      <li class="py-1 inline md:block mr-2 md:mr-0 text-sm">
-      <a href="{{ tagUrl | url }}" class="text-gray-600 hover:text-gray-800 dark:text-green-300 dark:hover:text-green-400 font-semibold"><span class="text-gray-300 dark:text-gray-600 font-bold">#</span>{{ tag }}</a>
-      </li>
-    {% endfor %}
-  </ol>
-
   {% block postslists %}
     {% set postslist = pagination.items %}
     {% include './partials/_postslist.njk' %}
   {% endblock postslists %}
 
+  <ol id="tagcloud" class="col-start-10 col-end-13 pb-10 md:pb-0">
+    {% for tag in collections.tagList %}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <li class="py-1 inline md:block mr-2 md:mr-0 text-sm">
+      <a href="{{ tagUrl | url }}" class="tracking-tight text-xl text-gray-600 hover:text-gray-800 dark:text-green-300 dark:hover:text-green-400 font-bold"><span class="font-bold text-lg text-gray-300 dark:text-gray-600">#</span>{{ tag }}</a>
+      </li>
+    {% endfor %}
+  </ol>
+
   {% if collections.tagList.length > 0 %}
-  <div class="col-start-4 col-end-13 pt-5 mt-10">
-    <span class="py-2 text-gray-600 dark:text-white text-xs uppercase tracking-widest mr-5">Pages:</span>
+  <div class="col-span-full pt-5 mt-10 text-center">
+    <span class="py-2 text-gray-600 dark:text-gray-400 text-xs uppercase tracking-widest mr-5">Pages:</span>
     {% for pageKey in pagination.pages %}
       <a
         href="{{ pagination.hrefs[ loop.index0 ] }}"
         {% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}
-        class="transition-colors px-4 py-2 rounded-lg mr-2 hover:bg-gray-100 dark:hover:bg-yellow-100 dark:hover:text-yellow-800 text-sm inline-block{% if page.url == pagination.hrefs[ loop.index0 ] %} text-black dark:text-yellow-800 dark:bg-yellow-50 bg-gray-100 font-semibold{% else %} text-gray-600 dark:text-gray-300{% endif %}"
+        class="transition-colors px-4 py-2 rounded-lg mr-2 hover:bg-gray-100 dark:hover:bg-yellow-100 dark:hover:text-yellow-800 text-sm inline-block{% if page.url == pagination.hrefs[ loop.index0 ] %} text-black dark:text-gray-200 dark:bg-gray-900 bg-gray-100 font-semibold{% else %} text-gray-600 dark:text-gray-300{% endif %}"
       >
       {{ loop.index }}
       </a>

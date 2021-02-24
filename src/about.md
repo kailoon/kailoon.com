@@ -7,7 +7,7 @@ description: I am a freelance front-end designer & developer based in Malaysia.
 featuredImg:
 templateEngineOverride: njk,md
 eleventyNavigation:
-  key: About
+  key: about.
   order: 1
 ---
 

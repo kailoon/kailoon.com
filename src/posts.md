@@ -6,6 +6,6 @@ title: Writings
 description: Thoughts & things happened in my life.
 templateEngineOverride: njk,md
 eleventyNavigation:
-  key: Writings
+  key: writings.
   order: 3
 ---

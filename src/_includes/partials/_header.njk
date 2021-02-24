@@ -16,9 +16,8 @@
           <li class="inline-block mr-8">
             <a
             href="{{ entry.url | url }}"
-            class="text-black dark:text-gray-200 font-medium pb-3 border-b
-            {% if entry.url == page.url %} border-gray-900 dark:border-white dark:text-white{% else %} border-gray-50 dark:border-gray-900{% endif %}
-            hover:border-black"
+            class="font-bold transition-colors dark:hover:text-yellow-200 hover:text-black
+            {% if entry.url == page.url %} dark:text-yellow-200 text-black {% else %}dark:text-white text-gray-700 {% endif %}"
             >{{ entry.title }}</a>
           </li>
         {%- endfor %}
@@ -28,7 +27,7 @@
         title="get in touch"
         target="_blank"
         rel="noreferrer"
-        class="text-gray-800 dark:text-yellow-300 py-2 px-5 rounded-full font-medium border-2 border-gray-900 dark:border-yellow-100 border-opacity-20 transition-colors md:flex items-center hover:border-opacity-100"
+        class="text-gray-800 dark:text-yellow-300 py-2 px-5 rounded-full font-bold border-2 border-gray-900 dark:border-yellow-100 border-opacity-20 transition-colors md:flex items-center hover:border-opacity-100"
       ><span>Get in touch</span>
       </a>
       </nav>
