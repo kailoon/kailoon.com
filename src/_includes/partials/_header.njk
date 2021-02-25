@@ -1,7 +1,6 @@
 
 <div class="{%- if topColor -%}{{topColor}}{%- endif -%} {% if page.url !== '/' %}pb-32 lg:pb-64{% endif %}">
-  <header class="relative max-w-screen-xl mx-auto">
-    <div class="p-5 flex items-center justify-between">
+  <header class="relative max-w-screen-xl mx-auto h-24 p-5 md:grid md:grid-cols-2 md:justify-between md:items-center gap-x-5">
       <!-- logo -->
       <a href="/" title="back to homepage" class="logo">
         <svg class="dark:text-white transform scale-75" width="52" height="52" xmlns="http://www.w3.org/2000/svg" fill="currentColor"  xmlns:v="https://vecta.io/nano">
@@ -9,11 +8,11 @@
         <path d="M13 39L0 52V13L13 0V39Z"/>
         </svg>
       </a>
-      <nav class="hidden md:flex md:items-center md:justify-between py-1 h-11">
+      <nav class="hidden md:block py-1">
         {% set navPages = collections.all | eleventyNavigation %}
-        <ul>
+        <ul class="text-right" style="min-width:500px;">
           {%- for entry in navPages %}
-          <li class="inline-block mr-8">
+          <li class="inline-block mr-5">
             <a
             href="{{ entry.url | url }}"
             class="font-bold transition-colors dark:hover:text-yellow-200 hover:text-black
@@ -21,17 +20,18 @@
             >{{ entry.title }}</a>
           </li>
         {%- endfor %}
+          <li class="inline-block">
+            <a
+              href="{{ metadata.author.mailtolink }}"
+              title="get in touch"
+              target="_blank"
+              rel="noreferrer"
+              class="text-gray-800 dark:text-yellow-300 py-2 px-5 rounded-full font-bold border-2 border-gray-900 dark:border-yellow-100 border-opacity-20 transition-colors hover:border-opacity-100"
+            ><span>Get in touch</span>
+            </a>
+          </li>
         </ul>
-        <a
-        href="{{ metadata.author.mailtolink }}"
-        title="get in touch"
-        target="_blank"
-        rel="noreferrer"
-        class="text-gray-800 dark:text-yellow-300 py-2 px-5 rounded-full font-bold border-2 border-gray-900 dark:border-yellow-100 border-opacity-20 transition-colors md:flex items-center hover:border-opacity-100"
-      ><span>Get in touch</span>
-      </a>
-      </nav>
 
-    </div>
+      </nav>
   </header>
 </div>

@@ -69,8 +69,7 @@ class="h-full text-black antialiased bg-gray-50 dark:bg-black dark:text-gray-200
   
   
 <div class="pb-32 lg:pb-64">
-  <header class="relative max-w-screen-xl mx-auto">
-    <div class="p-5 flex items-center justify-between">
+  <header class="relative max-w-screen-xl mx-auto h-24 p-5 md:grid md:grid-cols-2 md:justify-between md:items-center gap-x-5">
       <!-- logo -->
       <a href="/" title="back to homepage" class="logo">
         <svg class="dark:text-white transform scale-75" width="52" height="52" xmlns="http://www.w3.org/2000/svg" fill="currentColor"  xmlns:v="https://vecta.io/nano">
@@ -78,42 +77,43 @@ class="h-full text-black antialiased bg-gray-50 dark:bg-black dark:text-gray-200
         <path d="M13 39L0 52V13L13 0V39Z"/>
         </svg>
       </a>
-      <nav class="hidden md:flex md:items-center md:justify-between py-1 h-11">
+      <nav class="hidden md:block py-1">
         
-        <ul>
-          <li class="inline-block mr-8">
+        <ul class="text-right" style="min-width:500px;">
+          <li class="inline-block mr-5">
             <a
             href="/about/"
             class="font-bold transition-colors dark:hover:text-yellow-200 hover:text-black
              dark:text-yellow-200 text-black "
             >about.</a>
           </li>
-          <li class="inline-block mr-8">
+          <li class="inline-block mr-5">
             <a
             href="/works/"
             class="font-bold transition-colors dark:hover:text-yellow-200 hover:text-black
             dark:text-white text-gray-700 "
             >works.</a>
           </li>
-          <li class="inline-block mr-8">
+          <li class="inline-block mr-5">
             <a
             href="/posts/"
             class="font-bold transition-colors dark:hover:text-yellow-200 hover:text-black
             dark:text-white text-gray-700 "
             >writings.</a>
           </li>
+          <li class="inline-block">
+            <a
+              href="mailto:chankailoon@gmail.com?subject=Request from kailoon.com&amp;body=Be sure to share as much info as you can on what you&#39;re trying to achieve and what sort of budget you have in place."
+              title="get in touch"
+              target="_blank"
+              rel="noreferrer"
+              class="text-gray-800 dark:text-yellow-300 py-2 px-5 rounded-full font-bold border-2 border-gray-900 dark:border-yellow-100 border-opacity-20 transition-colors hover:border-opacity-100"
+            ><span>Get in touch</span>
+            </a>
+          </li>
         </ul>
-        <a
-        href="mailto:chankailoon@gmail.com?subject=Request from kailoon.com&amp;body=Be sure to share as much info as you can on what you&#39;re trying to achieve and what sort of budget you have in place."
-        title="get in touch"
-        target="_blank"
-        rel="noreferrer"
-        class="text-gray-800 dark:text-yellow-300 py-2 px-5 rounded-full font-bold border-2 border-gray-900 dark:border-yellow-100 border-opacity-20 transition-colors md:flex items-center hover:border-opacity-100"
-      ><span>Get in touch</span>
-      </a>
-      </nav>
 
-    </div>
+      </nav>
   </header>
 </div>
   
