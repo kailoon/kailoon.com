@@ -7,6 +7,7 @@
 		"clean": "rm -rf public src/css/styles.css",
 		"tailwind": "postcss src/css/tailwind.css -o src/css/styles.css",
 		"serve": "eleventy --serve",
+		"critical": "node critical.js",
 		"build": "npm run clean && NODE_ENV=production postcss src/css/tailwind.css > src/css/styles.css && eleventy"
 	},
 	"keywords": [
