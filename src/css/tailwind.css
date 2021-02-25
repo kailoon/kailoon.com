@@ -32,11 +32,6 @@ h6 {
 	@apply text-2xl tracking-tighter;
 }
 
-article > h3:first-child,
-div > h3:first-child {
-	@apply mt-0;
-}
-
 .post img {
 	width: 100%;
 }
