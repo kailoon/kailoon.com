@@ -7,8 +7,7 @@
 		"clean": "rm -rf public src/css/styles.css",
 		"tailwind": "postcss src/css/tailwind.css -o src/css/styles.css",
 		"serve": "npm run clean && npm run tailwind && eleventy --serve",
-		"build": "npm run clean && NODE_ENV=production postcss src/css/tailwind.css > src/css/styles.css && eleventy",
-		"deploy": "npm run build && netlify deploy -p"
+		"build": "npm run clean && NODE_ENV=production postcss src/css/tailwind.css > src/css/styles.css && eleventy"
 	},
 	"keywords": [
 		"11ty",
