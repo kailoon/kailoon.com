@@ -49,7 +49,7 @@ The [Archetypes](https://gohugo.io/content-management/archetypes/) feature is re
 
 [Eleventy](https://www.11ty.dev/) is fairly new, if comparing to Gatsby and Hugo. It supports plugins and you can write it in multiple template languages, you can pick one or use them all together!
 
-Eleventy seems to have all the features I wanted ( no archetypes tho ), fast fast-enough build speed, easy-to-use collections to group content. Further, I can add shortcodes easily for easy content management. The folder system is simple, dummy proof.
+Eleventy seems to have all the features I wanted ( no archetypes tho ), fast-enough build speed, easy-to-use collections to group content. Further, I can add shortcodes easily for easy content management. The folder system is simple, dummy proof.
 
 </div>
 <div class="col-start-2 col-end-10">
@@ -57,6 +57,7 @@ Eleventy seems to have all the features I wanted ( no archetypes tho ), fast fas
 
 </div>
 <div class="col-start-3 col-end-9">
+
 This site is built with [11ty & TailwindCSS](https://github.com/kailoon/kailoon.com). It scores the magic 400 on Google Lighthouse.
 
 </div>

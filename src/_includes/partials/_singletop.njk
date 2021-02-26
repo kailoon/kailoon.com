@@ -16,7 +16,12 @@
           <span class="text-2xl font-bold tracking-tighter text-gray-800 dark:text-gray-200">{{ year }}</span>
         </p>
         {% if projectUrl %}
-          <a href="{{ projectUrl}}" title="{{ title }}" target="_blank" rel="noreferrer" class="text-center text-sm tracking-widest uppercase font-bold py-4 px-10 bg-purple-100 text-purple-800 hover:bg-purple-800 hover:text-white rounded-full transition-colors dark:bg-yellow-200 dark:text-black dark:hover:bg-yellow-300 dark:hover:text-black">View Live</a>
+          <a href="{{ projectUrl}}" title="{{ title }}" target="_blank" rel="noreferrer" class="text-purple-800 bg-purple-100 transition-colors hover:text-purple-100 hover:bg-purple-800 dark:text-yellow-900 dark:bg-yellow-400 dark:hover:bg-yellow-200 dark:hover:text-yellow-900 font-bold tracking-tight text-lg py-3 px-5 rounded-full inline-flex items-center justify-center">
+            <svg class="inline-block w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+            View Live
+          </a>
         {% endif %}
         </div>
       </div>

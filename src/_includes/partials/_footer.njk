@@ -1,6 +1,6 @@
-<div class="relative max-w-screen-md mx-auto py-32 md:pt-32 md:pb-48 md:leading-tight text-center font-bold tracking-tighter text-3xl md:text-5xl px-10">
-  <span class="absolute w-20 h-1 bg-gray-800 transform top-24 md:top-16 -translate-x-1/2 -translate-y-1/2 left-1/2 "></span>
-  I am taking new projects now. If you happen to have one, please get in touch.
+<div class="relative max-w-screen-md mx-auto py-32 md:py-48 md:leading-tight text-center font-bold tracking-tighter text-3xl md:text-5xl px-10">
+  <span class="block">⚡</span>
+  I am taking new projects now. <br>If you happen to have one, please get in touch.
   <div>
     <a
       href="{{ metadata.author.mailtolink }}"
@@ -14,7 +14,7 @@
 </div>
 
 <!-- footer start -->
-<footer id="footer" class="border-t border-gray-200 dark:border-gray-800">
+<footer id="footer" class="md:pt-6 md:pb-16 border-t border-gray-200 dark:border-gray-800">
   <div class="text-center md:text-left max-w-screen-xl m-auto sm:flex sm:justify-between sm:items-center text-sm pb-16 md:pb-0">
     <p id="credit" class="p-5 text-gray-500 dark:text-gray-400">{{ data.footerCreditLine1 }} {{ data.footerCreditLine2 }}
       {% for item, url in data.builtTools %}

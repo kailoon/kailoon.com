@@ -11,10 +11,8 @@
 
       {% for item in collections.works %}
         {% if item.data.featured %}
-          {# <a href="{{item.url}}" title="view {{item.data.title}}" class="{% if item.data.span %}md:col-span-2 md:row-span-2{% endif%} post"> #}
-
           <a href="{{item.url}}" title="view {{item.data.title}}" class="post bg-gray-800 relative md:transform md:hover:-translate-y-2 md:transition-transform">
-            <article style="height:560px;background-color: #{{item.data.bgColor}}">
+            <article style="height:500px;background-color: #{{item.data.bgColor}}">
             <header class="p-5 lg:p-8">
               <span class="text-gray-800 text-3xl tracking-tighter font-bold block">{{ item.data.title }}</span>
               <span class="text-gray-600 text-base font-normal">{{ item.data.tasks }}</span>

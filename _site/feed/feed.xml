@@ -39,13 +39,13 @@
 &lt;p&gt;The &lt;a href=&quot;https://gohugo.io/content-management/archetypes/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Archetypes&lt;/a&gt; feature is really handy and I really hope I can do the same with 11ty.&lt;/p&gt;
 &lt;h4 id=&quot;11ty&quot;&gt;11ty &lt;a class=&quot;direct-link text-gray-400 dark:text-gray-600&quot; href=&quot;https://kailoon.com/posts/2021/02/finally-settled-with-11ty/#11ty&quot; aria-label=&quot;permalink to 11ty&quot; title=&quot;Anchor link for easy sharing.&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.11ty.dev/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Eleventy&lt;/a&gt; is fairly new, if comparing to Gatsby and Hugo. It supports plugins and you can write it in multiple template languages, you can pick one or use them all together!&lt;/p&gt;
-&lt;p&gt;Eleventy seems to have all the features I wanted ( no archetypes tho ), fast fast-enough build speed, easy-to-use collections to group content. Further, I can add shortcodes easily for easy content management. The folder system is simple, dummy proof.&lt;/p&gt;
+&lt;p&gt;Eleventy seems to have all the features I wanted ( no archetypes tho ), fast-enough build speed, easy-to-use collections to group content. Further, I can add shortcodes easily for easy content management. The folder system is simple, dummy proof.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;col-start-2 col-end-10&quot;&gt;
 &lt;figure class=&quot;mb-10&quot;&gt;&lt;img loading=&quot;lazy&quot; src=&quot;https://res.cloudinary.com/kailoon/image/upload/q_auto,f_auto,w_400/Screenshot_on_2021-02-14_at_19-06-24.webp&quot; srcset=&quot;https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_400/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.webp 400w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_600/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.webp 600w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_768/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.webp 768w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_820/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.webp 820w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_1240/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.webp 1240w&quot; alt=&quot;google lighthouse score 400&quot; width=&quot;400&quot; height=&quot;300&quot; /&gt;&lt;figcaption class=&quot;text-center text-sm mt-3 text-gray-600 dark:text-gray-200&quot;&gt;The magic 400 on Google Lighthouse.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/div&gt;
 &lt;div class=&quot;col-start-3 col-end-9&quot;&gt;
-This site is built with [11ty &amp; TailwindCSS](https://github.com/kailoon/kailoon.com). It scores the magic 400 on Google Lighthouse.
+&lt;p&gt;This site is built with &lt;a href=&quot;https://github.com/kailoon/kailoon.com&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;11ty &amp;amp; TailwindCSS&lt;/a&gt;. It scores the magic 400 on Google Lighthouse.&lt;/p&gt;
 &lt;/div&gt;
 </content>
 	</entry>
