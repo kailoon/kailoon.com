@@ -6,7 +6,7 @@ description: Tinder ( previously Tinder Lab ) is a software development company 
 testimonial: Kailoon is talented and sharp. Paired with a keen design sense and patience when dealing with clients, he’s a trustable resource to work with when it comes to branding and UI/UX works. I’ve entrusted him with the branding works of my 2 companies and will continue to do so in the future.
 clientName: Yao Quan
 clientPos: coFounder of Tinder
-projectUrl: a
+projectUrl:
 dribbble: https://dribbble.com/kailoon/projects/64016-Tinder
 topColor:
 featuredImg: tinder-featured
