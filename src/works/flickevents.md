@@ -10,7 +10,7 @@ projectUrl: https://www.flickevents.com/
 dribbble: https://dribbble.com/kailoon/projects/142558-FlickEvents
 topColor:
 bgColor: D3F2E3
-featured: yes
+featured:
 featuredImg: flickevents-featured
 tasks: Brand Identity & Web Development
 tags: ['graphic design', 'web design']
