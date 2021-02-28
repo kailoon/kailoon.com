@@ -9,7 +9,7 @@
         </span>
       </div>
 
-      {% for item in collections.works %}
+      {% for item in collections.works | reverse%}
         {% if item.data.featured %}
           <a
           href="{{item.url}}"

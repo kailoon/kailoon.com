@@ -15,6 +15,7 @@ featuredImg: flickevents-featured
 tasks: Brand Identity & Web Development
 tags: ['graphic design', 'web design']
 year: 2013
+date: 2021-02-01
 ---
 
 <div class="col-start-3 col-end-9">

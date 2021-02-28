@@ -13,6 +13,7 @@ bgColor: E3F0D0
 featured: true
 tasks: Logo Design & Brand Identity
 year: 2015
+date: 2021-02-18
 ---
 
 <div class="col-start-3 col-end-6">

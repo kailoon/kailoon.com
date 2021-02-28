@@ -1,12 +1,12 @@
 <article class="grid grid-cols-1 gap-5 md:gap-10 lg:gap-12 sm:grid-cols-2 lg:grid-cols-3 md:grid-flow-row-dense md:max-w-screen-xl md:mx-auto py-10 px-5">
-{% for item in collections.works %}
+{% for item in collections.works | reverse %}
   <a
     href="{{ item.url | url }}"
     title="view project details"
-    class="block"
+    class="block md:transform md:hover:-translate-y-2 md:transition-transform"
   >
   {% respimg item.data.featuredImg, item.data.title %}
-  <div class="hidden md:block mt-5 pr-10">
+  <div class="hidden md:block mt-2 pr-10">
     <span class="font-bold">{{item.data.title}}</span>
     <span class="text-gray-700 dark:text-gray-300">&mdash; {{item.data.description}}</span>
   </div>

@@ -13,6 +13,7 @@ bgColor: E8E8E8
 featured: true
 tasks: Logo Design
 year: 2011
+date: 2021-02-20
 ---
 
 <div class="col-start-3 col-end-9">
