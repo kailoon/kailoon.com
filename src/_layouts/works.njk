@@ -10,11 +10,11 @@ pagination:
 
 ---
 {%- block singleTop-%}
-  {%- include './partials/_singletop.njk' -%}
+  {%- include '../_components/_singletop.njk' -%}
 {%- endblock singleTop-%}
 
 <section id="works" class="mb-20">
   {% block workslist %}
-    {% include './partials/_workslist.njk' %}
+    {% include '../_components/_workslist.njk' %}
   {% endblock workslist %}
 </section>

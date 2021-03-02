@@ -1,10 +1,22 @@
 ---
 permalink: /tags/
 layout: base.njk
+metaTitle: Tags
+metaDescription: Pick your favourite topics
 ---
-<h1>Tags</h1>
 
-{% for tag in collections.tagList %}
-  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{% endfor %}
+<section class="py-8 lg:-mt-32 lg:pb-32">
+  <div class="max-w-screen-xl m-auto px-5">
+      <div class="font-black grid grid-cols-12 gap-5 items-start">
+        <div class="mb-5 col-span-full md:col-start-1 md:col-end-3">
+          <h1 class="text-5xl md:text-7xl tracking-tighter font-bold md:mb-3 text-gray-800 dark:text-white">Tags</h1>
+        </div>
+        <div class="col-span-full md:col-start-4 md:col-end-12">
+        {% for tag in collections.tagList %}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a href="{{ tagUrl | url }}" class="py-3 px-5 rounded-full transition-colors text-purple-800 bg-purple-100 hover:text-purple-100 hover:bg-purple-800 dark:text-yellow-900 dark:bg-yellow-400 dark:hover:bg-yellow-200 dark:hover:text-yellow-900">{{ tag }}</a>
+        {% endfor %}
+        </div>
+      </div>
+  </div>
+</section>

@@ -3,14 +3,14 @@ layout: base.njk
 ---
 
 {%- block singleTop-%}
-  {%- include './partials/_singletop.njk' -%}
+  {%- include '../_components/_singletop.njk' -%}
 {%- endblock singleTop-%}
 
 <section class="max-w-screen-xl mx-auto px-5">
   <div class="pt-16 post text-gray-800 dark:text-gray-200 md:grid md:gap-x-10 md:gap-y-5 md:grid-cols-10 md:items-start">
 
     {% if tasks %}
-      {% include 'partials/_workdetails.njk' %}
+      {% include '../_components/_workdetails.njk' %}
     {% endif %}
 
     {% if testimonial %}
@@ -41,5 +41,5 @@ layout: base.njk
 </section>
 
 {% block navigations %}
-  {% include './partials/_navigations.njk' %}
+  {% include '../_components/_navigations.njk' %}
 {% endblock navigations %}

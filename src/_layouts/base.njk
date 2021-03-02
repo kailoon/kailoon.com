@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
   <meta charset="UTF-8">
@@ -78,12 +78,12 @@ class="h-full text-black antialiased bg-gray-50 dark:bg-black dark:text-gray-200
   </a>
 
   {% block header %}
-  {% include "./partials/_header.njk" %}
+  {% include "../_components/_header.njk" %}
   {% endblock %}
 
   {% if page.url==='/'%}
     {% block hero %}
-      {% include './partials/_hero.njk' %}
+      {% include '../_components/_hero.njk' %}
     {% endblock hero %}
   {% endif %}
 
@@ -92,7 +92,7 @@ class="h-full text-black antialiased bg-gray-50 dark:bg-black dark:text-gray-200
   </main>
 
   {% block footer %}
-  {% include "./partials/_footer.njk" %}
+  {% include "../_components/_footer.njk" %}
   {% endblock %}
 </body>
 

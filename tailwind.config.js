@@ -47,7 +47,7 @@ module.exports = {
 		}
 	},
 	variants: {
-		backgroundColor: ['responsive', 'dark', 'hover', 'focus', 'active'],
+		backgroundColor: ['responsive', 'dark', 'focus', 'active', 'hover'],
 		extend: { space: ['last'] }
 	},
 	plugins: []

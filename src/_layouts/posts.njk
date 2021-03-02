@@ -10,13 +10,13 @@ pagination:
 ---
 
 {%- block singleTop-%}
-  {%- include './partials/_singletop.njk' -%}
+  {%- include '../_components/_singletop.njk' -%}
 {%- endblock singleTop-%}
 
 <div class="px-5 py-10 clear-both max-w-screen-xl mx-auto md:grid md:grid-cols-12 md:gap-5 md:items-start">
   {% block postslists %}
     {% set postslist = pagination.items %}
-    {% include './partials/_postslist.njk' %}
+    {% include '../_components/_postslist.njk' %}
   {% endblock postslists %}
 
   <ol id="tagcloud" class="col-start-10 col-end-13 pb-10 md:pb-0">
