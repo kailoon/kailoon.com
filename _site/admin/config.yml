@@ -1,0 +1,44 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+# media
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: kailoon
+    api_key: 373569654927936
+
+#collections
+collections:
+  - name: 'posts'
+    label: 'Post'
+    folder: 'posts'
+    create: true
+    slug: '{{year}}/{{month}}/{{slug}}'
+    fields:
+      - { label: 'Layout', name: 'single', widget: 'hidden' }
+      - label: 'Metadata'
+        name: meta
+        widget: object
+        fields:
+          - { label: 'Title', name: 'metaTitle', widget: 'string' }
+          - { label: 'Description', name: 'metaDescription', widget: 'string' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Sub Heading', name: 'subHeading', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Featured Image', name: 'featuredImg', widget: 'image' }
+      - {
+          label: 'Tags',
+          name: 'tags',
+          widget: 'select',
+          options: ['SSG', 'WordPress', 'Web Development']
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - {
+          label: 'published',
+          name: 'published',
+          widget: 'boolean',
+          default: true
+        }
