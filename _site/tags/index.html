@@ -222,6 +222,17 @@ class="h-full text-black antialiased bg-gray-50 dark:bg-black dark:text-gray-200
 </footer>
 <!-- footer end -->
   
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
 
 </html>
