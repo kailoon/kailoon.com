@@ -5,8 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"clean": "rm -rf public src/css/styles.css",
-		"tailwind": "NODE_ENV=production postcss src/css/tailwind.css -o src/css/styles.css",
-		"serve": "eleventy --serve",
+		"tailwind:process": "postcss src/css/tailwind.css -o src/css/styles.css -w",
+		"serve": "tailwind && eleventy --serve",
+		"start": "concurrently \"npm run tailwind:process\" \"npm run serve\"",
 		"build": "npm run clean && NODE_ENV=production postcss src/css/tailwind.css > src/css/styles.css && eleventy"
 	},
 	"keywords": [
@@ -23,7 +24,9 @@
 		"@11ty/eleventy-navigation": "^0.1.6",
 		"@11ty/eleventy-plugin-rss": "^1.1.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
-		"autoprefixer": "^10.2.3",
+		"@tailwindcss/jit": "^0.1.18",
+		"autoprefixer": "^10.2.5",
+		"concurrently": "^6.1.0",
 		"cssnano": "^4.1.10",
 		"luxon": "^1.25.0",
 		"markdown-it": "^10.0.0",
