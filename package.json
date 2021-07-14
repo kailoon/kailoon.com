@@ -2,38 +2,32 @@
 	"name": "11ty-portfolio",
 	"version": "1.0.0",
 	"description": "Minimal Poftfolio / blog template built with eleventy & tailwindcss.",
-	"main": "index.js",
 	"scripts": {
-		"clean": "rm -rf public src/css/styles.css",
-		"tailwind:process": "postcss src/css/tailwind.css -o src/css/styles.css -w",
-		"serve": "tailwind && eleventy --serve",
-		"start": "concurrently \"npm run tailwind:process\" \"npm run serve\"",
-		"build": "npm run clean && NODE_ENV=production postcss src/css/tailwind.css > src/css/styles.css && eleventy"
+		"serve": "ELEVENTY_ENV=dev npx eleventy --serve",
+		"start": "npm run serve",
+		"build": "ELEVENTY_ENV=dev npx eleventy",
+		"build:prod": "ELEVENTY_ENV=prod npx eleventy"
 	},
 	"keywords": [
 		"11ty",
 		"tailwindcss",
 		"eleventy",
-		"purgecss",
-		"cssnano"
+		"purgecss"
 	],
 	"author": "kailoon",
 	"license": "ISC",
 	"devDependencies": {
-		"@11ty/eleventy": "^0.11.1",
+		"@11ty/eleventy": "^0.12.1",
 		"@11ty/eleventy-navigation": "^0.1.6",
-		"@11ty/eleventy-plugin-rss": "^1.1.0",
-		"@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
-		"@tailwindcss/jit": "^0.1.18",
+		"@11ty/eleventy-plugin-rss": "^1.1.1",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2",
 		"autoprefixer": "^10.2.5",
-		"concurrently": "^6.1.0",
-		"cssnano": "^4.1.10",
-		"luxon": "^1.25.0",
+		"luxon": "^1.28.0",
 		"markdown-it": "^10.0.0",
 		"markdown-it-anchor": "^7.0.2",
 		"markdown-it-link-attributes": "^3.0.0",
-		"nunjucks": "^3.2.2",
+		"nunjucks": "^3.2.3",
 		"postcss-cli": "^8.3.1",
-		"tailwindcss": "^2.0.2"
+		"tailwindcss": "^2.2.4"
 	}
 }
