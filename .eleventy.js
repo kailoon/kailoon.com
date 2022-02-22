@@ -77,7 +77,7 @@ module.exports = function (eleventyConfig) {
 			}
 		})
 		.use(markdownItAnchor, {
-			permalink: true,
+			permalink: markdownItAnchor.permalink.headerLink(),
 			permalinkClass: 'direct-link text-gray-400 dark:text-gray-600',
 			permalinkSymbol: '#',
 			permalinkAttrs: (slug, state) => ({
