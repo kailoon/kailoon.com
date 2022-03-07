@@ -60,3 +60,7 @@ eleventyConfig.setLibrary('md', markdownLibrary)
 6. Go nuts :)
 
 Hope you like it ❤️
+
+### Update
+
+The current site is built with Nextjs and hosted on Vercel. However, I will continue to maintain this repo.
