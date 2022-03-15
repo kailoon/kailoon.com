@@ -63,4 +63,4 @@ Hope you like it ❤️
 
 ### Update
 
-The current site is built with Nextjs and hosted on Vercel. However, I will continue to maintain this repo.
+The current site is built with Nextjs and hosted on Vercel and can be found [here](https://github.com/kailoon/kailoon-next). However, I will continue to maintain this repo.
