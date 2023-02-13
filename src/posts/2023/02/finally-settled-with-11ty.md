@@ -1,13 +1,13 @@
 ---
 templateEngineOverride: njk,md
-metaTitle: Finally Settled With 11ty
-metaDescription: Move from WordPress to Static Sites Generators — 11ty, and others.
-title: Finally Settled With 11ty
+metaTitle: Hello World!
+metaDescription: Why I write in my blog as a designer?
+title: Hello World!
 description: Move from WordPress to Static Sites Generators — 11ty, and others.
 featuredImg: wp-11ty
-subHeading: I have been using WordPress since 2008. It helps me kickstart this blog and start freelancing as a WordPress designer + developer, which, earned me a long-term contract from ThemeForest, Envato.
+subHeading: Yo! hello world! I'll talk about my reasons that I love blogging in a static site generator as designer and ex-developer. let's get started...
 tags: ['SSG', 'WordPress', 'Web Development']
-date: 2021-02-18
+date: 2023-02-12
 updated:
 published: true
 ---

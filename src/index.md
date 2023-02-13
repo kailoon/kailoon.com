@@ -1,6 +1,6 @@
 ---
 layout: index.njk
-metaTitle: kailoon - Freelance Front-End Web UI/UX Developer from Malaysia
+metaTitle: Mohammad - Freelance Front-End Web UI/UX Developer from Iran
 metaDescription: Design that code.
 title: 'Design for successful digital products and websites.'
 description: With a strong focus on responsive design, performance & accessibility.

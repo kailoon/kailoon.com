@@ -13,7 +13,7 @@ module.exports = {
 	theme: {
 		colors: {
 			gray: colors.slate,
-			purple: colors.purple,
+			blue: colors.blue,
 			orange: colors.orange,
 			rose: colors.rose,
 			blue: colors.blue,
