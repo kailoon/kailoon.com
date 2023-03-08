@@ -7,7 +7,7 @@ testimonial: Mohammad is talented and sharp. Paired with a keen design sense and
 clientName: Jackson Delahunt
 clientPos: Product Manager
 projectUrl: https://vote.setpaymusic.com/
-dribbble: https://dribbble.com/kailoon/projects/304610-99-co
+dribbble: https://dribbble.com/mmdsharifi
 featuredImg: SetPay-main
 bgColor: DCECFF
 featured: true

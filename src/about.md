@@ -35,7 +35,7 @@ I work remotely from my home office in Malaysia.
 
 ### Now
 
-Right now, I contracted to Envato as a senior reviewer for one of the largest digital marketplaces in the world — [ThemeForest](https://themeforest.net 'goto themeforest'). I have been doing contract works with Envato since 2008, shaping the content library for **ThemeForest** & **Envato Elements**. You might remember me as kailoon the reviewer from ThemeForest.
+Right now, I contracted to Envato as a senior reviewer for one of the largest digital marketplaces in the world — [ThemeForest](https://themeforest.net 'goto themeforest'). I have been doing contract works with Envato since 2008, shaping the content library for **ThemeForest** & **Envato Elements**. You might remember me as mmdsharifi the reviewer from ThemeForest.
 
 I also work with companies and clients personally, building web sites and application UIs with a strong focus on **responsive design, accessibility, performance**. Over the years, I have the honour to collaborate with clients ranging from startups to SME. A few of them has grown successfully or getting acquired. Some of my featured clients are **Envato**, **99.co**, **Evercondo**, **MeetPoppy** & **Qbasis**. [Check out my portfolio](https://mmdsharifi.com/works/).
 
