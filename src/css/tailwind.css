@@ -20,7 +20,7 @@ h6 {
 }
 
 .post a:not(.direct-link) {
-	@apply text-blue-800 font-medium underline hover:text-blue-900 active:bg-yellow-200 dark:text-yellow-200 dark:hover:text-yellow-400;
+	@apply text-blue-900 border-b-2 border-blue-200 dark:border-blue-900 font-medium hover:text-blue-600 hover:border-blue-500 active:bg-blue-200 dark:text-blue-100 dark:hover:text-blue-200;
 }
 
 .post h3,

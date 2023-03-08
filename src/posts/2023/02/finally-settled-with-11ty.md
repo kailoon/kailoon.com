@@ -58,6 +58,6 @@ Eleventy seems to have all the features I wanted ( no archetypes tho ), fast-eno
 </div>
 <div class="col-start-3 col-end-9">
 
-This site is built with [11ty & TailwindCSS](https://github.com/kailoon/kailoon.com). It scores the magic 400 on Google Lighthouse.
+This site is built with [11ty & TailwindCSS](https://github.com/mmdsharifi/mmdsharifi.com). It scores the magic 400 on Google Lighthouse.
 
 </div>

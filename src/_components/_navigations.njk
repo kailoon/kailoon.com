@@ -17,7 +17,7 @@
   <div id="previousPost" class="py-5">
     {% if previousPost %}
     <strong class="block text-xs tracking-widest font-normal uppercase text-gray-400" aria-label="Navigate to previous item">Previous</strong>
-    <a href="{{ previousPost.url }}" class="text-lg hover:text-blue-800 dark:hover:text-yellow-200 transition-colors font-bold tracking-tight">
+    <a href="{{ previousPost.url }}" class="text-lg hover:text-blue-800 dark:hover:text-blue-200 transition-colors font-bold tracking-tight">
       <span class="block" style="min-height:60px;">{{ previousPost.data.title }}</span>
       {% if previousPost.data.featuredImg %}
         <picture class="inline">
@@ -25,8 +25,8 @@
             class="inline"
             loading="lazy"
             alt="{{ previousPost.data.title }}"
-            src="https://res.cloudinary.com/kailoon/image/upload/v1613700746/kailoon.com/{{previousPost.data.featuredImg}}.webp"
-            srcset="https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_200/v1613700746/kailoon.com/{{previousPost.data.featuredImg}}.webp 400w"
+            src="https://res.cloudinary.com/mmdsharifi/image/upload/v1613700746/mmdsharifi.com/{{previousPost.data.featuredImg}}.webp"
+            srcset="https://res.cloudinary.com/mmdsharifi/image/upload/dpr_auto,q_auto,w_200/v1613700746/mmdsharifi.com/{{previousPost.data.featuredImg}}.webp 400w"
           />
         </picture>
       {% endif %}
@@ -37,7 +37,7 @@
   <div id="nextPost" class="w-full py-5 text-right">
     {% if nextPost %}
     <strong class="block text-xs tracking-widest font-normal uppercase text-gray-400" aria-label="Navigate to Next item">Next</strong>
-    <a href="{{ nextPost.url }}" class="text-lg leading-tight tracking-tight font-bold hover:text-blue-800 dark:hover:text-yellow-200 transition-colors">
+    <a href="{{ nextPost.url }}" class="text-lg leading-tight tracking-tight font-bold hover:text-blue-800 dark:hover:text-blue-200 transition-colors">
       <span class="block" style="min-height:60px;">{{ nextPost.data.title }}</span>
       {% if nextPost.data.featuredImg %}
         <picture class="inline">
@@ -45,8 +45,8 @@
             class="inline"
             loading="lazy"
             alt="{{ nextPost.data.title }}"
-            src="https://res.cloudinary.com/kailoon/image/upload/v1613700746/kailoon.com/{{nextPost.data.featuredImg}}.webp"
-            srcset="https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_200/v1613700746/kailoon.com/{{nextPost.data.featuredImg}}.webp 400w"
+            src="https://res.cloudinary.com/mmdsharifi/image/upload/v1613700746/mmdsharifi.com/{{nextPost.data.featuredImg}}.webp"
+            srcset="https://res.cloudinary.com/mmdsharifi/image/upload/dpr_auto,q_auto,w_200/v1613700746/mmdsharifi.com/{{nextPost.data.featuredImg}}.webp 400w"
           />
         </picture>
       {% endif %}
