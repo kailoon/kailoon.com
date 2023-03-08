@@ -14,10 +14,10 @@
   <meta property="og:title" content="{{ metaTitle | safe }}">
   <meta property="og:description" content="{{ metaDescription | safe }}">
   {%- if featuredImg %}
-  <meta property="og:image" content="https://res.cloudinary.com/mmdsharifi/image/upload/v1677073635/mmdsharifi.com/{{featuredImg}}.png">
+  <meta property="og:image" content="https://res.cloudinary.com/kailoon/image/upload/v1612884943/kailoon.com/{{featuredImg}}.png">
   {%- else -%}
-  <meta property="og:image" content="https://res.cloudinary.com/mmdsharifi/image/upload/v1677073635/mmdsharifi.com/index.png">
-  {%- endif %}   
+  <meta property="og:image" content="https://res.cloudinary.com/kailoon/image/upload/v1612884943/kailoon.com/index.png">
+  {%- endif %}
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
@@ -25,9 +25,9 @@
   <meta property="twitter:title" content="{{ metaTitle | safe }}">
   <meta property="twitter:description" content="{{ metaDescription | safe }}">
   {%- if featuredImg %}
-  <meta property="twitter:image" content="https://res.cloudinary.com/mmdsharifi/image/upload/v1677073635/mmdsharifi.com/{{featuredImg}}.png">
+  <meta property="twitter:image" content="https://res.cloudinary.com/kailoon/image/upload/v1612884943/kailoon.com/{{featuredImg}}.png">
   {%- else -%}
-  <meta property="twitter:image" content="https://res.cloudinary.com/mmdsharifi/image/upload/v1677073635/mmdsharifi.com/index.png">
+  <meta property="twitter:image" content="https://res.cloudinary.com/kailoon/image/upload/v1612884943/kailoon.com/index.png">
   {%- endif %}
 
   <link rel="canonical" href="{{ page.url | url | absoluteUrl(metadata.url)}}" />
@@ -41,10 +41,7 @@
     />
   </noscript>
 
-  <link rel="stylesheet" href="{{ '/css/styles.css' | url }}" id="async-css" rel="preload" as="style">
-  <script>document.getElementById('async-css').onload= () => {
-    this.onload=null;this.rel='stylesheet'
-    }</script>
+  <link rel="stylesheet" href="{{ '/css/styles.css' | url }}" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript>
     <link
         href="{{ '/css/styles.css' | url }}"
@@ -64,15 +61,15 @@
   <meta name="msapplication-TileColor" content="#603cba">
   <meta name="theme-color" content="#ffffff">
 
- <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P5EMZYMHD6"></script>
-<script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-P5EMZYMHD6');
-</script>
+  gtag('config', 'G-XXXXXXXXXX');
+  </script><script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body
@@ -99,5 +96,17 @@ class="h-full text-black antialiased bg-gray-50 dark:bg-black dark:text-gray-200
   {% block footer %}
   {% include "../_components/_footer.njk" %}
   {% endblock %}
+  <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
+
 </html>
