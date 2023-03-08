@@ -41,8 +41,8 @@
     />
   </noscript>
 
-  <link rel="stylesheet" href="{{ '/css/styles.css' | url }}" rel="preload" as="style">
-  <script>document.getElementById('async-css').onload=function(){
+  <link rel="stylesheet" href="{{ '/css/styles.css' | url }}" id="async-css" rel="preload" as="style">
+  <script>document.getElementById('async-css').onload= () => {
     this.onload=null;this.rel='stylesheet'
     }</script>
   <noscript>
