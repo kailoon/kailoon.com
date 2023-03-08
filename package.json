@@ -5,7 +5,7 @@
 	"scripts": {
 		"serve": "ELEVENTY_ENV=dev npx eleventy --serve & tailwindcss -i ./src/css/tailwind.css -o ./_site/css/styles.css --watch",
 		"start": "npm run serve",
-		"build": "ELEVENTY_ENV=dev npx eleventy",
+		"build": "ELEVENTY_ENV=dev npx eleventy & npm run build:prod",
 		"build:prod": "ELEVENTY_ENV=prod npx eleventy & tailwindcss -i ./src/css/tailwind.css -o ./_site/css/styles.css --minify"
 	},
 	"keywords": [
