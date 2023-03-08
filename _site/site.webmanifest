@@ -1,0 +1,20 @@
+{
+	"name": "Mohammad's personal site & portfolio",
+	"short_name": "Mohammad Sharifi",
+	"icons": [
+		{
+			"src": "./img/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "./img/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#2196F3",
+	"background_color": "#ffffff",
+	"display": "standalone",
+	"start_url": "https://mmdsharifi.com"
+}
