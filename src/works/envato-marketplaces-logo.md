@@ -1,18 +1,18 @@
 ---
-metaTitle: Envato Marketplaces
+metaTitle: Remote Roofing
 metaDescription: Design the logo for all the marketplaces of Envato.
-title: Envato Marketplaces
+title: Remote Roofing
 description: One of the largest digital marketplaces in the world from Envato.
-testimonial: I’ve been working with kailoon for over a decade. He has a great combination of creativity, reliability and industry knowledge. He’s also a good human being and I would happily recommend him to anyone who needs someone with a lot of industry expertise.
-clientName: Collis
-clientPos: co-founder of Envato
-projectUrl: https://themeforest.net/
+testimonial: I’ve been working with Mohammad for over a decade. He has a great combination of creativity, reliability and industry knowledge. He’s also a good human being and I would happily recommend him to anyone who needs someone with a lot of industry expertise.
+clientName: Nahtan
+clientPos: co-founder of RemoteRoofing
+projectUrl: https://remoteroofing.com/
 dribbble:
 featuredImg: envato-featured
 bgColor: E8E8E8
 featured: true
-tasks: Logo Design
-year: 2011
+tasks: Landing redesign & Style guide
+year: 2021
 date: 2021-02-20
 ---
 

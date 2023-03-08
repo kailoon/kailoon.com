@@ -1,3 +1,4 @@
 node_modules
 .netlify
 .DS_Store
+_site

@@ -1,20 +1,21 @@
 ---
-metaTitle: 99.co
-metaDescription: 99.co is a map-based property search engine that provides renters, buyers, and agents fast and efficient property search experience.
-title: 99.co
-description: A map-based property search engine that provides renters, buyers, and agents fast and efficient property search experience.
-testimonial: kailoon is talented and sharp. Paired with a keen design sense and patience when dealing with clients, he’s a trustable resource to work with when it comes to branding and UI/UX works. I’ve entrusted him with the branding works of my 2 companies and will continue to do so in the future.
-clientName: Yan Phun
-clientPos: Founder of Tinder
-projectUrl: https://www.99.co/
+metaTitle: SetPay
+metaDescription: SetPay rewards concert attendees for tracking a concert's setlist.
+title: SetPay
+description: SetPay rewards concert attendees for tracking a concert's setlist. 
+testimonial: Mohammad is talented and sharp. Paired with a keen design sense and patience when dealing with clients, he’s a trustable resource to work with when it comes to branding and UI/UX works. I’ve entrusted him with the branding works of my 2 companies and will continue to do so in the future.
+clientName: Jackson Delahunt
+clientPos: Product Manager
+projectUrl: https://vote.setpaymusic.com/
 dribbble: https://dribbble.com/kailoon/projects/304610-99-co
-featuredImg: 99-featured
-bgColor: D5E7F3
+featuredImg: SetPay-main
+bgColor: DCECFF
 featured: true
 span: true
-tasks: App Design & Email Design
-year: 2015
-date: 2021-02-28
+tasks: UI/Interaction Design mobile web app
+year: 2022
+date: 2023-02-28
+publish: true
 ---
 
 <div class="col-start-3 col-end-9">
@@ -63,3 +64,5 @@ However, things didn’t turn out as expected. I have to move to Singapore in or
 After all, this is quite an exciting project as I have the opportunity to work for a promising startup and learn quite a few non-technical things along the journey.
 
 </div>
+
+

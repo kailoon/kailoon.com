@@ -1,5 +1,6 @@
 <article class="grid grid-cols-1 gap-5 md:gap-10 lg:gap-12 sm:grid-cols-2 lg:grid-cols-3 md:grid-flow-row-dense md:max-w-screen-xl md:mx-auto py-10 px-5">
 {% for item in collections.works | reverse %}
+{% if item.data.publish %}
   <a
     href="{{ item.url | url }}"
     title="view project details"
@@ -11,6 +12,6 @@
     <span class="text-gray-700 dark:text-gray-300">&mdash; {{item.data.description}}</span>
   </div>
   </a>
-
+{% endif %}
 {% endfor %}
 </article>

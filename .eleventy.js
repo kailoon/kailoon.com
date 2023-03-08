@@ -25,7 +25,7 @@ module.exports = function (eleventyConfig) {
 		const src = `${fetchBase}q_auto,f_auto,w_400/${path}.${eleventyConfig.format}`
 		const srcset = eleventyConfig.srcsetWidths
 			.map(({ w, v }) => {
-				return `${fetchBase}dpr_auto,q_auto,w_${w}/kailoon.com/${path}.${eleventyConfig.format} ${v}w`
+				return `${fetchBase}dpr_auto,q_auto,w_${w}/mmdsharifi.com/${path}.${eleventyConfig.format} ${v}w`
 			})
 			.join(', ')
 
@@ -41,7 +41,7 @@ module.exports = function (eleventyConfig) {
 		const src = `${fetchBase}q_auto,f_auto,w_400/${path}.${eleventyConfig.format}`
 		const srcset = eleventyConfig.srcsetWidths
 			.map(({ w, v }) => {
-				return `${fetchBase}dpr_auto,q_auto,w_${w}/kailoon.com/${path}.${eleventyConfig.format} ${v}w`
+				return `${fetchBase}dpr_auto,q_auto,w_${w}/mmdsharifi.com/${path}.${eleventyConfig.format} ${v}w`
 			})
 			.join(', ')
 
@@ -53,7 +53,7 @@ module.exports = function (eleventyConfig) {
 	})
 
 	// https://github.com/eeeps/eleventy-respimg
-	eleventyConfig.cloudinaryCloudName = 'kailoon'
+	eleventyConfig.cloudinaryCloudName = 'mmdsharifi'
 	eleventyConfig.srcsetWidths = [
 		{ w: 400, v: 400 },
 		{ w: 600, v: 600 },
@@ -70,7 +70,7 @@ module.exports = function (eleventyConfig) {
 		breaks: true
 	})
 		.use(markdownitlinkatt, {
-			pattern: /^(?!(https:\/\/kailoon\.com|#)).*$/gm,
+			pattern: /^(?!(https:\/\/mmdsharifi\.com|#)).*$/gm,
 			attrs: {
 				target: '_blank',
 				rel: 'noreferrer'

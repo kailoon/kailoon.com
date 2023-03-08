@@ -1,22 +1,22 @@
 {
 	"name": "Mohammad Sharifi",
-	"url": "https://msharifi.com/",
+	"url": "https://mmdsharifi.com/",
 	"feed": {
 		"subtitle": "The personal and professional website of designer & developer, Mohammad.",
 		"filename": "feed.xml",
 		"path": "/feed/feed.xml",
-		"id": "https://msharifi.com/"
+		"id": "https://mmdsharifi.com/"
 	},
 	"jsonfeed": {
 		"path": "/feed/feed.json",
-		"url": "https://msharifi.com/feed/feed.json"
+		"url": "https://mmdsharifi.com/feed/feed.json"
 	},
 	"author": {
 		"name": "Mohammad Sharifi",
 		"email": "kordDesigner@gmail.com",
-		"url": "https://msharifi.com/",
-		"avatar": "https://res.cloudinary.com/di7bu76sm/image/upload/c_scale,q_auto,r_5,w_64/v1676285910/msharifi.com/avatar_pgdj7m.webp",
-		"mailtolink": "mailto:kordDesigner@gmail.com?subject=Request from kailoon.com&body=Be sure to share as much info as you can on what you're trying to achieve and what sort of budget you have in place."
+		"url": "https://mmdsharifi.com/",
+		"avatar": "https://res.cloudinary.com/mmdsharifi/image/upload/c_fill,g_face,h_150,w_150/r_max/v1677066006/mmdsharifi.com/avatar.webp",
+		"mailtolink": "mailto:kordDesigner@gmail.com?subject=Request from mmdsharifi.com&body=Be sure to share as much info as you can on what you're trying to achieve and what sort of budget you have in place."
 	},
 	"socials": {
 		"dribbble": "https://dribbble.com/mmdsharifi",

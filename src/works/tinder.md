@@ -14,6 +14,7 @@ tasks: Logo Design & Brand Identity
 tags: ['graphic design']
 year: 2012
 date: 2021-02-19
+publish: false
 ---
 
 <div class="col-start-3 col-end-9">

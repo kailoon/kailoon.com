@@ -13,7 +13,7 @@
 		"tailwindcss",
 		"eleventy"
 	],
-	"author": "kailoon",
+	"author": "Mohammad Sharifi",
 	"license": "ISC",
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.0",

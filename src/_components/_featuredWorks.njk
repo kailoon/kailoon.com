@@ -10,7 +10,7 @@
       </div>
 
       {% for item in collections.works | reverse%}
-        {% if item.data.featured %}
+        {% if item.data.featured and item.data.publish %}
           <a
           href="{{item.url}}"
           title="view {{item.data.title}}"
