@@ -4,7 +4,7 @@ metaTitle: Hello World!
 metaDescription: Why I write in my blog as a designer?
 title: Hello World!
 description: Move from WordPress to Static Sites Generators — 11ty, and others.
-featuredImg: wp-11ty
+featuredImg: hello-dark_n7joko
 subHeading: Yo! hello world! I'll talk about my reasons that I love blogging in a static site generator as designer and ex-developer. let's get started...
 tags: ['SSG', 'WordPress', 'Web Development']
 date: 2023-02-12
@@ -53,7 +53,6 @@ Eleventy seems to have all the features I wanted ( no archetypes tho ), fast-eno
 
 </div>
 <div class="col-start-2 col-end-10">
-{% figure 'Screenshot_on_2021-02-14_at_19-06-24', 'google lighthouse score 400', 'The magic 400 on Google Lighthouse.' %}
 
 </div>
 <div class="col-start-3 col-end-9">

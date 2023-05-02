@@ -13,6 +13,23 @@
   {% endif %}
 
 {% if previousPost or nextPost %}
+<section class="grid max-w-screen-xl mx-auto px-5">
+<div class="col-start-3 col-end-9">
+  <section class="bg-white dark:bg-gray-900 rounded-lg">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+      <div class="mx-auto max-w-screen-md sm:text-center">
+          <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl dark:text-white">📨  Never miss an update!</h2>
+          <p class="mx-auto mb-8 max-w-2xl font-normal text-gray-500 md:mb-12 sm:text-xl dark:text-gray-400">Stay up to date with 🎨 UI/UX & 🔥 Productivity tips, announcements and exclusive discounts feel free to sign up with your email.</p>
+          <form action="#">
+              <div class="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
+                 <iframe class="flex text-gray-100" src="https://embeds.beehiiv.com/aba9b657-6f96-4754-90b3-fa74c6a8d4a6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="width: 100%; margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+              </div>
+              <div class="mx-auto max-w-screen-sm text-sm text-left text-gray-500 newsletter-form-footer dark:text-gray-400">I hate spams too!</div>
+          </form>
+      </div>
+  </div>
+</section> 
+
 <div class="grid grid-cols-2 mt-10 max-w-screen-md mx-auto px-5 md:px-0 gap-x-2 border-t border-gray-200 dark:border-gray-800">
   <div id="previousPost" class="py-5">
     {% if previousPost %}
