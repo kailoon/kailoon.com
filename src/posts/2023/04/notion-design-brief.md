@@ -64,7 +64,7 @@ Considering all aspect of project in the design brief can be quite challenging. 
 and create a `duplicate` of template to get started!
 #### 2) Calendar a meeting with your client
 
-Now you have a brand new template with some questoin to ask your client. Next you need have a kickoff meeting with your client, to ask him/her questions that I provided in the template.
+Now you have a brand new template with some question to ask your client. Next you need have a kickoff meeting with your client, to ask him/her questions that I provided in the template.
 Feel free to customize it based on your project and needs. Also you can use it like a checklist to consider all aspect of project from background, market, product and design goals, like a pro! 😎
 
 Before meeting make sure to review the template and make your questions ready, during the meeting also write answers on your notebook as a draft, while you can record the meeting. (always ask before record their voice)
