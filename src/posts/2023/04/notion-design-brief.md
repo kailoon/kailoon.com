@@ -73,7 +73,8 @@ Feel free to customize it based on your project and needs. Also you can use it l
 - **Design Goals** Design expectation, success indicator for evaluation of the design
 
 for each section I provided couple of questions to understand what should ask from your client.
-{% figure '965shots_so_p5orwe', 'Notion Design Brief template Mockup', 'Design Brief Sections -- feel free to customize it based on your needs' %}
+
+{% figure 'design_brief_sections', 'Design Brief Sections', 'Design Brief Sections -- feel free to customize it based on your needs' %}
 
 Before meeting make sure to review the template and make your questions ready, during the meeting also write answers on your notebook as a draft, while you can record the meeting. (always ask before record their voice)
 
