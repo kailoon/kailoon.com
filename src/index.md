@@ -1,6 +1,6 @@
 ---
 layout: index.njk
-metaTitle: Mohammad - Freelance Front-End Web UI/UX Developer from Iran
+metaTitle: Mohammad Sharifi - Product Designer & Web Developer
 metaDescription: Design that code.
 title: 'Turn complex challenges to remarkable experience.'
 description: With a strong focus on responsive design, performance & accessibility.
