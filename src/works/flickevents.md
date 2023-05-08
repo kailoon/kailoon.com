@@ -1,20 +1,20 @@
 ---
-metaTitle: FlickEvents
+metaTitle: Sepidz
 metaDescription: Branding, web design & WordPress development for FlickEvents
-title: FlickEvents
+title: Sepidz
 description: Makes event management and community engagement into as simple as the flick of a switch.
-testimonial: Kailoon is talented and sharp. Paired with a keen design sense and patience when dealing with clients, he’s a trustable resource to work with when it comes to branding and UI/UX works. I’ve entrusted him with the branding works of my 2 companies and will continue to do so in the future.
-clientName: Yao Quan
+testimonial: Mohammad is talented and sharp. Paired with a keen design sense and patience when dealing with clients, he’s a trustable resource to work with when it comes to branding and UI/UX works. I’ve entrusted him with the branding works of my 2 companies and will continue to do so in the future.
+clientName: Mostafa Khodabande
 clientPos: coFounder of FlickEvents
 projectUrl: https://www.flickevents.com/
 dribbble: https://dribbble.com/kailoon/projects/142558-FlickEvents
 topColor:
 bgColor: D3F2E3
-featured:
+featured: ture
 featuredImg: flickevents-featured
-tasks: Brand Identity & Web Development
+tasks: Redesign POS app
 tags: ['graphic design', 'web design']
-year: 2013
+year: 2020
 date: 2021-02-01
 ---
 

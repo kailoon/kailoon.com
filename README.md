@@ -33,7 +33,7 @@ let markdownLibrary = markdownIt({
   html: true,
   breaks: true
 }).use(markdownitlinkatt, {
-  pattern: /^(?!(https:\/\/kailoon\.com|#)).*$/gm,
+  pattern: /^(?!(https:\/\/mmdsharifi\.com|#)).*$/gm,
   attrs: {
     target: '_blank',
     rel: 'noreferrer'
@@ -48,7 +48,7 @@ eleventyConfig.setLibrary('md', markdownLibrary)
 5. score 4 x 100 in Google lighthouse.
 6. CSSnano (minify) ready.
 
-![](https://res.cloudinary.com/kailoon/image/upload/v1613408502/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.png)
+![](https://res.cloudinary.com/mmdsharifi/image/upload/v1613408502/mmdsharifi.com/Screenshot_on_2021-02-14_at_19-06-24.png)
 
 ### Installation
 
@@ -63,4 +63,4 @@ Hope you like it ❤️
 
 ### Update
 
-The current site is built with Nextjs and hosted on Vercel and can be found [here](https://github.com/kailoon/kailoon-next). However, I will continue to maintain this repo.
+The current site is built with Nextjs and hosted on Vercel and can be found [here](https://github.com/mmdsharifi/mmdsharifi-next). However, I will continue to maintain this repo.
