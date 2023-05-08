@@ -22,7 +22,7 @@ How to capture all essential elements of project to understand needs, scope and 
 
  A design brief is your magical weapon to show your professionalism and get start your project in a right way! 
 
-you might ask how? 🤔
+You might ask how? 🤔
 
 In this article I talk about why and how to write a perfect design brief with help of my FREE Notion template. So let’s dive in, and see the magic 🪄
 
@@ -32,18 +32,15 @@ writing a design brief is your first step for any UI/UX or Product design projec
 
 - 💎 By clearly understand project requirements, objectives, constraints and target users
 - ⏱️ Make communication more effective and avoid lots of revisions and iteration
-- 😀 Deliver what exactly client want which is make you client satisfied
+- 🎯 Deliver what exactly client want which is make your client satisfied
 - 🚀 Increase your productivity by stay focused, prioritize tasks, and allocate resources effectively
-- 😎 Presenting a comprehensive design brief demonstrates professionalism and attention to detail, enhancing your credibility as a designer.
+- 🖥️ Presenting a comprehensive design brief demonstrates professionalism and attention to detail, enhancing your credibility as a designer.
 
 … and much more! what do you think?
 
 
 ### How to write Design Brief?
-</div>
-<div class="col-start-2 col-end-10">
-{% figure 'Sections_ndghrn', 'Notion Design brief template', 'The magic part started! ✨' %}
-
+Follow step by step guide to write down your brief.
 </div>
 <div class="col-start-3 col-end-9">
 
@@ -62,14 +59,28 @@ Considering all aspect of project in the design brief can be quite challenging. 
 
 
 and create a `duplicate` of template to get started!
-#### 2) Calendar a meeting with your client
+#### 2) Write it down!
 
 Now you have a brand new template with some question to ask your client. Next you need have a kickoff meeting with your client, to ask him/her questions that I provided in the template.
 Feel free to customize it based on your project and needs. Also you can use it like a checklist to consider all aspect of project from background, market, product and design goals, like a pro! 😎
+##### Key Sections of a Design Brief
+
+- **Project Information**: quick information about project
+- **Background** Why this project should exist?
+- **Market** All about market goals and competitors
+- **Product** Vision and mission of product, key UVP (unique value proposition)
+- **Users** Know target users, their needs, pain points and goals
+- **Design Goals** Design expectation, success indicator for evaluation of the design
+
+for each section I provided couple of questions to understand what should ask from your client.
+
+{% figure 'design_brief_sections', 'Design Brief Sections', 'Design Brief Sections -- feel free to customize it based on your needs' %}
 
 Before meeting make sure to review the template and make your questions ready, during the meeting also write answers on your notebook as a draft, while you can record the meeting. (always ask before record their voice)
 
+
 Finally, after the meeting you can rewrite all of answers in your Notion template as live document. Might be you need multiple meetings to write your design brief completely.
+
 ![meeting](https://thumbs.gfycat.com/ConsiderateCalculatingAnnelid-size_restricted.gif)
 
 #### 3) Utilize & Update 

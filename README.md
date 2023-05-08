@@ -61,6 +61,6 @@ eleventyConfig.setLibrary('md', markdownLibrary)
 
 Hope you like it ❤️
 
-### Update
+### TODO List
+[] add `favicon.svg` 
 
-The current site is built with Nextjs and hosted on Vercel and can be found [here](https://github.com/mmdsharifi/mmdsharifi-next). However, I will continue to maintain this repo.
