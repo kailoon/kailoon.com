@@ -5,7 +5,7 @@
 	"scripts": {
 		"serve": "ELEVENTY_ENV=dev npx eleventy --serve & tailwindcss -i ./src/css/tailwind.css -o ./_site/css/styles.css --watch",
 		"start": "npm run serve",
-		"build": "ELEVENTY_ENV=dev npx eleventy",
+		"build": "ELEVENTY_ENV=dev npx eleventy & npm run build:prod",
 		"build:prod": "ELEVENTY_ENV=prod npx eleventy & tailwindcss -i ./src/css/tailwind.css -o ./_site/css/styles.css --minify"
 	},
 	"keywords": [
@@ -13,10 +13,10 @@
 		"tailwindcss",
 		"eleventy"
 	],
-	"author": "kailoon",
+	"author": "Mohammad Sharifi",
 	"license": "ISC",
 	"devDependencies": {
-		"@11ty/eleventy": "^1.0.2",
+		"@11ty/eleventy": "^2.0.0",
 		"@11ty/eleventy-navigation": "^0.3.5",
 		"@11ty/eleventy-plugin-rss": "^1.2.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",

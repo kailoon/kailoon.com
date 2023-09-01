@@ -23,7 +23,7 @@
 		},
 		{
 			"name": "03. Web Development",
-			"description": "I always make sure the projects is developed with the latest technology and it is easy to use or maintained by the clients. Check out my <a href='https://github.com/kailoon/resume' target='_blank' rel='noreferrer'>skillset</a> & <a href='https://github.com/kailoon/certificates' target='_blank' rel='noreferrer'>certificates</a>.",
+			"description": "I always make sure the projects is developed with the latest technology and it is easy to use or maintained by the clients. Check out my <a href='https://github.com/mmdsharifi/resume' target='_blank' rel='noreferrer'>skillset</a> & <a href='https://github.com/mmdsharifi/certificates' target='_blank' rel='noreferrer'>certificates</a>.",
 			"tags": [
 				"Front-end Development",
 				"Responsive Website Development",
@@ -36,14 +36,7 @@
 		}
 	],
 	"featuredWorkTitle": "Featured Works",
-	"featuredWorkDescription": "Over the years, I have the honour to collaborate with clients range from startups to SME, some of them has grown successfully or being acquired. Below are some of the works I've involved with.",
+	"featuredWorkDescription": "A B2B and enterprise SaaS product designer with 2+ years of experience. Skilled at interface design and developing prototypes for web and mobile apps.",
 	"browseFullPortfolio": "Browse full portfolio",
-	"footerCreditLine1": "2021 © kailoon.",
-	"footerCreditLine2": "This site was designed in ",
-	"builtTools": {
-		"figma": "https://www.figma.com/",
-		"11ty": "https://www.11ty.dev/",
-		"tailwindcss": "https://tailwindcss.com/",
-		"deployed via Netlify": "https://www.netlify.com/"
-	}
+	"footerCreditLine1": "🎨 and 👨‍💻 with 💙 in 🇮🇷"
 }

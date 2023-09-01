@@ -1,27 +1,27 @@
 {
-	"name": "kailoon",
-	"url": "https://kailoon.com/",
+	"name": "Mohammad Sharifi",
+	"url": "https://mmdsharifi.com/",
 	"feed": {
-		"subtitle": "The personal and professional website of designer & developer, kailoon.",
+		"subtitle": "The personal and professional website of designer & developer, Mohammad.",
 		"filename": "feed.xml",
 		"path": "/feed/feed.xml",
-		"id": "https://kailoon.com/"
+		"id": "https://mmdsharifi.com/"
 	},
 	"jsonfeed": {
 		"path": "/feed/feed.json",
-		"url": "https://kailoon.com/feed/feed.json"
+		"url": "https://mmdsharifi.com/feed/feed.json"
 	},
 	"author": {
-		"name": "kailoon",
-		"email": "chankailoon@gmail.com",
-		"url": "https://kailoon.com/",
-		"avatar": "https://res.cloudinary.com/kailoon/image/upload/c_scale,dpr_auto,q_auto,w_64/v1610896577/kailoon.com/avatar_ce8dgk.webp",
-		"mailtolink": "mailto:chankailoon@gmail.com?subject=Request from kailoon.com&body=Be sure to share as much info as you can on what you're trying to achieve and what sort of budget you have in place."
+		"name": "Mohammad Sharifi",
+		"email": "kordDesigner@gmail.com",
+		"url": "https://mmdsharifi.com/",
+		"avatar": "https://res.cloudinary.com/mmdsharifi/image/upload/c_fill,g_face,h_150,w_150/r_max/v1677066006/mmdsharifi.com/avatar.webp",
+		"mailtolink": "mailto:kordDesigner@gmail.com?subject=Request from mmdsharifi.com&body=Be sure to share as much info as you can on what you're trying to achieve and what sort of budget you have in place."
 	},
 	"socials": {
-		"dribbble": "https://dribbble.com/kailoon",
-		"twitter": "https://twitter.com/kailoon",
-		"linkedin": "https://linkedin.com/in/kailoon",
-		"github": "https://github.com/kailoon"
+		"dribbble": "https://dribbble.com/mmdsharifi",
+		"twitter": "https://twitter.com/_mmdsharifi",
+		"linkedin": "https://linkedin.com/in/mmdsharifi",
+		"github": "https://github.com/mmdsharifi"
 	}
 }

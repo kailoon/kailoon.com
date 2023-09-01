@@ -1,8 +1,8 @@
 ---
 layout: index.njk
-metaTitle: kailoon - Freelance Front-End Web UI/UX Developer from Malaysia
+metaTitle: Mohammad Sharifi - Product Designer & Web Developer
 metaDescription: Design that code.
-title: 'Design for successful digital products and websites.'
+title: 'Turn complex challenges to remarkable experience.'
 description: With a strong focus on responsive design, performance & accessibility.
 templateEngineOverride: njk,md
 ---

@@ -4,8 +4,8 @@ backend:
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
-site_url: https://kailoon.com
-display_url: https://kailoon.com
+site_url: https://mmdsharifi.com
+display_url: https://mmdsharifi.com
 logo_url: https://res.cloudinary.com/kailoon/image/upload/v1610896578/kailoon.com/logo_stqiiw.svg
 show_preview_links: true
 
@@ -13,8 +13,8 @@ show_preview_links: true
 media_library:
   name: cloudinary
   config:
-    cloud_name: kailoon
-    api_key: 373569654927936
+    cloud_name: mmdsharifi
+    api_key: 587542358335822
 
 #collections
 collections:

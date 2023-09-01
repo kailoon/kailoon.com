@@ -1,6 +1,6 @@
 {
-	"name": "kailoon's personal site & portfolio",
-	"short_name": "kailoon",
+	"name": "Mohammad's personal site & portfolio",
+	"short_name": "Mohammad Sharifi",
 	"icons": [
 		{
 			"src": "./img/android-chrome-192x192.png",
@@ -13,8 +13,8 @@
 			"type": "image/png"
 		}
 	],
-	"theme_color": "#ffffff",
+	"theme_color": "#2196F3",
 	"background_color": "#ffffff",
 	"display": "standalone",
-	"start_url": "https://kailoon.com"
+	"start_url": "https://mmdsharifi.com"
 }

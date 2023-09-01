@@ -1,9 +1,9 @@
 ---
 layout: works.njk
 metaTitle: Portfolio
-metaDescription: The projects I'd invloved in over the years.
+metaDescription: The projects I'd involved in over the years.
 title: Works
-description: Over the years, I have the honour to collaborate with clients range from startups to SME, some of them has grown successfully or being acquired. Below are some of the works I've involved with.
+description: A B2B and enterprise SaaS product designer with 2+ years of experience. Skilled at interface design and developing prototypes for web and mobile apps.
 templateEngineOverride: njk,md
 eleventyNavigation:
   key: works.

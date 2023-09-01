@@ -1,27 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title></title>
-	<subtitle>The personal and professional website of designer &amp; developer, kailoon.</subtitle>
+	<subtitle>The personal and professional website of designer &amp; developer, Mohammad.</subtitle>
 	
-	<link href="https://kailoon.com/feed/feed.xml" rel="self"/>
-	<link href="https://kailoon.com/"/>
-	<updated>2021-02-18T00:00:00Z</updated>
-	<id>https://kailoon.com/</id>
+	<link href="https://mmdsharifi.com/feed/feed.xml" rel="self"/>
+	<link href="https://mmdsharifi.com/"/>
+	<updated>2023-04-28T00:00:00Z</updated>
+	<id>https://mmdsharifi.com/</id>
 	<author>
-		<name>kailoon</name>
-		<email>chankailoon@gmail.com</email>
+		<name>Mohammad Sharifi</name>
+		<email>kordDesigner@gmail.com</email>
 	</author>
 	
 	<entry>
-		<title>Finally Settled With 11ty</title>
-		<link href="https://kailoon.com/posts/2021/02/finally-settled-with-11ty/"/>
-		<updated>2021-02-18T00:00:00Z</updated>
-		<id>https://kailoon.com/posts/2021/02/finally-settled-with-11ty/</id>
+		<title>Magic of writing Design Briefs, The Secrets to Project Success</title>
+		<link href="https://mmdsharifi.com/posts/2023/04/notion-design-brief/"/>
+		<updated>2023-04-28T00:00:00Z</updated>
+		<id>https://mmdsharifi.com/posts/2023/04/notion-design-brief/</id>
 		<content type="html">&lt;div class=&quot;col-start-3 col-end-9&quot;&gt;
-&lt;h3 id=&quot;what-changed%3F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://kailoon.com/posts/2021/02/finally-settled-with-11ty/#what-changed%3F&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;What Changed?&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;introduction&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://mmdsharifi.com/posts/2023/04/notion-design-brief/#introduction&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Introduction&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Do you know what is the secret of professional designers to start their projects strongly?&lt;/p&gt;
+&lt;p&gt;How to capture all essential elements of the project to understand needs, scope and align expectations from design to project success?&lt;/p&gt;
+&lt;p&gt;A design brief is your magical weapon to show your professionalism and get started on your project in the right way!&lt;/p&gt;
+&lt;p&gt;you might ask how? 🤔&lt;/p&gt;
+&lt;p&gt;In this article, I talk about why and how to write a perfect design brief with help of my FREE Notion template. So let’s dive in, and see the magic 🪄&lt;/p&gt;
+&lt;h3 id=&quot;why-we-should-write-the-design-brief%3F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://mmdsharifi.com/posts/2023/04/notion-design-brief/#why-we-should-write-the-design-brief%3F&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Why we should write the design brief?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Writing a design brief is your first step for any UI/UX or Product design project. But most of designers struggle with why and how to write it. Let’s talk about the importance and benefits of writing design briefs. Generally, it helps you to be more creative and productive.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;💎 By clearly understanding project requirements, objectives, constraints,  and target users&lt;/li&gt;
+&lt;li&gt;⏱️ Make communication more effective and avoid lots of revisions and iteration&lt;/li&gt;
+&lt;li&gt;😀 Deliver what exactly the client wants which is to make you client satisfied&lt;/li&gt;
+&lt;li&gt;🚀 Increase your productivity by staying focused, prioritizing tasks, and allocate resources effectively&lt;/li&gt;
+&lt;li&gt;😎 Presenting a comprehensive design brief demonstrates professionalism and attention to detail, enhancing your credibility as a designer.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;… and much more! what do you think?&lt;/p&gt;
+&lt;h3 id=&quot;how-to-write-design-brief%3F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://mmdsharifi.com/posts/2023/04/notion-design-brief/#how-to-write-design-brief%3F&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;How to write Design Brief?&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Follow the step by step guide to write down your brief.&lt;/p&gt;
+&lt;h4 id=&quot;1)-download-free-notion-template&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://mmdsharifi.com/posts/2023/04/notion-design-brief/#1)-download-free-notion-template&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;1) Download Free Notion Template&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Considering all aspects of the project in the design brief can be quite challenging. But I made a Notion Design Brief template to make your life easier! if you like this magic template, you can buy me a coffee! ☕&lt;/p&gt;
+&lt;figure class=&quot;mb-10&quot;&gt;&lt;img loading=&quot;lazy&quot; src=&quot;https://res.cloudinary.com/mmdsharifi/image/upload/q_auto,f_auto,w_400/965shots_so_p5orwe.webp&quot; srcset=&quot;https://res.cloudinary.com/mmdsharifi/image/upload/dpr_auto,q_auto,w_400/mmdsharifi.com/965shots_so_p5orwe.webp 400w, https://res.cloudinary.com/mmdsharifi/image/upload/dpr_auto,q_auto,w_600/mmdsharifi.com/965shots_so_p5orwe.webp 600w, https://res.cloudinary.com/mmdsharifi/image/upload/dpr_auto,q_auto,w_768/mmdsharifi.com/965shots_so_p5orwe.webp 768w, https://res.cloudinary.com/mmdsharifi/image/upload/dpr_auto,q_auto,w_820/mmdsharifi.com/965shots_so_p5orwe.webp 820w, https://res.cloudinary.com/mmdsharifi/image/upload/dpr_auto,q_auto,w_1240/mmdsharifi.com/965shots_so_p5orwe.webp 1240w&quot; alt=&quot;Notion Design Brief template Mockup&quot; width=&quot;400&quot; height=&quot;300&quot; /&gt;&lt;figcaption class=&quot;text-center text-sm mt-3 text-gray-600 dark:text-gray-200&quot;&gt;👇&lt;/figcaption&gt;&lt;/figure&gt;
+ &lt;a href=&quot;https://mmdsharifi.gumroad.com/l/designbrief&quot; title=&quot;Download now&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot; class=&quot;text-center text-blue-800 bg-blue-100 transition-colors hover:text-blue-100 hover:bg-blue-800 dark:text-red-900 dark:bg-blue-700 dark:hover:bg-blue-900 dark:hover:text-blue-900 font-bold tracking-tight text-lg py-3 px-5 mb-5 rounded-md inline-flex items-center justify-center&quot;&gt;
+            &lt;svg class=&quot;inline-block w-5 h-5 mr-2&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; stroke=&quot;currentColor&quot;&gt;
+              &lt;path stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot; d=&quot;M13 10V3L4 14h7v7l9-11h-7z&quot;&gt;&lt;/path&gt;
+            &lt;/svg&gt;
+            Download Free Notion Design Brief Template
+ &lt;/a&gt;
+&lt;p&gt;and create a &lt;code&gt;duplicate&lt;/code&gt; of template to get started!&lt;/p&gt;
+&lt;h4 id=&quot;2)-write-it-down!&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://mmdsharifi.com/posts/2023/04/notion-design-brief/#2)-write-it-down!&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;2) Write it down!&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Now you have a brand new template with some question to ask your client. Next you need have a kickoff meeting with your client, to ask him/her questions that I provided in the template.&lt;br /&gt;
+Feel free to customize it based on your project and needs. Also you can use it like a checklist to consider all aspect of project from background, market, product and design goals, like a pro! 😎&lt;/p&gt;
+&lt;h5 id=&quot;key-sections-of-a-design-brief&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://mmdsharifi.com/posts/2023/04/notion-design-brief/#key-sections-of-a-design-brief&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Key Sections of a Design Brief&lt;/a&gt;&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Project Information&lt;/strong&gt;: quick information about the project&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Background&lt;/strong&gt; Why this project should exist?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Market&lt;/strong&gt; All about market goals and competitors&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Product&lt;/strong&gt; Vision and mission of product, key UVP (unique value proposition)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Users&lt;/strong&gt; Know target users, their needs, pain points and goals&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Design Goals&lt;/strong&gt; Design expectation, success indicator for evaluation of the design&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For each section, I provided a couple of questions to understand what should ask your client.&lt;/p&gt;
+&lt;figure class=&quot;mb-10&quot;&gt;&lt;img loading=&quot;lazy&quot; src=&quot;https://res.cloudinary.com/mmdsharifi/image/upload/q_auto,f_auto,w_400/design_brief_sections.webp&quot; srcset=&quot;https://res.cloudinary.com/mmdsharifi/image/upload/dpr_auto,q_auto,w_400/mmdsharifi.com/design_brief_sections.webp 400w, https://res.cloudinary.com/mmdsharifi/image/upload/dpr_auto,q_auto,w_600/mmdsharifi.com/design_brief_sections.webp 600w, https://res.cloudinary.com/mmdsharifi/image/upload/dpr_auto,q_auto,w_768/mmdsharifi.com/design_brief_sections.webp 768w, https://res.cloudinary.com/mmdsharifi/image/upload/dpr_auto,q_auto,w_820/mmdsharifi.com/design_brief_sections.webp 820w, https://res.cloudinary.com/mmdsharifi/image/upload/dpr_auto,q_auto,w_1240/mmdsharifi.com/design_brief_sections.webp 1240w&quot; alt=&quot;Design Brief Sections&quot; width=&quot;400&quot; height=&quot;300&quot; /&gt;&lt;figcaption class=&quot;text-center text-sm mt-3 text-gray-600 dark:text-gray-200&quot;&gt;Design Brief Sections -- feel free to customize it based on your needs&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Before the meeting make sure to review the template and make your questions ready, during the meeting also write answers in your notebook as a draft, while you can record the meeting. (always ask before recording their voice)&lt;/p&gt;
+&lt;p&gt;Finally, after the meeting, you can rewrite all of the answers in your Notion template as a live document. Might be you need multiple meetings to write your design brief completely.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://thumbs.gfycat.com/ConsiderateCalculatingAnnelid-size_restricted.gif&quot; alt=&quot;meeting&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;3)-utilize-%26-update&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://mmdsharifi.com/posts/2023/04/notion-design-brief/#3)-utilize-%26-update&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;3) Utilize &amp;amp; Update&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Through project, you can always update the design brief and definitely use it as your single source of truth for upcoming steps, like user research, competitor analysis and even the look and feel of the UI design to resonate with the client’s core value or unique value proposition.&lt;/p&gt;
+&lt;p&gt;That is it! Now you&#39;re a magician 🧙‍♂️🪄&lt;/p&gt;
+&lt;h3 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://mmdsharifi.com/posts/2023/04/notion-design-brief/#conclusion&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Conclusion&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;In this article, I share my knowledge about writing design briefs. It helps you be more creative, since you clearly understand project needs you can provide better solutions and increase your productivity by staying focused, prioritizing tasks, and allocating resources effectively. Write a design brief for your next project use the template provided to streamline your project, and see the magic! ✨&lt;/p&gt;
+&lt;/div&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Hello World!</title>
+		<link href="https://mmdsharifi.com/posts/2023/02/finally-settled-with-11ty/"/>
+		<updated>2023-02-12T00:00:00Z</updated>
+		<id>https://mmdsharifi.com/posts/2023/02/finally-settled-with-11ty/</id>
+		<content type="html">&lt;div class=&quot;col-start-3 col-end-9&quot;&gt;
+&lt;h3 id=&quot;what-changed%3F&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://mmdsharifi.com/posts/2023/02/finally-settled-with-11ty/#what-changed%3F&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;What Changed?&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;The web development landscape changed a lot in recent years. Developers moved to modern web development (&lt;a href=&quot;https://jamstack.org/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;JAMstack&lt;/a&gt;) and become more specialised. There are now front-end, backend and full-stack web development stacks. I believe, front-end web development became the automatic choice for most developers with designer background.&lt;/p&gt;
 &lt;p&gt;Other than that, WordPress evolved from a simple blogging platform to a &lt;a href=&quot;https://fullsiteediting.com/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;full-site-editing CMS&lt;/a&gt; (soon). We kinda see that coming. After years of reviewing on ThemeForest, the demands for a full fledge CMS from WordPress are increasing and page builder is gaining popularity since the introduction of &lt;a href=&quot;https://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;WPBakery&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&quot;static-site-generators&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://kailoon.com/posts/2021/02/finally-settled-with-11ty/#static-site-generators&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;static-site-generators&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://mmdsharifi.com/posts/2023/02/finally-settled-with-11ty/#static-site-generators&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Static Site Generators&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;I first encountered SSG back in 2017. I forgot the reason why I get into SSG but once I get started, I cannot stop. I tried &lt;a href=&quot;https://www.gatsbyjs.com/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Gatsby&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://gohugo.io/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Hugo&lt;/a&gt; but 11ty became my favourite.&lt;/p&gt;
 &lt;p&gt;What fascinate me is the fact that we are using basic HTML/CSS again for building websites. This might sound like a return to the old ways of making sites but there are some key differences:&lt;/p&gt;
 &lt;ul&gt;
@@ -31,21 +91,20 @@
 &lt;li&gt;It is secured, easy to scale and the performance is insane. These are also my main reasons of using SSG.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;SSG&lt;/strong&gt; simply makes more sense for most company static websites with minimal interaction or less-frequent content update.&lt;/p&gt;
-&lt;h4 id=&quot;gatsby&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://kailoon.com/posts/2021/02/finally-settled-with-11ty/#gatsby&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Gatsby&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;gatsby&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://mmdsharifi.com/posts/2023/02/finally-settled-with-11ty/#gatsby&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Gatsby&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Gatsby&lt;/a&gt; is my first attempt to the SSG world. Well, I have my personal reason behind this. WordPress started using &lt;a href=&quot;https://reactjs.org/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;React&lt;/a&gt; for &lt;a href=&quot;https://wordpress.org/gutenberg/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Gutenberg&lt;/a&gt; and it&#39;s just a good timing to learn React. There is definitely a learning curve when dealing with Gatsby while learning ReactJS at the same time. However, the performance of Gatsby is no doubt one of the best.&lt;/p&gt;
 &lt;p&gt;I found this article by &lt;a href=&quot;https://brycewray.com/posts/2019/07/why-staying-with-hugo&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Bryce Wray&lt;/a&gt; who has the similar struggle or experience with Gatsby. The plugins dependencies and those errors / warnings in the CLI are driving me crazy. There is this &lt;em&gt;uncertainty&lt;/em&gt; playing in head every time I install / run a build. Further, I find it is an overkilled to use Gatsby for personal blog.&lt;/p&gt;
-&lt;h4 id=&quot;hugo&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://kailoon.com/posts/2021/02/finally-settled-with-11ty/#hugo&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Hugo&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;hugo&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://mmdsharifi.com/posts/2023/02/finally-settled-with-11ty/#hugo&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Hugo&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;The thing about &lt;a href=&quot;https://gohugo.io/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Hugo&lt;/a&gt; is that it feels lightweight, I was intrigued by the reported build speed. Site as big as &lt;a href=&quot;https://www.smashingmagazine.com/2019/05/switch-wordpress-hugo/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;SmashingMagazine&lt;/a&gt; is build on Hugo, this won&#39;t go wrong. So I dive in, having fun building my personal site 2.0 on Hugo using Go&#39;s html/template which based on &lt;a href=&quot;https://golang.org/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Golang&lt;/a&gt;. I&#39;d recommend Hugo to anyone who would like to try SSG, I may still try it for a few small projects in the future.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;https://gohugo.io/content-management/archetypes/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Archetypes&lt;/a&gt; feature is really handy and I really hope I can do the same with 11ty.&lt;/p&gt;
-&lt;h4 id=&quot;11ty&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://kailoon.com/posts/2021/02/finally-settled-with-11ty/#11ty&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;11ty&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;11ty&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;https://mmdsharifi.com/posts/2023/02/finally-settled-with-11ty/#11ty&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;11ty&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.11ty.dev/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;Eleventy&lt;/a&gt; is fairly new, if comparing to Gatsby and Hugo. It supports plugins and you can write it in multiple template languages, you can pick one or use them all together!&lt;/p&gt;
 &lt;p&gt;Eleventy seems to have all the features I wanted ( no archetypes tho ), fast-enough build speed, easy-to-use collections to group content. Further, I can add shortcodes easily for easy content management. The folder system is simple, dummy proof.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;col-start-2 col-end-10&quot;&gt;
-&lt;figure class=&quot;mb-10&quot;&gt;&lt;img loading=&quot;lazy&quot; src=&quot;https://res.cloudinary.com/kailoon/image/upload/q_auto,f_auto,w_400/Screenshot_on_2021-02-14_at_19-06-24.webp&quot; srcset=&quot;https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_400/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.webp 400w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_600/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.webp 600w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_768/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.webp 768w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_820/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.webp 820w, https://res.cloudinary.com/kailoon/image/upload/dpr_auto,q_auto,w_1240/kailoon.com/Screenshot_on_2021-02-14_at_19-06-24.webp 1240w&quot; alt=&quot;google lighthouse score 400&quot; width=&quot;400&quot; height=&quot;300&quot; /&gt;&lt;figcaption class=&quot;text-center text-sm mt-3 text-gray-600 dark:text-gray-200&quot;&gt;The magic 400 on Google Lighthouse.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/div&gt;
 &lt;div class=&quot;col-start-3 col-end-9&quot;&gt;
-&lt;p&gt;This site is built with &lt;a href=&quot;https://github.com/kailoon/kailoon.com&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;11ty &amp;amp; TailwindCSS&lt;/a&gt;. It scores the magic 400 on Google Lighthouse.&lt;/p&gt;
+&lt;p&gt;This site is built with &lt;a href=&quot;https://github.com/mmdsharifi/mmdsharifi.com&quot; target=&quot;_blank&quot; rel=&quot;noreferrer&quot;&gt;11ty &amp;amp; TailwindCSS&lt;/a&gt;. It scores the magic 400 on Google Lighthouse.&lt;/p&gt;
 &lt;/div&gt;
 </content>
 	</entry>

@@ -1,27 +1,63 @@
 ---
-metaTitle: 99.co
-metaDescription: 99.co is a map-based property search engine that provides renters, buyers, and agents fast and efficient property search experience.
-title: 99.co
-description: A map-based property search engine that provides renters, buyers, and agents fast and efficient property search experience.
-testimonial: kailoon is talented and sharp. Paired with a keen design sense and patience when dealing with clients, he’s a trustable resource to work with when it comes to branding and UI/UX works. I’ve entrusted him with the branding works of my 2 companies and will continue to do so in the future.
-clientName: Yan Phun
-clientPos: Founder of Tinder
-projectUrl: https://www.99.co/
-dribbble: https://dribbble.com/kailoon/projects/304610-99-co
-featuredImg: 99-featured
-bgColor: D5E7F3
+metaTitle: SetPay, A Blockchain Based App for Music Fans
+metaDescription: SetPay rewards concert attendees for tracking a concert's setlist.
+title: SetPay
+description: SetPay rewards concert attendees for tracking a concert's setlist. 
+testimonial: Mohammad is talented and sharp. Paired with a keen design sense and patience when dealing with clients, he’s a trustable resource to work with when it comes to UI/UX design.
+clientName: Jackson Delahunt
+clientPos: Product Manager
+projectUrl: https://vote.setpaymusic.com/
+dribbble: https://dribbble.com/mmdsharifi
+featuredImg: setpay_featured
+bgColor: E9F5FE
 featured: true
 span: true
-tasks: App Design & Email Design
-year: 2015
-date: 2021-02-28
+tasks: UI/Interaction Design mobile web app
+year: 2022
+date: 2023-02-28
+publish: true
 ---
+
 
 <div class="col-start-3 col-end-9">
 
-### The Client
+### Background.
+SetPay rewards concert attendees for tracking a concert’s setlist. Earn SetPay (SET) Tokens by keeping track of what songs are performed tonight. SET Tokens unlock cool artist-related rewards including merchandise, tickets, backstage passes, and digital collectables! 
 
-[99.co](http://99.co/) is a map-based property search engine that provides renters, buyers, and agents fast and efficient property search experience. The startup is founded in 2014, based in Singapore and expanded to Indonesia.
+</div>
+
+<div class="col-start-3 col-end-6">
+
+### Background.
+SetPay rewards concert attendees for tracking a concert’s setlist. Earn SetPay (SET) Tokens by keeping track of what songs are performed tonight. SET Tokens unlock cool artist-related rewards including merchandise, tickets, backstage passes, and digital collectables! 
+</div>
+
+<div class="col-start-7 col-end-9">
+
+### Role.
+
+UI and Interaction Design
+
+### Tools.
+- Figma
+- Figjam
+
+</div>
+
+<div class="col-start-2 col-end-10 bg-blue-50 p-8 border-l-4 border-blue-800">
+ <span class="text-blue-900 text-4xl font-extralight italic font-serif">It's great! yeah, very cool stuff goes here babe. It can be very large </span>
+</div>
+
+
+
+<div class="col-start-3 col-end-9">
+
+### The Solution
+
+We come up with a solution that resembles the existing logo styling yet easy to extend to other marketplaces/products. Minimal, subtle but recognisable.
+
+
+
 
 ### The challenge
 
@@ -63,3 +99,4 @@ However, things didn’t turn out as expected. I have to move to Singapore in or
 After all, this is quite an exciting project as I have the opportunity to work for a promising startup and learn quite a few non-technical things along the journey.
 
 </div>
+

@@ -5,7 +5,7 @@
 
       {%- if collections.tagList.indexOf(tag) != -1 -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-          <a href="{{ tagUrl | url }}" class="text-gray-800 font-bold hover:text-purple-800 dark:text-gray-200 dark:hover:text-yellow-200">{{ tag }}</a>
+          <a href="{{ tagUrl | url }}" class="text-gray-800 font-bold hover:text-blue-800 dark:text-gray-200 dark:hover:text-blue-200">{{ tag }}</a>
         {%- if loop.last %}. {% endif -%}
         {% if loop.length - loop.index == 1 %} & {% endif %}
         {%- if loop.length - loop.index > 1 %},  {% endif -%}

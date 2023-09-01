@@ -10,7 +10,7 @@ projectUrl: https://www.qbasistech.com/
 dribbble: https://dribbble.com/kailoon/projects/282263-Qbasis
 featuredImg: qbasis-featured
 bgColor: E3F0D0
-featured: true
+featured: 
 tasks: Logo Design & Brand Identity
 year: 2015
 date: 2021-02-18
