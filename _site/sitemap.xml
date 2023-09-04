@@ -42,11 +42,6 @@
   </url>
 
   <url>
-    <loc>https://mmdsharifi.com/about/</loc>
-    <lastmod>2023-07-22</lastmod>
-  </url>
-
-  <url>
     <loc>https://mmdsharifi.com/admin/</loc>
     <lastmod>2023-07-22</lastmod>
   </url>
@@ -114,5 +109,10 @@
   <url>
     <loc>https://mmdsharifi.com/works/</loc>
     <lastmod>2023-07-22</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mmdsharifi.com/about/</loc>
+    <lastmod>2023-08-31</lastmod>
   </url>
 </urlset>
