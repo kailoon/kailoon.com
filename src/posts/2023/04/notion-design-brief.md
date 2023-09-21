@@ -4,7 +4,7 @@ metaTitle: Magic of writing Design Briefs, The Secrets to Project Success
 metaDescription: I talk about why and how to write a perfect design brief with help of my FREE Notion template. So let’s dive in, and see the magic 🪄 
 title: Magic of writing Design Briefs, The Secrets to Project Success
 description: I talk about why and how to write a perfect design brief with help of my FREE Notion template. So let’s dive in, and see the magic 🪄
-featuredImg: design_brif_post_ow9jyn
+featuredImg: 965shots_so_p5orwe
 subHeading: I talk about why and how to write a perfect design brief with help of my FREE Notion template. So let’s dive in, and see the magic 🪄
 tags: ['Design Brief', 'Notion']
 date: 2023-04-28
