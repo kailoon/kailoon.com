@@ -47,11 +47,6 @@
   </url>
 
   <url>
-    <loc>https://mmdsharifi.com/</loc>
-    <lastmod>2023-07-22</lastmod>
-  </url>
-
-  <url>
     <loc>https://mmdsharifi.com/posts/</loc>
     <lastmod>2023-07-22</lastmod>
   </url>
@@ -77,16 +72,6 @@
   </url>
 
   <url>
-    <loc>https://mmdsharifi.com/tags/Design%20Brief/</loc>
-    <lastmod>2023-07-22</lastmod>
-  </url>
-
-  <url>
-    <loc>https://mmdsharifi.com/tags/Notion/</loc>
-    <lastmod>2023-07-22</lastmod>
-  </url>
-
-  <url>
     <loc>https://mmdsharifi.com/tags/SSG/</loc>
     <lastmod>2023-07-22</lastmod>
   </url>
@@ -98,6 +83,26 @@
 
   <url>
     <loc>https://mmdsharifi.com/tags/Web%20Development/</loc>
+    <lastmod>2023-07-22</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mmdsharifi.com/tags/Design%20Brief/</loc>
+    <lastmod>2023-07-22</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mmdsharifi.com/tags/Notion/</loc>
+    <lastmod>2023-07-22</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mmdsharifi.com/tags/learn/</loc>
+    <lastmod>2023-07-22</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mmdsharifi.com/tags/challenges/</loc>
     <lastmod>2023-07-22</lastmod>
   </url>
 
@@ -114,5 +119,15 @@
   <url>
     <loc>https://mmdsharifi.com/about/</loc>
     <lastmod>2023-08-31</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mmdsharifi.com/</loc>
+    <lastmod>2023-09-04</lastmod>
+  </url>
+
+  <url>
+    <loc>https://mmdsharifi.com/posts/2023/09/english-writing-challenge/</loc>
+    <lastmod>2023-09-20</lastmod>
   </url>
 </urlset>
