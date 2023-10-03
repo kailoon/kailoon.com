@@ -95,10 +95,40 @@ Finally, it’s time to use this information to tell your story, inspire others,
 I just opened the Apple Podcast app and scrolled to find a random episode to listen to while I do my work. One of them caught my eye which was about problem-solving. Wow as a designer I am always curious about this kind of skill. He talked about lots of ways to become better problem solvers in our lives.
 Here is my tip for TIL (today I learned...) 📝 write down your problem in 100 words. Then try to describe it in 400 and 900 words, and finally magic ✨ will happen. you solve your problem by yourself. This is the magic of problem clarification. Write more about your challenge eventually, you'll find the solution/s inside it! You can try to write down 900 words, but 900 is not a magic number write till you'll find the solution.
 
-## Day 08 · How I became a Developer then a Designer, part 1
+### Day 08 · How I became a Developer then a Designer, part 1
 
 I’ve been a designer since almost 4 years ago. But let's flashback to the past and see how my design adventure started 😁. When I was a kid I went to my cousin, he was a computer geek and kind of programmer. Always I have fun in their house most of the time by playing games like IGA, FIFA 2002, chickens, and more. As I grew up, I became more curious about computers, one day I explored random places on Earth and I was amazed about how and who made this, I know it’s from Google. He taught me web design and development with Dreamviewer 🙃
 I started to have my blog. I tried to customize the blog template by self-learning HTML and then CSS. It was an amazing experience I enjoyed a lot. At that time it was very common to design ad banners. So I found it very interesting and I designed some banners for my blog and forum! Tomorrow I will talk about how university changed my life!
+
+### Day 09 · How I became a Developer then a Designer, part 2
+
+In 2012 I went to university to study software engineering, l was full of amazing dreams for my future. But it was heartbreaking 💔 to see there are a lot of courses not related to software. I decided to keep focus on courses that are relevant. I found a great friend with the same mindset and we tried to learn web development in the summer of 2013. We’re super enthusiastic 🤩 to learn as fast as possible. I want to work on front-end development and he focused on the backend. I remember the first project we worked on was a clinic website. Then I fell a love with Bootstrap Framework 2,3, and 4 😂. Then we work on a forum website and after that, an e-commerce online shop. Full of energy we eat every article, book, and video course to absorb all that lovely stuff. I also learned to use Linux and Git from other cool guys. Also, we share what we’ve learned as self-thought persons with our classmates. It was a very exciting experience as a web designer teacher.
+
+### Day 10 · How I became a Developer then a Designer, part 3/3
+
+In the last term of university, I went to a company to work as a front-end developer. It was a pretty cool experience I learned a lot. After 4 months I decided to come back and study for my master's exam. I did it after almost 4 months I earned a rank of 142 among thousands of people. That was a great success in my life because now I can go to Tehran (the capital of Iran) and have a place almost for free, and work and find connections. I started working with a company inside our university it wasn't good enough. Again my friend joined Sepidz as a developer and designer. day after day I realized that design was better for me then I smoothly switched to becoming a designer.
+
+I picked interaction foundation courses to learn the fundamentals of UX design and design thinking. I learned a lot and really grew up with hard work. At the beginning of the pandemic I came back home with a master's degree and a great connection led me to my next job at the biggest software development company in Iran. with the designer manager, we started to work on a super huge design system for enterprise and complex CRMs. It was nice and challenging but it's time to go to the military for 2 years! Oh no, but I found a startup in the US and totally changed my life! I bought a new MacBook Pro and all the cool things. After the military, I came back to the system group and in their sub-company, cloud-based services. Abramad, as I work for almost 7 months there!
+
+### Day 11 · Remote work, good, bad, and ugly
+
+Remote work looks appealing on social media and in YouTube videos. The images of lounging on the beach, enjoying a sunny day, making money, and sipping orange juice create an enticing narrative. However, the reality is different. Yes, I work from home and stay connected with my family, but after months, spending nearly 24 hours at home becomes frustrating and exhausting. I miss my passion for work, and on some days, I accomplish almost nothing.
+
+When I chose this lifestyle, I knew I had to make changes to be happier and more productive. Here are the tips I'd like to share with you:
+
+**🚶🏻 Morning Walks**: Every morning, I make it a point to go out for a 30-minute walk and buy fresh bread for breakfast. 
+
+**⏲️ Pomodoro Technique**: I've embraced the Pomodoro technique to stay focused at work. It's a game-changer, allowing me to take breaks for renewed energy during and after work. 
+
+**📚 Establishing Habits**: Creating daily habits has been key to feeling great at the start and end of my day. From staying hydrated to combining a "PodWalk" (listening to podcasts while walking) and reading non-fiction books.
+
+**💪 Gym Sessions**: The gym has become more than just a place to work out; it's where I reconnect with school friends, fostering greater happiness and energy levels. You can read more about this in Day 02 (link 🔝). 
+
+**☕ Virtual Coffee Time**: I've recommended to my colleagues to incorporate casual time for discussions about everything except work. 
+
+I strive to make each day better and nurture the dream of someday working from the beach. ✨⛱️😁
+
+
 
 ### TODO
 
