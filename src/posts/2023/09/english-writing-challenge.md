@@ -122,13 +122,15 @@ When I chose this lifestyle, I knew I had to make changes to be happier and more
 
 **📚 Establishing Habits**: Creating daily habits has been key to feeling great at the start and end of my day. From staying hydrated to combining a "PodWalk" (listening to podcasts while walking) and reading non-fiction books.
 
-**💪 Gym Sessions**: The gym has become more than just a place to work out; it's where I reconnect with school friends, fostering greater happiness and energy levels. You can read more about this in Day 02 (link 🔝). 
+**💪 Gym Sessions**: The gym has become more than just a place to work out; it's where I reconnect with school friends, fostering greater happiness and energy levels. You can read more about this in Day 02 (link 🔝).
 
-**☕ Virtual Coffee Time**: I've recommended to my colleagues to incorporate casual time for discussions about everything except work. 
+**☕ Virtual Coffee Time**: I've recommended to my colleagues to incorporate casual time for discussions about everything except work.
 
 I strive to make each day better and nurture the dream of someday working from the beach. ✨⛱️😁
 
+### ### Day 12 · Remote Roofing, a case study
 
+Tonight I write about one my favorite startup jobs. A cool company in US. They want to combine AI and image proccessing to repair or replace roofs for clients with drone inespection. I created a design system for their brand and used through landing page, user dashboard and marketing designs. Founders (Nathan and Sand) were satisified with my outcome of my design. I had have a other chance to collaborate with them on another project in the future.
 
 ### TODO
 
