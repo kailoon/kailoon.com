@@ -128,9 +128,21 @@ When I chose this lifestyle, I knew I had to make changes to be happier and more
 
 I strive to make each day better and nurture the dream of someday working from the beach. ✨⛱️😁
 
-### ### Day 12 · Remote Roofing, a case study
+### Day 12 · Remote Roofing, a case study - part 1
 
-Tonight I write about one my favorite startup jobs. A cool company in US. They want to combine AI and image proccessing to repair or replace roofs for clients with drone inespection. I created a design system for their brand and used through landing page, user dashboard and marketing designs. Founders (Nathan and Sand) were satisified with my outcome of my design. I had have a other chance to collaborate with them on another project in the future.
+Tonight I write about one of my favorite startup jobs. A cool company in the US. They want to combine AI and image processing to repair or replace roofs for clients with drone inspection. I created a design system for their brand and used it through a landing page, user dashboard, and marketing designs. The founders (Nathan and Sand) were satisfied with the outcome of my design. I had another chance to collaborate with them on another project in the future.
+
+### Day 13 · Remote Roofing, a case study - part 2
+
+One of attractive aspect of being a designer at a start up is you have oppertunity to do a lot of cool things, From designing a business card to crafting a design system. I've a chance to design yard sign, business card, bruchure, Facebook add banner, campagin funnel, landing pages, inspection reports, slide decks and create a minimal design system including style guide and UI Kit to stay consistet accross all toch ponits. Also, I worked on another project, called SunRoof, roofs with solar panels. I designed a landing page and funnel to get leads.
+
+### Day 14 · Remote Roofing, a case study - part 3/3
+
+I start my work from their funnel page. It was  5 steps question to ask about the customer's address, roof type, service type (repair or replace), and personal and contact information. When I designed the first version based on business requirements. I wonder how I can improve the process of getting information faster, so we can increase the conversion rate. I conduct a usability test with 5 users. I understand that they have challenges in providing their personal information. Why do they should provide us? so telling the reason was a pretty good solution for it. After updating the visual design I try another round of usability testing. which the result was pretty good. 25% improvement in the task completion. It was a huge success for business and me. I learned a lot through this journey.
+
+### Day 15 · Helpping people
+
+I'd love to help people as much as possible. It's a great feel to share your knowledge and turn on a light in a head of person. I deeply empathy with people who need my help, in other words I put my foot self in other's shoes and walk with it. I feel like I help myself not some one else. I put all of my attention and focus to deliver the best solution. It's a great way to learn more deeply for myself. I'd love to create a platform for swapping skills. Meet new friends and share knowledge always is fantastic experience. I'd like to expand my experience while I activly listen to other awesome people around the world with different ideas. 
 
 ### TODO
 
